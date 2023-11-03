@@ -12993,8 +12993,9 @@ do -- ATCScreen.PlayerData
 	fake_module_scripts[script] = module_script
 end
 
--- DragScript
-local function XHCFAVV_fake_script() -- AircraftInfo.Dragscript 
+-- DragScripts
+
+local function XHCFAVV_fake_script() -- AircraftInfo
 	local script = Instance.new('LocalScript', ATCScreen.AircraftInfo)
 	script.Name = "DragScript"
 
@@ -13042,6 +13043,197 @@ local function XHCFAVV_fake_script() -- AircraftInfo.Dragscript
 end
 coroutine.wrap(XHCFAVV_fake_script)()
 
+local function XHCFAV_fake_script() -- SetFrame 
+	local script = Instance.new('LocalScript', ATCScreen.SettingFrame)
+	script.Name = "DragScript"
+
+	local frame = script.Parent
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		print("Drag Update")
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		print("Frame Input Began")
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(CFAV_fake_script)()
+
+local function HCFAVV_fake_script() -- Screen1 
+	local script = Instance.new('LocalScript', ATCScreen.NewMiniMap.Screen1.Content)
+	script.Name = "DragScript"
+
+	local frame = script.Parent
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		print("Drag Update")
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		print("Frame Input Began")
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HCFAVV_fake_script)()
+
+local function HFAVV_fake_script() -- Screen2 
+	local script = Instance.new('LocalScript', ATCScreen.NewMiniMap.Screen2.Content)
+	script.Name = "DragScript"
+
+	local frame = script.Parent
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		print("Drag Update")
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		print("Frame Input Began")
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HFAVV_fake_script)()
+
+local function HCFAVV1_fake_script() -- Screen3
+	local script = Instance.new('LocalScript', ATCScreen.NewMiniMap.Screen3.Content)
+	script.Name = "DragScript"
+
+	local frame = script.Parent
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		print("Drag Update")
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		print("Frame Input Began")
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HCFAVV1_fake_script)()
 
 do -- ATCScreen.MapState
 	local script = Instance.new('ModuleScript', ATCScreen)
@@ -13692,25 +13884,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	autoDisconnect(RemoveConnect)
 	
 	oldMap.Enabled = false
-
-	--Setting up Dragging
-	local dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.NewMiniMap.Screen1.Content
-
-	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.NewMiniMap.Screen2.Content
-	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.NewMiniMap.Screen3.Content
-	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.SettingFrame
-	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.Player1.TextLabel
-	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.Player2.TextLabel
-	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
-	dragClone.Parent = ATCScreen.Player3.TextLabel
 	
-
 	acInfoCloseConnect = aircraftInfo.Close.MouseButton1Down:Connect(function()
 		aircraftInfo.Visible = false
 	end)
@@ -14003,6 +14177,51 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			trailFolder.Parent = selectedContent.Dots
 			trailFolder.Name = player.Name .. "_Trail"
 			
+			--Making the TextFrame dragable
+			local frame = playerDot.TextLabel
+	
+			local UserInputService = game:GetService("UserInputService")
+			
+			local dragging
+			local dragInput
+			local dragStart
+			local startPos
+			
+			local function update(input)
+				print("Drag Update")
+				local delta = input.Position - dragStart
+				frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			end
+			
+			frameInputConnect = frame.InputBegan:Connect(function(input)
+				print("Frame Input Began")
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+					dragging = true
+					dragStart = input.Position
+					startPos = frame.Position
+			
+					input.Changed:Connect(function()
+						if input.UserInputState == Enum.UserInputState.End then
+							dragging = false
+						end
+					end)
+				end
+			end)
+			autoDisconnect(frameInputConnect)
+			
+			frameChangeConnect = frame.InputChanged:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+					dragInput = input
+				end
+			end)
+			autoDisconnect(frameChangeConnect)
+			
+			frameInChangeConnect = UserInputService.InputChanged:Connect(function(input)
+				if input == dragInput and dragging then
+					update(input)
+				end
+			end)
+			autoDisconnect(frameInChangeConnect)
 
 
 			PlayerDotConnect = playerDot.MouseButton1Down:Connect(function()

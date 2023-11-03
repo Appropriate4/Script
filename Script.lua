@@ -12993,6 +12993,54 @@ do -- ATCScreen.PlayerData
 	fake_module_scripts[script] = module_script
 end
 
+-- DragScript ACInfo:
+local function XHCFAVV_fake_script() -- AircraftInfo.Dragscript 
+	local script = Instance.new('LocalScript', ATCScreen.AircraftInfo)
+
+	local frame = script.Parent
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		print("Drag Update")
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		print("Frame Input Began")
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(XHCFAVV_fake_script)()
+
 
 do -- ATCScreen.MapState
 	local script = Instance.new('ModuleScript', ATCScreen)

@@ -13089,7 +13089,7 @@ local function XHCFAV_fake_script() -- SetFrame
 		end
 	end)
 end
-coroutine.wrap(CFAV_fake_script)()
+coroutine.wrap(XHCFAV_fake_script)()
 
 local function HCFAVV_fake_script() -- Screen1 
 	local script = Instance.new('LocalScript', ATCScreen.NewMiniMap.Screen1.Content)
@@ -13139,7 +13139,7 @@ local function HCFAVV_fake_script() -- Screen1
 end
 coroutine.wrap(HCFAVV_fake_script)()
 
-local function HFAVV_fake_script() -- Screen2 
+local function HFAVV2_fake_script() -- Screen2 
 	local script = Instance.new('LocalScript', ATCScreen.NewMiniMap.Screen2.Content)
 	script.Name = "DragScript"
 
@@ -13185,7 +13185,7 @@ local function HFAVV_fake_script() -- Screen2
 		end
 	end)
 end
-coroutine.wrap(HFAVV_fake_script)()
+coroutine.wrap(HFAVV2_fake_script)()
 
 local function HCFAVV1_fake_script() -- Screen3
 	local script = Instance.new('LocalScript', ATCScreen.NewMiniMap.Screen3.Content)

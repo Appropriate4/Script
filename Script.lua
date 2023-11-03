@@ -12993,9 +12993,10 @@ do -- ATCScreen.PlayerData
 	fake_module_scripts[script] = module_script
 end
 
--- DragScript ACInfo:
+-- DragScript
 local function XHCFAVV_fake_script() -- AircraftInfo.Dragscript 
 	local script = Instance.new('LocalScript', ATCScreen.AircraftInfo)
+	script.name = DragScript
 
 	local frame = script.Parent
 	
@@ -13692,7 +13693,22 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	
 	oldMap.Enabled = false
 
-	-------Map State / Keybinds --------Scale.Va1
+	--Setting up Dragging
+	local dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.NewMiniMap.Screen1.Content
+
+	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.NewMiniMap.Screen2.Content
+	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.NewMiniMap.Screen3.Content
+	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.SettingFrame
+	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.Player1.TextLabel
+	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.Player2.TextLabel
+	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
+	dragClone.Parent = ATCScreen.Player3.TextLabel
 
 	acInfoCloseConnect = aircraftInfo.Close.MouseButton1Down:Connect(function()
 		aircraftInfo.Visible = false

@@ -12996,7 +12996,7 @@ end
 -- DragScript
 local function XHCFAVV_fake_script() -- AircraftInfo.Dragscript 
 	local script = Instance.new('LocalScript', ATCScreen.AircraftInfo)
-	script.name = DragScript
+	script.Name = DragScript
 
 	local frame = script.Parent
 	
@@ -13709,6 +13709,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	dragClone.Parent = ATCScreen.Player2.TextLabel
 	dragClone = ATCScreen.AircraftInfo.DragScript:Clone()
 	dragClone.Parent = ATCScreen.Player3.TextLabel
+	
 
 	acInfoCloseConnect = aircraftInfo.Close.MouseButton1Down:Connect(function()
 		aircraftInfo.Visible = false

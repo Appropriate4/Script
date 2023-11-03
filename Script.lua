@@ -12996,7 +12996,7 @@ end
 -- DragScript
 local function XHCFAVV_fake_script() -- AircraftInfo.Dragscript 
 	local script = Instance.new('LocalScript', ATCScreen.AircraftInfo)
-	script.Name = DragScript
+	script.Name = "DragScript"
 
 	local frame = script.Parent
 	

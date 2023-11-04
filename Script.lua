@@ -1662,8 +1662,6 @@ Content.Size = UDim2.new(1, 0, 1, 0)
 UIAspectRatioConstraint_7.Parent = Content
 
 Content.Active = true
-Content.Draggable = true --Yes I know they removed it but it still works.
-Content.Archivable = true
 
 ATC_ARTCC.Name = "ATC_ARTCC"
 ATC_ARTCC.Parent = Content
@@ -12159,8 +12157,6 @@ AircraftInfo.ZIndex = 10
 AircraftInfo.Visible = false
 
 AircraftInfo.Active = true
-AircraftInfo.Draggable = true
-AircraftInfo.Archivable = true
 
 local Aircraft = Instance.new("ViewportFrame")
 local UICorner_5 = Instance.new("UICorner")
@@ -13112,7 +13108,7 @@ local function HCFAVV_fake_script() -- Screen1
 	
 	frame.InputBegan:Connect(function(input)
 		print("Frame Input Began")
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
@@ -13160,7 +13156,7 @@ local function HFAVV2_fake_script() -- Screen2
 	
 	frame.InputBegan:Connect(function(input)
 		print("Frame Input Began")
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
@@ -13208,7 +13204,7 @@ local function HCFAVV1_fake_script() -- Screen3
 	
 	frame.InputBegan:Connect(function(input)
 		print("Frame Input Began")
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
@@ -14323,24 +14319,16 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			autoDisconnect(PlayerDotConnect)
 
 			PlayerLabEnterConnect = playerDot.TextLabel.MouseEnter:Connect(function()
-				if selectedContent.Draggable == true then --Ensures only 1 is dragable at a time
+				if selectedContent.Active == true then --Ensures only 1 is dragable at a time
 					playerDot.TextLabel.Active = true
-					playerDot.TextLabel.Draggable = true 
-					playerDot.TextLabel.Archivable = true
 				end
 				selectedContent.Active = false
-				selectedContent.Draggable = false 
-				selectedContent.Archivable = false
 			end)
 			autoDisconnect(PlayerLabEnterConnect)
 
 			PlayerLabLeaveConnect = playerDot.TextLabel.MouseLeave:Connect(function()
 				playerDot.TextLabel.Active = false
-				playerDot.TextLabel.Draggable = false 
-				playerDot.TextLabel.Archivable = false
 				selectedContent.Active = true
-				selectedContent.Draggable = true 
-				selectedContent.Archivable = true
 			end)
 			autoDisconnect(PlayerLabLeaveConnect)
 
@@ -14761,10 +14749,6 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 	local greenColor = Color3.new(0, 0.54902, 0)
 	local blackColor = Color3.new(0, 0, 0)
 	local whiteColor = Color3.new(1, 1, 1)
-
-	settingFrame.Active = true
-	settingFrame.Draggable = true
-	settingFrame.Archivable = true
 
 	local function 	autoDisconnect(event)
 		if not script.Parent then
@@ -15504,16 +15488,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		local Content2 = NewMiniMap.Screen2.Content
 		local Content3 = NewMiniMap.Screen3.Content
 		Content1.Active = false
-		Content1.Draggable = false
-		Content1.Archivable = false
 
 		Content2.Active = false
-		Content2.Draggable = false
-		Content2.Archivable = false
 
 		Content3.Active = false
-		Content3.Draggable = false
-		Content3.Archivable = false
 	end)
 	autoDisconnect(settEnterConnect)
 
@@ -15522,16 +15500,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		local Content2 = NewMiniMap.Screen2.Content
 		local Content3 = NewMiniMap.Screen3.Content
 		Content1.Active = true
-		Content1.Draggable = true
-		Content1.Archivable = false
 
 		Content2.Active = true
-		Content2.Draggable = true
-		Content2.Archivable = true
 
 		Content3.Active = true
-		Content3.Draggable = true
-		Content3.Archivable = true
 	end)
 	autoDisconnect(settLeaveConnect)
 
@@ -15540,16 +15512,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		local Content2 = NewMiniMap.Screen2.Content
 		local Content3 = NewMiniMap.Screen3.Content
 		Content1.Active = false
-		Content1.Draggable = false
-		Content1.Archivable = false
 
 		Content2.Active = false
-		Content2.Draggable = false
-		Content2.Archivable = false
 
 		Content3.Active = false
-		Content3.Draggable = false
-		Content3.Archivable = false
 	end)
 	autoDisconnect(fliEnterConnect)
 
@@ -15558,16 +15524,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		local Content2 = NewMiniMap.Screen2.Content
 		local Content3 = NewMiniMap.Screen3.Content
 		Content1.Active = true
-		Content1.Draggable = true
-		Content1.Archivable = true
 
 		Content2.Active = true
-		Content2.Draggable = true
-		Content2.Archivable = true
 
 		Content3.Active = true
-		Content3.Draggable = true
-		Content3.Archivable = true
 	end)
 	autoDisconnect(fliLeaveConnect)
 

@@ -13101,14 +13101,16 @@ local function HCFAVV_fake_script() -- Screen1
 	local startPos
 	
 	local function update(input)
-		print("Drag Update")
-		local delta = input.Position - dragStart
-		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		if script.Parent.Active then
+			print("Drag Update")
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
 	end
 	
 	frame.InputBegan:Connect(function(input)
 		print("Frame Input Began")
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
@@ -13149,9 +13151,11 @@ local function HFAVV2_fake_script() -- Screen2
 	local startPos
 	
 	local function update(input)
-		print("Drag Update")
-		local delta = input.Position - dragStart
-		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		if script.Parent.Active then
+			print("Drag Update")
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
 	end
 	
 	frame.InputBegan:Connect(function(input)
@@ -13197,9 +13201,11 @@ local function HCFAVV1_fake_script() -- Screen3
 	local startPos
 	
 	local function update(input)
-		print("Drag Update")
-		local delta = input.Position - dragStart
-		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		if script.Parent.Active then
+			print("Drag Update")
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
 	end
 	
 	frame.InputBegan:Connect(function(input)
@@ -14191,7 +14197,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			
 			frameInputConnect = frame.InputBegan:Connect(function(input)
 				print("Frame Input Began")
-				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 					dragging = true
 					dragStart = input.Position
 					startPos = frame.Position
@@ -14319,9 +14325,8 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			autoDisconnect(PlayerDotConnect)
 
 			PlayerLabEnterConnect = playerDot.TextLabel.MouseEnter:Connect(function()
-				if selectedContent.Active == true then --Ensures only 1 is dragable at a time
-					playerDot.TextLabel.Active = true
-				end
+				
+				playerDot.TextLabel.Active = true
 				selectedContent.Active = false
 			end)
 			autoDisconnect(PlayerLabEnterConnect)

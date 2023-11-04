@@ -13110,7 +13110,7 @@ local function HCFAVV_fake_script() -- Screen1
 	
 	frame.InputBegan:Connect(function(input)
 		print("Frame Input Began")
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
@@ -13673,11 +13673,11 @@ do -- ATCScreen.Keybinds
 		local panSpeedBox = script.Parent.SettingFrame.Settings.Theme.Values.PanSpeed.TextBox
 
 		local module = {
-			mapHovering = {false, false, false}
+			mapHovering = {true, false, false}
 		}
 
 		module.inputEntered = function(input, _inputBehavior)
-			if script.Parent and input.UserInputType == Enum.UserInputType.MouseWheel and Content1.Draggable then 
+			if script.Parent and input.UserInputType == Enum.UserInputType.MouseWheel then 
 				if module.mapHovering[1] then
 					if input.Position.Z == 1 then
 						return "S1+1"

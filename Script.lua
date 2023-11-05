@@ -2330,6 +2330,7 @@ ILS27.Position = UDim2.new(0.550000012, 0, 0.597000003, 0)
 ILS27.Size = UDim2.new(1, 0, 1, 0)
 ILS27.Image = "rbxassetid://15258455179"
 ILS27.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS27.ZIndex = 4
 
 UIAspectRatioConstraint.Parent = ILS27
 
@@ -2344,6 +2345,7 @@ ILS09.Position = UDim2.new(0.455000013, 0, 0.597000003, 0)
 ILS09.Size = UDim2.new(1, 0, 1, 0)
 ILS09.Image = "rbxassetid://15258441340"
 ILS09.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS09.ZIndex = 4
 
 UIAspectRatioConstraint_2.Parent = ILS09
 
@@ -2385,6 +2387,7 @@ ILS24.Position = UDim2.new(0.439999998, 0, 0.610000014, 0)
 ILS24.Size = UDim2.new(1, 0, 1, 0)
 ILS24.Image = "rbxassetid://15258776792"
 ILS24.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS24.ZIndex = 4
 
 UIAspectRatioConstraint_3.Parent = ILS24
 
@@ -2399,6 +2402,7 @@ ILS06.Position = UDim2.new(0.400000006, 0, 0.74000001, 0)
 ILS06.Size = UDim2.new(1, 0, 1, 0)
 ILS06.Image = "rbxassetid://15258748796"
 ILS06.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS06.ZIndex = 4
 
 UIAspectRatioConstraint_4.Parent = ILS06
 
@@ -2432,6 +2436,7 @@ ILS13.Position = UDim2.new(0.449999988, 0, 0.25999999, 0)
 ILS13.Size = UDim2.new(1, 0, 1, 0)
 ILS13.Image = "rbxassetid://15258593946"
 ILS13.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS13.ZIndex = 4
 
 UIAspectRatioConstraint_5.Parent = ILS13
 
@@ -2446,6 +2451,7 @@ ILS31.Position = UDim2.new(0.5, 0, 0.5, 0)
 ILS31.Size = UDim2.new(1, 0, 1, 0)
 ILS31.Image = "rbxassetid://15258545751"
 ILS31.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS31.ZIndex = 4
 
 UIAspectRatioConstraint_6.Parent = ILS31
 
@@ -2460,6 +2466,7 @@ ILS20.Position = UDim2.new(0.432000011, 0, 0.225999996, 0)
 ILS20.Size = UDim2.new(1, 0, 1, 0)
 ILS20.Image = "rbxassetid://15258635040"
 ILS20.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS20.ZIndex = 4
 
 UIAspectRatioConstraint_7.Parent = ILS20
 
@@ -2502,6 +2509,7 @@ ILS29.Position = UDim2.new(0.99000001, 0, 0.453999996, 0)
 ILS29.Size = UDim2.new(1, 0, 1, 0)
 ILS29.Image = "rbxassetid://15259199115"
 ILS29.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS29.ZIndex = 4
 
 UIAspectRatioConstraint_8.Parent = ILS29
 
@@ -2516,6 +2524,7 @@ ILS11.Position = UDim2.new(-0.00300000003, 0, 0.523999989, 0)
 ILS11.Size = UDim2.new(1, 0, 1, 0)
 ILS11.Image = "rbxassetid://15259189030"
 ILS11.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS11.ZIndex = 4
 
 UIAspectRatioConstraint_9.Parent = ILS11
 
@@ -2529,6 +2538,7 @@ ILS15.BorderSizePixel = 0
 ILS15.Size = UDim2.new(1, 0, 1, 0)
 ILS15.Image = "rbxassetid://15259225648"
 ILS15.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS15.ZIndex = 4
 
 UIAspectRatioConstraint_10.Parent = ILS15
 
@@ -2543,6 +2553,7 @@ ILS33.Position = UDim2.new(0.331, 0, 0.469999999, 0)
 ILS33.Size = UDim2.new(1, 0, 1, 0)
 ILS33.Image = "rbxassetid://15259257676"
 ILS33.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS33.ZIndex = 4
 
 UIAspectRatioConstraint_11.Parent = ILS33
 
@@ -2560,6 +2571,7 @@ ILS27_2.Position = UDim2.new(0.959999979, 0, 0.551999986, 0)
 ILS27_2.Size = UDim2.new(0.550000012, 0, 0.550000012, 0)
 ILS27_2.Image = "rbxassetid://15258455179"
 ILS27_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS27_2.ZIndex = 4
 
 UIAspectRatioConstraint_12.Parent = ILS27_2
 
@@ -2585,6 +2597,7 @@ ILS19.Position = UDim2.new(0.874000013, 0, 0.284999996, 0)
 ILS19.Size = UDim2.new(1, 0, 1, 0)
 ILS19.Image = "rbxassetid://15258334666"
 ILS19.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS19.ZIndex = 4
 
 UIAspectRatioConstraint_13.Parent = ILS19
 
@@ -2599,6 +2612,7 @@ ILS01.Position = UDim2.new(0.879999995, 0, 0.370000005, 0)
 ILS01.Size = UDim2.new(1, 0, 1, 0)
 ILS01.Image = "rbxassetid://15258357560"
 ILS01.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS01.ZIndex = 4
 
 UIAspectRatioConstraint_14.Parent = ILS01
 
@@ -2624,6 +2638,7 @@ ILS29_2.Position = UDim2.new(0.349999994, 0, 0.75, 0)
 ILS29_2.Size = UDim2.new(1, 0, 1, 0)
 ILS29_2.Image = "rbxassetid://15258145886"
 ILS29_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS29_2.ZIndex = 4
 
 UIAspectRatioConstraint_15.Parent = ILS29_2
 
@@ -2638,6 +2653,8 @@ ILS11_2.Position = UDim2.new(0.272000015, 0, 0.730000019, 0)
 ILS11_2.Size = UDim2.new(1, 0, 1, 0)
 ILS11_2.Image = "rbxassetid://15258035300"
 ILS11_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS11_2.ZIndex = 4
+
 
 UIAspectRatioConstraint_16.Parent = ILS11_2
 
@@ -2655,6 +2672,8 @@ ILS18R.Position = UDim2.new(-0.0260000005, 0, 0.600000024, 0)
 ILS18R.Size = UDim2.new(1, 0, 1, 0)
 ILS18R.Image = "rbxassetid://15257801072"
 ILS18R.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS18R.ZIndex = 4
+
 
 UIAspectRatioConstraint_17.Parent = ILS18R
 
@@ -2669,6 +2688,7 @@ ILS18L.Position = UDim2.new(-0.00300000003, 0, 0.600000024, 0)
 ILS18L.Size = UDim2.new(1, 0, 1, 0)
 ILS18L.Image = "rbxassetid://15257801072"
 ILS18L.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS18L.ZIndex = 4
 
 UIAspectRatioConstraint_18.Parent = ILS18L
 
@@ -2683,6 +2703,7 @@ ILS36L.Position = UDim2.new(-0.0260000005, 0, 0.839999974, 0)
 ILS36L.Size = UDim2.new(1, 0, 1, 0)
 ILS36L.Image = "rbxassetid://15258098311"
 ILS36L.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS36L.ZIndex = 4
 
 UIAspectRatioConstraint_19.Parent = ILS36L
 
@@ -2697,6 +2718,8 @@ ILS36R.Position = UDim2.new(-0.00300000003, 0, 0.779999971, 0)
 ILS36R.Size = UDim2.new(1, 0, 1, 0)
 ILS36R.Image = "rbxassetid://15258098311"
 ILS36R.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS36R.ZIndex = 4
+
 
 UIAspectRatioConstraint_20.Parent = ILS36R
 
@@ -2731,6 +2754,7 @@ ILS35.Position = UDim2.new(0.782000005, 0, 0.99000001, 0)
 ILS35.Size = UDim2.new(1, 0, 1, 0)
 ILS35.Image = "rbxassetid://15259016141"
 ILS35.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS35.ZIndex = 4
 
 UIAspectRatioConstraint_21.Parent = ILS35
 
@@ -2756,6 +2780,7 @@ ILS26.Position = UDim2.new(0.270000011, 0, 0.493999988, 0)
 ILS26.Size = UDim2.new(1, 0, 1, 0)
 ILS26.Image = "rbxassetid://15258886637"
 ILS26.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS26.ZIndex = 4
 
 UIAspectRatioConstraint_22.Parent = ILS26
 
@@ -2770,6 +2795,7 @@ ILS08.Position = UDim2.new(0.119999997, 0, 0.210999995, 0)
 ILS08.Size = UDim2.new(1, 0, 1, 0)
 ILS08.Image = "rbxassetid://15258907881"
 ILS08.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS08.ZIndex = 4
 
 UIAspectRatioConstraint_23.Parent = ILS08
 
@@ -2795,6 +2821,7 @@ ILS28.Position = UDim2.new(0.850000024, 0, 0.294, 0)
 ILS28.Size = UDim2.new(1, 0, 1, 0)
 ILS28.Image = "rbxassetid://15268603592"
 ILS28.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS28.ZIndex = 4
 
 UIAspectRatioConstraint_24.Parent = ILS28
 
@@ -2809,6 +2836,7 @@ ILS10.Position = UDim2.new(0.644999981, 0, 0.296000004, 0)
 ILS10.Size = UDim2.new(1, 0, 1, 0)
 ILS10.Image = "rbxassetid://15268541310"
 ILS10.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS10.ZIndex = 4
 
 UIAspectRatioConstraint_25.Parent = ILS10
 
@@ -2834,6 +2862,7 @@ ILS24_2.Position = UDim2.new(0.850000024, 0, 0.699999988, 0)
 ILS24_2.Size = UDim2.new(1, 0, 1, 0)
 ILS24_2.Image = "rbxassetid://15268400607"
 ILS24_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS24_2.ZIndex = 4
 
 UIAspectRatioConstraint_26.Parent = ILS24_2
 
@@ -2848,6 +2877,7 @@ ILS06_2.Position = UDim2.new(0.74000001, 0, 0.819999993, 0)
 ILS06_2.Size = UDim2.new(1, 0, 1, 0)
 ILS06_2.Image = "rbxassetid://15268387602"
 ILS06_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS06_2.ZIndex = 4
 
 UIAspectRatioConstraint_27.Parent = ILS06_2
 
@@ -2897,6 +2927,7 @@ ILS17.Position = UDim2.new(0.640999973, 0, 0.949999988, 0)
 ILS17.Size = UDim2.new(1, 0, 1, 0)
 ILS17.Image = "rbxassetid://15258997363"
 ILS17.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS17.ZIndex = 4
 
 UIAspectRatioConstraint_28.Parent = ILS17
 
@@ -2930,6 +2961,7 @@ ILS13_2.Position = UDim2.new(0.200000003, 0, 0.754999995, 0)
 ILS13_2.Size = UDim2.new(1, 0, 1, 0)
 ILS13_2.Image = "rbxassetid://15269195413"
 ILS13_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS13_2.ZIndex = 4
 
 UIAspectRatioConstraint_29.Parent = ILS13_2
 
@@ -2944,6 +2976,7 @@ ILS31_2.Position = UDim2.new(0.140000001, 0, 0.875, 0)
 ILS31_2.Size = UDim2.new(1, 0, 1, 0)
 ILS31_2.Image = "rbxassetid://15269209529"
 ILS31_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ILS31_2.ZIndex = 4
 
 UIAspectRatioConstraint_30.Parent = ILS31_2
 

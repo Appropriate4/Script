@@ -1573,7 +1573,7 @@ Runways.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
 Runways.Size = UDim2.new(1, 0, 0.5, 0)
 Runways.ZIndex = 11
 Runways.Font = Enum.Font.SourceSans
-Runways.Text = "ILS 18L : Toggle Leading lines"
+Runways.Text = "ILS 18L IRFD : Toggle Leading lines"
 Runways.TextColor3 = Color3.fromRGB(0, 0, 0)
 Runways.TextScaled = true
 Runways.TextSize = 14.000
@@ -13315,7 +13315,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	local SecsPerStep = 2
 	local Iteration = 0
 	local Step = 1
-	local newTrail = false
+	local newTrail = {false, false, false}
 
     local Connections = {}
 
@@ -13820,7 +13820,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			maxLength = tonumber(maxRouteLength.Text)
 		end
 
-		if newTrail then
+		if newTrail[screen] then
 			local tailDot = playerDot.Trail:Clone()
 			tailDot.Parent = trailFolder
 			tailDot.Name = Step
@@ -13828,9 +13828,8 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			tailDot.Position = Position
 			tailDot.Size = UDim2.new(newScale/2,0,newScale/2,0)
 			
-			if settingFrame.Settings.Theme.Maps.VStars.Button.BackgroundColor3 == Color3.new(0, 0.5, 0) then
-				tailDot.Visible = true
-			end
+			tailDot.Visible = true
+			
 		
 			for i, frame in pairs(trailFolder:GetChildren()) do
 				if frame.Name ~= "PathLine" then
@@ -14028,17 +14027,36 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		
 		
 		local diffTime = os.time() - TO			--Trail timing
-		if waitTime >= 1 then
-			newTrail = true
+		if waitTime >= 1  then
+			if NewMiniMap.Screen1.Content.Image.VStars.Visible then
+				newTrail[1] = true
+			end
+			if NewMiniMap.Screen2.Content.Image.VStars.Visible then
+				newTrail[2] = true
+			end
+			if NewMiniMap.Screen3.Content.Image.VStars.Visible then
+				newTrail[3] = true
+			end
+
 			Step+=1
 			TO = os.time()
 		else
 			if diffTime >= SecsPerStep then
-				newTrail = true
+				if NewMiniMap.Screen1.Content.Image.VStars.Visible then
+					newTrail[1] = true
+				end
+				if NewMiniMap.Screen2.Content.Image.VStars.Visible then
+					newTrail[2] = true
+				end
+				if NewMiniMap.Screen3.Content.Image.VStars.Visible then
+					newTrail[3] = true
+				end
 				TO = os.time()
 				Step+=1
 			else
-				newTrail = false
+				newTrail[1] = false
+				newTrail[2] = false
+				newTrail[3] = false
 			end
 		end
 
@@ -14317,6 +14335,17 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 			end
 		end
 
+		--Set Runway
+		for i, image in pairs(Content.Image.Background:GetChildren()) do
+			for j, folder in pairs(image:GetChildren()) do
+				if folder:IsA("Folder") then
+					for k, runway in pairs( folder:GetChildren()) do
+						runway.ImageColor3 = Color3.new(0,0,0)
+					end
+				end
+			end
+		end
+
 		--Removing trail
 		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(0,0,0)
@@ -14363,6 +14392,18 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		Dot.PlayerFrames.Default.Visible = false
 		Dot.PlayerFrames.Round.Visible = true
 		Dot.PlayerFrames.Plane.Visible = false
+		
+		--Set Runway
+		for i, image in pairs(Content.Image.Background:GetChildren()) do
+			for j, folder in pairs(image:GetChildren()) do
+				if folder:IsA("Folder") then
+					for k, runway in pairs( folder:GetChildren()) do
+						runway.ImageColor3 = Color3.new(225,225,225)
+					end
+				end
+			end
+		end
+
 		
 		for i,Dot in pairs(Content.Dots:GetChildren()) do
 			if Dot:IsA("ImageButton") then
@@ -14416,6 +14457,18 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		Dot.PlayerFrames.Default.Visible = false
 		Dot.PlayerFrames.Round.Visible = false
 		Dot.PlayerFrames.Plane.Visible = true
+
+		--Set Runway
+		for i, image in pairs(Content.Image.Background:GetChildren()) do
+			for j, folder in pairs(image:GetChildren()) do
+				if folder:IsA("Folder") then
+					for k, runway in pairs( folder:GetChildren()) do
+						runway.ImageColor3 = Color3.new(225,2225,225)
+					end
+				end
+			end
+		end
+
 		
 		for i,Dot in pairs(Content.Dots:GetChildren()) do
 			if Dot:IsA("ImageButton") then
@@ -14473,6 +14526,17 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		Dot.PlayerFrames.Default.Visible = false
 		Dot.PlayerFrames.Round.Visible = false
 		Dot.PlayerFrames.Plane.Visible = true
+
+		--Set Runway
+		for i, image in pairs(Content.Image.Background:GetChildren()) do
+			for j, folder in pairs(image:GetChildren()) do
+				if folder:IsA("Folder") then
+					for k, runway in pairs( folder:GetChildren()) do
+						runway.ImageColor3 = Color3.new(0,0,0)
+					end
+				end
+			end
+		end
 
 		for i,Dot in pairs(Content.Dots:GetChildren()) do
 			if Dot:IsA("ImageButton") then

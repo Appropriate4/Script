@@ -2583,7 +2583,7 @@ Image_11.Position = UDim2.new(0.25, 0, 0.625, 0)
 Image_11.Size = UDim2.new(0.125, 0, 0.125, 0)
 Image_11.Image = "http://www.roblox.com/asset/?id=8648042311"
 
-IMLR.Name = "IMLR"
+IMLR.Name = "IGAR"
 IMLR.Parent = Image_11
 
 ILS19.Name = "ILS 19"

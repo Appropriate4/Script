@@ -14817,14 +14817,17 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	TSearchLosConnect = T_Search.FocusLost:Connect(function(enterPressed, _inputCause)
 		print("Focus Lost")
 		local selection = string.upper(T_Search.Text)
+		print(selection)
 
-		for i, point in pairs(Wavepoints:GetChildren()) do
+		local Image = NewMiniMap["Screen"..activeScreen.Value].Content.Image
+
+		for i, point in pairs(Image.Wavepoints:GetChildren()) do
 			if string.upper(selection) == point.Name then
 				point.Visible = not point.Visible
 			end 
 		end
 
-		for i, image in pairs(Content.Image.Background:GetChildren()) do
+		for i, image in pairs(Image.Background:GetChildren()) do
 			for j, folder in pairs(image:GetChildren()) do
 				if string.sub(selection, #selection - 4) == folder.Name then
 					print(string.sub(selection, #selection - 4))

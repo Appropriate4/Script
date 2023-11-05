@@ -14827,13 +14827,12 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			end 
 		end
 
-		print("Airport:" , string.sub(selection, #selection - 4))
+		print("Airport:" , string.sub(selection, #selection - 3))
 		print("ILS:" , string.sub(selection, 1, 7))
 
 		for i, image in pairs(Image.Background:GetChildren()) do
 			for j, folder in pairs(image:GetChildren()) do
-				if string.sub(selection, #selection - 4, #selection) == folder.Name then
-					print(string.sub(selection, #selection - 4))
+				if string.sub(selection, #selection - 3, #selection) == folder.Name then
 					for k, runway in pairs( folder:GetChildren()) do
 						if #string == 12 then
 							print("R/L")

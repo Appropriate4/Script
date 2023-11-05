@@ -14815,8 +14815,9 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	autoDisconnect(TSearchFocConnect)
 
 	TSearchLosConnect = T_Search.FocusLost:Connect(function(enterPressed, _inputCause)
+		print("Focus Lost")
+		local selection = string.upper(T_Search.Text)
 
-		local selection = T_Search.Text
 		for i, point in pairs(Wavepoints:GetChildren()) do
 			if string.upper(selection) == point.Name then
 				point.Visible = not point.Visible

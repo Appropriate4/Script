@@ -14834,7 +14834,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			for j, folder in pairs(image:GetChildren()) do
 				if string.sub(selection, #selection - 3, #selection) == folder.Name then
 					for k, runway in pairs( folder:GetChildren()) do
-						if #string == 12 then
+						if #selection == 12 then
 							print("R/L")
 							if runway.Name == string.sub(selection, 1, 7) then
 								runway.Visible = not runway.Visible

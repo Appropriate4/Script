@@ -12497,13 +12497,11 @@ local function XHCFAVV_fake_script() -- AircraftInfo
 	local startPos
 	
 	local function update(input)
-		print("Drag Update")
 		local delta = input.Position - dragStart
 		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
 	
 	frame.InputBegan:Connect(function(input)
-		print("Frame Input Began")
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
@@ -12545,13 +12543,11 @@ local function XHCFAV_fake_script() -- SetFrame
 	local startPos
 	
 	local function update(input)
-		print("Drag Update")
 		local delta = input.Position - dragStart
 		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
 	
 	frame.InputBegan:Connect(function(input)
-		print("Frame Input Began")
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
@@ -12594,14 +12590,12 @@ local function HCFAVV_fake_script() -- Screen1
 	
 	local function update(input)
 		if script.Parent.Active then
-			print("Drag Update")
 			local delta = input.Position - dragStart
 			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		end
 	end
 	
 	frame.InputBegan:Connect(function(input)
-		print("Frame Input Began")
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
@@ -12644,14 +12638,12 @@ local function HFAVV2_fake_script() -- Screen2
 	
 	local function update(input)
 		if script.Parent.Active then
-			print("Drag Update")
 			local delta = input.Position - dragStart
 			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		end
 	end
 	
 	frame.InputBegan:Connect(function(input)
-		print("Frame Input Began")
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
@@ -12694,14 +12686,12 @@ local function HCFAVV1_fake_script() -- Screen3
 	
 	local function update(input)
 		if script.Parent.Active then
-			print("Drag Update")
 			local delta = input.Position - dragStart
 			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		end
 	end
 	
 	frame.InputBegan:Connect(function(input)
-		print("Frame Input Began")
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position

@@ -14028,13 +14028,13 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		
 		local diffTime = os.time() - TO			--Trail timing
 		if waitTime >= 1  then
-			if NewMiniMap.Screen1.Content.Image.VStars.Visible then
+			if NewMiniMap.Screen1.Content.Image.VStar.Visible then
 				newTrail[1] = true
 			end
-			if NewMiniMap.Screen2.Content.Image.VStars.Visible then
+			if NewMiniMap.Screen2.Content.Image.VStar.Visible then
 				newTrail[2] = true
 			end
-			if NewMiniMap.Screen3.Content.Image.VStars.Visible then
+			if NewMiniMap.Screen3.Content.Image.VStar.Visible then
 				newTrail[3] = true
 			end
 
@@ -14042,13 +14042,13 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			TO = os.time()
 		else
 			if diffTime >= SecsPerStep then
-				if NewMiniMap.Screen1.Content.Image.VStars.Visible then
+				if NewMiniMap.Screen1.Content.Image.VStar.Visible then
 					newTrail[1] = true
 				end
-				if NewMiniMap.Screen2.Content.Image.VStars.Visible then
+				if NewMiniMap.Screen2.Content.Image.VStar.Visible then
 					newTrail[2] = true
 				end
-				if NewMiniMap.Screen3.Content.Image.VStars.Visible then
+				if NewMiniMap.Screen3.Content.Image.VStar.Visible then
 					newTrail[3] = true
 				end
 				TO = os.time()

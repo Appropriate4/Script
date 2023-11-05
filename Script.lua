@@ -12753,7 +12753,7 @@ do -- ATCScreen.MapState
 				local mapScale
 				local mapNewScaleMuti
 				local image
-				print("Scale Down: "..screen)
+
 				if screen == 1 then
 					scaleValue.Value = Vector3.new(scaleValue.Value.X-1, scaleValue.Value.Y, scaleValue.Value.Z)
 					mapScale = math.pow(scaleFactor, scaleValue.Value.X-5)
@@ -12811,7 +12811,6 @@ do -- ATCScreen.MapState
 				local mapNewScaleMuti
 				local image
 
-				print("Scale Up: "..screen)
 
 				if screen == 1 then
 					scaleValue.Value = Vector3.new(scaleValue.Value.X+1, scaleValue.Value.Y, scaleValue.Value.Z)
@@ -14817,22 +14816,42 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	TSearchLosConnect = T_Search.FocusLost:Connect(function(enterPressed, _inputCause)
 
-		if enterPressed then
-			local selection = T_Search.Text
-			for i, point in pairs(Wavepoints:GetChildren()) do
-				if string.upper(selection) == point.Name then
-					point.Visible = not point.Visible
-				end 
-			end
-			for i, runway in pairs(Background:GetDescendants()) do
-				if selection == runway.Name then
-					runway.Visible = not runway.Visible
+		local selection = T_Search.Text
+		for i, point in pairs(Wavepoints:GetChildren()) do
+			if string.upper(selection) == point.Name then
+				point.Visible = not point.Visible
+			end 
+		end
+
+		for i, image in pairs(Content.Image.Background:GetChildren()) do
+			for j, folder in pairs(image:GetChildren()) do
+				if string.sub(selection, #selection - 4) == folder.Name then
+					print(string.sub(selection, #selection - 4))
+					for k, runway in pairs( folder:GetChildren()) do
+						if #string == 12 then
+							print("R/L")
+							if runway.Name == string.sub(selection, 1, 7) then
+								runway.Visible = not runway.Visible
+							end
+						else
+							print("Simple")
+							if runway.Name == string.sub(selection, 1, 6) then
+								runway.Visible = not runway.Visible
+							end
+						end
+					end
 				end
 			end
 		end
-		T_Search.Text = ""
-		T_Search.BackgroundColor3 = defaultColor
+		
+		for i, runway in pairs(Background:GetDescendants()) do
+			if selection == runway.Name then
+				runway.Visible = not runway.Visible
+			end
+		end
 	end)
+	T_Search.Text = ""
+	T_Search.BackgroundColor3 = defaultColor
 	autoDisconnect(TSearchLosConnect)
 
 	--Heading

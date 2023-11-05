@@ -2295,7 +2295,7 @@ local Background = Instance.new("Frame")
 --Properties:
 
 Background.Name = "Background"
-Background.Parent = game.StarterGui.Radar.Testing.Content.Image
+Background.Parent = Content
 Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Background.BackgroundTransparency = 1.000
 Background.Size = UDim2.new(1, 0, 1, 0)

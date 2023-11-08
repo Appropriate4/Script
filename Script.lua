@@ -105,7 +105,7 @@ TopCover.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TopCover.BorderSizePixel = 0
 TopCover.Size = UDim2.new(1, 0, 0.100000001, 0)
 TopCover.Visible = false
-TopCover.ZIndex = 1
+TopCover.ZIndex = 9
 
 -------------------------------------------------------------------Player Dot
 -- Gui to Lua
@@ -230,7 +230,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(2, 0, -1, 0)
 TextLabel.Size = UDim2.new(5, 0, 5, 0)
-TextLabel.ZIndex = 8
+TextLabel.ZIndex = 7
 TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "- Delta-2945 ALT SP"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -471,6 +471,7 @@ Player_2.Font = Enum.Font.SourceSansBold
 Player_2.Text = "zbossgamer007"
 Player_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Player_2.TextSize = 14.000
+Player_2.TextScaled = true
 Player_2.ZIndex = 6
 
 
@@ -516,6 +517,7 @@ Tag.Font = Enum.Font.SourceSansBold
 Tag.Text = "Gyro-2245"
 Tag.TextColor3 = Color3.fromRGB(0, 0, 0)
 Tag.TextSize = 14.000
+Tag.TextScaled = true
 Tag.ZIndex = 6
 
 
@@ -531,6 +533,7 @@ Aircraft.Font = Enum.Font.SourceSansBold
 Aircraft.Text = "A320"
 Aircraft.TextColor3 = Color3.fromRGB(0, 0, 0)
 Aircraft.TextSize = 14.000
+Aircraft.TextScaled = true
 Aircraft.ZIndex = 6
 
 RouteLine.Name = "RouteLine"
@@ -1091,6 +1094,7 @@ ChicagoCenter.Font = Enum.Font.SourceSansBold
 ChicagoCenter.Text = "Chicago Center"
 ChicagoCenter.TextColor3 = Color3.fromRGB(255, 255, 255)
 ChicagoCenter.TextSize = 18.000
+ChicagoCenter.TextScaled = true
 ChicagoCenter.ZIndex = 15
 
 UICorner_8.Parent = ChicagoCenter
@@ -1103,6 +1107,7 @@ RockfordGround.Font = Enum.Font.SourceSansBold
 RockfordGround.Text = "Rockford Ground"
 RockfordGround.TextColor3 = Color3.fromRGB(255, 255, 255)
 RockfordGround.TextSize = 18.000
+RockfordGround.TextScaled = true
 RockfordGround.ZIndex = 15
 
 UICorner_9.Parent = RockfordGround
@@ -1115,6 +1120,7 @@ TokyoCenter.Font = Enum.Font.SourceSansBold
 TokyoCenter.Text = "Tokyo Center"
 TokyoCenter.TextColor3 = Color3.fromRGB(255, 255, 255)
 TokyoCenter.TextSize = 18.000
+TokyoCenter.TextScaled = true
 TokyoCenter.ZIndex = 15
 
 UICorner_10.Parent = TokyoCenter
@@ -1127,6 +1133,7 @@ TokyoGround.Font = Enum.Font.SourceSansBold
 TokyoGround.Text = "Tokyo Ground"
 TokyoGround.TextColor3 = Color3.fromRGB(255, 255, 255)
 TokyoGround.TextSize = 18.000
+TokyoGround.TextScaled = true
 TokyoGround.ZIndex = 15
 
 UICorner_11.Parent = TokyoGround
@@ -1139,6 +1146,7 @@ PerthCenter.Font = Enum.Font.SourceSansBold
 PerthCenter.Text = "Perth Center"
 PerthCenter.TextColor3 = Color3.fromRGB(255, 255, 255)
 PerthCenter.TextSize = 18.000
+PerthCenter.TextScaled = true
 PerthCenter.ZIndex = 15
 
 UICorner_12.Parent = PerthCenter
@@ -1151,6 +1159,7 @@ PerthGround.Font = Enum.Font.SourceSansBold
 PerthGround.Text = "Perth Ground"
 PerthGround.TextColor3 = Color3.fromRGB(255, 255, 255)
 PerthGround.TextSize = 18.000
+PerthGround.TextScaled = true
 PerthGround.ZIndex = 15
 
 UICorner_13.Parent = PerthGround
@@ -1163,6 +1172,7 @@ LazarusCenter.Font = Enum.Font.SourceSansBold
 LazarusCenter.Text = "Lazarus Center"
 LazarusCenter.TextColor3 = Color3.fromRGB(255, 255, 255)
 LazarusCenter.TextSize = 18.000
+LazarusCenter.TextScaled = true
 LazarusCenter.ZIndex = 15
 
 UICorner_14.Parent = LazarusCenter
@@ -1175,6 +1185,7 @@ LarnacaGround.Font = Enum.Font.SourceSansBold
 LarnacaGround.Text = "Larnaca Ground"
 LarnacaGround.TextColor3 = Color3.fromRGB(255, 255, 255)
 LarnacaGround.TextSize = 18.000
+LarnacaGround.TextScaled = true
 LarnacaGround.ZIndex = 15
 
 UICorner_15.Parent = LarnacaGround
@@ -1187,6 +1198,7 @@ NorsomCenter.Font = Enum.Font.SourceSansBold
 NorsomCenter.Text = "Norsom Center"
 NorsomCenter.TextColor3 = Color3.fromRGB(255, 255, 255)
 NorsomCenter.TextSize = 18.000
+NorsomCenter.TextScaled = true
 NorsomCenter.ZIndex = 15
 
 UICorner_16.Parent = NorsomCenter
@@ -1199,6 +1211,7 @@ IzoloraniGround.Font = Enum.Font.SourceSansBold
 IzoloraniGround.Text = "Izolirani Ground"
 IzoloraniGround.TextColor3 = Color3.fromRGB(255, 255, 255)
 IzoloraniGround.TextSize = 18.000
+IzoloraniGround.TextScaled = true
 IzoloraniGround.ZIndex = 15
 
 UICorner_17.Parent = IzoloraniGround
@@ -12022,6 +12035,1574 @@ Input.Image = "rbxassetid://3926305904"
 Input.ImageRectOffset = Vector2.new(764, 444)
 Input.ImageRectSize = Vector2.new(36, 36)
 
+-- Gui to Lua
+-- Version: 3.5
+
+-- Instances:
+
+  RouteFrame = Instance.new("Frame")
+  UICorner = Instance.new("UICorner")
+  Routes = Instance.new("Frame")
+  UICorner_2 = Instance.new("UICorner")
+  Name = Instance.new("TextLabel")
+  CloseButton = Instance.new("TextButton")
+  CustomList = Instance.new("ScrollingFrame")
+  UIListLayout = Instance.new("UIListLayout")
+  UIPadding = Instance.new("UIPadding")
+  Custom = Instance.new("TextBox")
+  add = Instance.new("ImageButton")
+  UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+  LabelSID = Instance.new("TextLabel")
+  ImageLabel = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+  flight_land = Instance.new("ImageButton")
+  LabelSTAR = Instance.new("TextLabel")
+  ImageLabel_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+  SID = Instance.new("Frame")
+  Rockford = Instance.new("TextButton")
+  UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+  UICorner_3 = Instance.new("UICorner")
+  UIListLayout_2 = Instance.new("UIListLayout")
+  UIPadding_2 = Instance.new("UIPadding")
+  Perth = Instance.new("TextButton")
+  UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+  UICorner_4 = Instance.new("UICorner")
+  Tokyo = Instance.new("TextButton")
+  UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+  UICorner_5 = Instance.new("UICorner")
+  STAR = Instance.new("Frame")
+  Rockford_2 = Instance.new("TextButton")
+  UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+  UICorner_6 = Instance.new("UICorner")
+  UIListLayout_3 = Instance.new("UIListLayout")
+  UIPadding_3 = Instance.new("UIPadding")
+  Perth_2 = Instance.new("TextButton")
+  UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+  UICorner_7 = Instance.new("UICorner")
+  Tokyo_2 = Instance.new("TextButton")
+  UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+  UICorner_8 = Instance.new("UICorner")
+  CusRoute = Instance.new("Frame")
+  UICorner_9 = Instance.new("UICorner")
+  UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+  RouteList = Instance.new("TextLabel")
+  delete = Instance.new("ImageButton")
+  UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+  Visible = Instance.new("ImageButton")
+  UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+  Invisible = Instance.new("ImageButton")
+  UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+  RouteList_2 = Instance.new("Frame")
+  Label = Instance.new("TextLabel")
+  RockfordSID = Instance.new("Frame")
+  UIListLayout_4 = Instance.new("UIListLayout")
+  INDEX4AB = Instance.new("TextButton")
+  UICorner_10 = Instance.new("UICorner")
+  UIPadding_4 = Instance.new("UIPadding")
+  WELSH3AB = Instance.new("TextButton")
+  UICorner_11 = Instance.new("UICorner")
+  GUESS1AB = Instance.new("TextButton")
+  UICorner_12 = Instance.new("UICorner")
+  SETHR1AB = Instance.new("TextButton")
+  UICorner_13 = Instance.new("UICorner")
+  JAMSI1AB = Instance.new("TextButton")
+  UICorner_14 = Instance.new("UICorner")
+  LAZAR1AB = Instance.new("TextButton")
+  UICorner_15 = Instance.new("UICorner")
+  SEEKS1AB = Instance.new("TextButton")
+  UICorner_16 = Instance.new("UICorner")
+  INDEX4CD = Instance.new("TextButton")
+  UICorner_17 = Instance.new("UICorner")
+  WELSH4CD = Instance.new("TextButton")
+  UICorner_18 = Instance.new("UICorner")
+  SEEKS1CD = Instance.new("TextButton")
+  UICorner_19 = Instance.new("UICorner")
+  GUESS1CD = Instance.new("TextButton")
+  UICorner_20 = Instance.new("UICorner")
+  WELSH1CD = Instance.new("TextButton")
+  UICorner_21 = Instance.new("UICorner")
+  SETHR1CD = Instance.new("TextButton")
+  UICorner_22 = Instance.new("UICorner")
+  JAMSI2CD = Instance.new("TextButton")
+  UICorner_23 = Instance.new("UICorner")
+  LAZAR1CD = Instance.new("TextButton")
+  UICorner_24 = Instance.new("UICorner")
+  RockfordSTAR = Instance.new("Frame")
+  UIListLayout_5 = Instance.new("UIListLayout")
+  UIPadding_5 = Instance.new("UIPadding")
+  GUESS1A = Instance.new("TextButton")
+  UICorner_25 = Instance.new("UICorner")
+  INDEX4A = Instance.new("TextButton")
+  UICorner_26 = Instance.new("UICorner")
+  INDEX4B = Instance.new("TextButton")
+  UICorner_27 = Instance.new("UICorner")
+  WELSH3A = Instance.new("TextButton")
+  UICorner_28 = Instance.new("UICorner")
+  WELSH3B = Instance.new("TextButton")
+  UICorner_29 = Instance.new("UICorner")
+  GUESS1B = Instance.new("TextButton")
+  UICorner_30 = Instance.new("UICorner")
+  SETHR1A = Instance.new("TextButton")
+  UICorner_31 = Instance.new("UICorner")
+  JAMSI1A = Instance.new("TextButton")
+  UICorner_32 = Instance.new("UICorner")
+  LAZAR1A = Instance.new("TextButton")
+  UICorner_33 = Instance.new("UICorner")
+  SEEKS1A = Instance.new("TextButton")
+  UICorner_34 = Instance.new("UICorner")
+  SEEKS1B = Instance.new("TextButton")
+  UICorner_35 = Instance.new("UICorner")
+  TokyoSID = Instance.new("Frame")
+  UIListLayout_6 = Instance.new("UIListLayout")
+  UIPadding_6 = Instance.new("UIPadding")
+  EURAD1KN = Instance.new("TextButton")
+  UICorner_36 = Instance.new("UICorner")
+  EURAD1LM = Instance.new("TextButton")
+  UICorner_37 = Instance.new("UICorner")
+  RENDR1KN = Instance.new("TextButton")
+  UICorner_38 = Instance.new("UICorner")
+  RENDR1LM = Instance.new("TextButton")
+  UICorner_39 = Instance.new("UICorner")
+  HONDA1N = Instance.new("TextButton")
+  UICorner_40 = Instance.new("UICorner")
+  TokyoSTAR = Instance.new("Frame")
+  UIListLayout_7 = Instance.new("UIListLayout")
+  UIPadding_7 = Instance.new("UIPadding")
+  HONDA1A = Instance.new("TextButton")
+  UICorner_41 = Instance.new("UICorner")
+  HONDA1B = Instance.new("TextButton")
+  UICorner_42 = Instance.new("UICorner")
+  HONDA1C = Instance.new("TextButton")
+  UICorner_43 = Instance.new("UICorner")
+  ONDER1A = Instance.new("TextButton")
+  UICorner_44 = Instance.new("UICorner")
+  ONDER1B = Instance.new("TextButton")
+  UICorner_45 = Instance.new("UICorner")
+  ONDER1C = Instance.new("TextButton")
+  UICorner_46 = Instance.new("UICorner")
+  RENDR1A = Instance.new("TextButton")
+  UICorner_47 = Instance.new("UICorner")
+  RENDR1B = Instance.new("TextButton")
+  UICorner_48 = Instance.new("UICorner")
+  RENDR1C = Instance.new("TextButton")
+  UICorner_49 = Instance.new("UICorner")
+  EURAD1A = Instance.new("TextButton")
+  UICorner_50 = Instance.new("UICorner")
+  EURAD1B = Instance.new("TextButton")
+  UICorner_51 = Instance.new("UICorner")
+  EURAD1C = Instance.new("TextButton")
+  UICorner_52 = Instance.new("UICorner")
+  PerthSID = Instance.new("Frame")
+  UIListLayout_8 = Instance.new("UIListLayout")
+  UIPadding_8 = Instance.new("UIPadding")
+  KNIFE1A = Instance.new("TextButton")
+  UICorner_53 = Instance.new("UICorner")
+  KNIFE1B = Instance.new("TextButton")
+  UICorner_54 = Instance.new("UICorner")
+  KNIFE1C = Instance.new("TextButton")
+  UICorner_55 = Instance.new("UICorner")
+  KNIFE1D = Instance.new("TextButton")
+  UICorner_56 = Instance.new("UICorner")
+  ROMENS1A = Instance.new("TextButton")
+  UICorner_57 = Instance.new("UICorner")
+  ROMENS1C = Instance.new("TextButton")
+  UICorner_58 = Instance.new("UICorner")
+  ROMENS1D = Instance.new("TextButton")
+  UICorner_59 = Instance.new("UICorner")
+  CAMEL1C = Instance.new("TextButton")
+  UICorner_60 = Instance.new("UICorner")
+  CAMEL1D = Instance.new("TextButton")
+  UICorner_61 = Instance.new("UICorner")
+  CAMEL1A = Instance.new("TextButton")
+  UICorner_62 = Instance.new("UICorner")
+  PerthSTAR = Instance.new("Frame")
+  UIListLayout_9 = Instance.new("UIListLayout")
+  UIPadding_9 = Instance.new("UIPadding")
+  CAMEL1WX = Instance.new("TextButton")
+  UICorner_63 = Instance.new("UICorner")
+  CAMEL1Y = Instance.new("TextButton")
+  UICorner_64 = Instance.new("UICorner")
+  CAMEL1Z = Instance.new("TextButton")
+  UICorner_65 = Instance.new("UICorner")
+  ROM1WX = Instance.new("TextButton")
+  UICorner_66 = Instance.new("UICorner")
+  ROM1Y = Instance.new("TextButton")
+  UICorner_67 = Instance.new("UICorner")
+  ROM1Z = Instance.new("TextButton")
+  UICorner_68 = Instance.new("UICorner")
+  KNIFE1WX = Instance.new("TextButton")
+  UICorner_69 = Instance.new("UICorner")
+  KNIFE1Y = Instance.new("TextButton")
+  UICorner_70 = Instance.new("UICorner")
+  KNIFE1Z = Instance.new("TextButton")
+  UICorner_71 = Instance.new("UICorner")
+
+--Properties:
+
+RouteFrame.Name = "RouteFrame"
+RouteFrame.Parent = game.StarterGui["ATCScreenV6"]
+RouteFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+RouteFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+RouteFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+RouteFrame.Size = UDim2.new(0.200000003, 0, 0.5, 0)
+RouteFrame.ZIndex = 15
+
+UICorner.Parent = RouteFrame
+
+Routes.Name = "Routes"
+Routes.Parent = RouteFrame
+Routes.AnchorPoint = Vector2.new(0.5, 0.5)
+Routes.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+Routes.Position = UDim2.new(0.5, 0, 0.5, 0)
+Routes.Size = UDim2.new(0.975000024, 0, 0.980000019, 0)
+Routes.ZIndex = 15
+
+UICorner_2.Parent = Routes
+
+Name.Name = "Name"
+Name.Parent = Routes
+Name.AnchorPoint = Vector2.new(0.5, 0)
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.49999997, 0, 0, 0)
+Name.Size = UDim2.new(0.50000006, 0, 0.100000016, 0)
+Name.ZIndex = 15
+Name.Font = Enum.Font.SourceSansBold
+Name.Text = "Routes"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextSize = 28.000
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Routes
+CloseButton.AnchorPoint = Vector2.new(1, 0)
+CloseButton.BackgroundColor3 = Color3.fromRGB(53, 0, 1)
+CloseButton.Position = UDim2.new(0.980000019, 0, 0, 0)
+CloseButton.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+CloseButton.ZIndex = 50
+CloseButton.Font = Enum.Font.SourceSansBold
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.TextSize = 14.000
+
+CustomList.Name = "CustomList"
+CustomList.Parent = Routes
+CustomList.Active = true
+CustomList.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+CustomList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CustomList.BorderSizePixel = 0
+CustomList.Position = UDim2.new(0, 0, 0.167370051, 5)
+CustomList.Size = UDim2.new(1.00000012, 0, 0.205975264, 0)
+CustomList.ZIndex = 17
+CustomList.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+UIListLayout.Parent = CustomList
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 4)
+
+UIPadding.Parent = CustomList
+UIPadding.PaddingTop = UDim.new(0, 2)
+
+Custom.Name = "Custom"
+Custom.Parent = Routes
+Custom.BackgroundColor3 = Color3.fromRGB(78, 106, 139)
+Custom.Position = UDim2.new(0.0320380069, 0, 0.10147281, 0)
+Custom.Size = UDim2.new(0.800000012, 0, 0.0478126146, 0)
+Custom.ZIndex = 16
+Custom.Font = Enum.Font.SourceSans
+Custom.PlaceholderText = "< Enter Custom Route >"
+Custom.Text = ""
+Custom.TextColor3 = Color3.fromRGB(0, 0, 0)
+Custom.TextSize = 14.000
+
+add.Name = "add"
+add.Parent = Routes
+add.AnchorPoint = Vector2.new(0, 1)
+add.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+add.LayoutOrder = 3
+add.Position = UDim2.new(0.86515379, 0, 0.148837104, 0)
+add.Size = UDim2.new(1, 0, 0.0480000004, 0)
+add.ZIndex = 18
+add.Image = "rbxassetid://3926307971"
+add.ImageRectOffset = Vector2.new(324, 364)
+add.ImageRectSize = Vector2.new(36, 36)
+
+UIAspectRatioConstraint.Parent = add
+
+LabelSID.Name = "LabelSID"
+LabelSID.Parent = Routes
+LabelSID.AnchorPoint = Vector2.new(0.5, 0)
+LabelSID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LabelSID.BackgroundTransparency = 1.000
+LabelSID.Position = UDim2.new(0.248999998, 0, 0.395000011, 0)
+LabelSID.Size = UDim2.new(0.495888889, 0, 0.0689687282, 0)
+LabelSID.ZIndex = 15
+LabelSID.Font = Enum.Font.SourceSansBold
+LabelSID.Text = "SID"
+LabelSID.TextColor3 = Color3.fromRGB(0, 0, 0)
+LabelSID.TextSize = 28.000
+
+ImageLabel.Parent = LabelSID
+ImageLabel.AnchorPoint = Vector2.new(1, 0.5)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(1, 0, 0.5, 0)
+ImageLabel.Size = UDim2.new(1, 0, 1, 0)
+ImageLabel.ZIndex = 18
+ImageLabel.Image = "rbxassetid://3926305904"
+ImageLabel.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.ImageRectOffset = Vector2.new(684, 44)
+ImageLabel.ImageRectSize = Vector2.new(36, 36)
+ImageLabel.ScaleType = Enum.ScaleType.Crop
+
+UIAspectRatioConstraint_2.Parent = ImageLabel
+
+flight_land.Name = "flight_land"
+flight_land.Parent = Routes
+flight_land.AnchorPoint = Vector2.new(0, 1)
+flight_land.BackgroundTransparency = 1.000
+flight_land.LayoutOrder = 3
+flight_land.Position = UDim2.new(0.5, 0, 0.5, 0)
+flight_land.Size = UDim2.new(0, 25, 0, 25)
+flight_land.ZIndex = 2
+flight_land.Image = "rbxassetid://3926305904"
+flight_land.ImageRectOffset = Vector2.new(124, 244)
+flight_land.ImageRectSize = Vector2.new(36, 36)
+
+LabelSTAR.Name = "LabelSTAR"
+LabelSTAR.Parent = Routes
+LabelSTAR.AnchorPoint = Vector2.new(0.5, 0)
+LabelSTAR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LabelSTAR.BackgroundTransparency = 1.000
+LabelSTAR.Position = UDim2.new(0.746999979, 0, 0.395000011, 0)
+LabelSTAR.Size = UDim2.new(0.495888889, 0, 0.0689687282, 0)
+LabelSTAR.ZIndex = 15
+LabelSTAR.Font = Enum.Font.SourceSansBold
+LabelSTAR.Text = "STAR"
+LabelSTAR.TextColor3 = Color3.fromRGB(0, 0, 0)
+LabelSTAR.TextSize = 28.000
+
+ImageLabel_2.Parent = LabelSTAR
+ImageLabel_2.AnchorPoint = Vector2.new(0, 0.5)
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0, 0, 0.5, 0)
+ImageLabel_2.Size = UDim2.new(1, 0, 1, 0)
+ImageLabel_2.ZIndex = 18
+ImageLabel_2.Image = "rbxassetid://3926305904"
+ImageLabel_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.ImageRectOffset = Vector2.new(124, 244)
+ImageLabel_2.ImageRectSize = Vector2.new(36, 36)
+ImageLabel_2.ScaleType = Enum.ScaleType.Crop
+
+UIAspectRatioConstraint_3.Parent = ImageLabel_2
+
+SID.Name = "SID"
+SID.Parent = Routes
+SID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SID.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SID.BorderSizePixel = 0
+SID.Position = UDim2.new(0.00800000038, 0, 0.444999993, 5)
+SID.Size = UDim2.new(0.485000014, 0, 0.515999973, 0)
+
+Rockford.Name = "Rockford"
+Rockford.Parent = SID
+Rockford.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+Rockford.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rockford.BorderSizePixel = 0
+Rockford.Size = UDim2.new(1, 0, 1, 0)
+Rockford.ZIndex = 17
+Rockford.Font = Enum.Font.SourceSans
+Rockford.Text = "ROCKFORD"
+Rockford.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rockford.TextSize = 14.000
+
+UIAspectRatioConstraint_4.Parent = Rockford
+UIAspectRatioConstraint_4.AspectRatio = 5.500
+
+UICorner_3.Parent = Rockford
+
+UIListLayout_2.Parent = SID
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 4)
+
+UIPadding_2.Parent = SID
+UIPadding_2.PaddingTop = UDim.new(0, 2)
+
+Perth.Name = "Perth"
+Perth.Parent = SID
+Perth.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+Perth.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Perth.BorderSizePixel = 0
+Perth.Size = UDim2.new(1, 0, 1, 0)
+Perth.ZIndex = 17
+Perth.Font = Enum.Font.SourceSans
+Perth.Text = "PERTH"
+Perth.TextColor3 = Color3.fromRGB(255, 255, 255)
+Perth.TextSize = 14.000
+
+UIAspectRatioConstraint_5.Parent = Perth
+UIAspectRatioConstraint_5.AspectRatio = 5.500
+
+UICorner_4.Parent = Perth
+
+Tokyo.Name = "Tokyo"
+Tokyo.Parent = SID
+Tokyo.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+Tokyo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tokyo.BorderSizePixel = 0
+Tokyo.Size = UDim2.new(1, 0, 1, 0)
+Tokyo.ZIndex = 17
+Tokyo.Font = Enum.Font.SourceSans
+Tokyo.Text = "TOKYO"
+Tokyo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tokyo.TextSize = 14.000
+
+UIAspectRatioConstraint_6.Parent = Tokyo
+UIAspectRatioConstraint_6.AspectRatio = 5.500
+
+UICorner_5.Parent = Tokyo
+
+STAR.Name = "STAR"
+STAR.Parent = Routes
+STAR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+STAR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+STAR.BorderSizePixel = 0
+STAR.Position = UDim2.new(0.50999999, 0, 0.444999993, 5)
+STAR.Size = UDim2.new(0.485000014, 0, 0.515999973, 0)
+
+Rockford_2.Name = "Rockford"
+Rockford_2.Parent = STAR
+Rockford_2.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+Rockford_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rockford_2.BorderSizePixel = 0
+Rockford_2.Size = UDim2.new(1, 0, 1, 0)
+Rockford_2.ZIndex = 17
+Rockford_2.Font = Enum.Font.SourceSans
+Rockford_2.Text = "ROCKFORD"
+Rockford_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rockford_2.TextSize = 14.000
+
+UIAspectRatioConstraint_7.Parent = Rockford_2
+UIAspectRatioConstraint_7.AspectRatio = 5.500
+
+UICorner_6.Parent = Rockford_2
+
+UIListLayout_3.Parent = STAR
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 4)
+
+UIPadding_3.Parent = STAR
+UIPadding_3.PaddingTop = UDim.new(0, 2)
+
+Perth_2.Name = "Perth"
+Perth_2.Parent = STAR
+Perth_2.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+Perth_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Perth_2.BorderSizePixel = 0
+Perth_2.Size = UDim2.new(1, 0, 1, 0)
+Perth_2.ZIndex = 17
+Perth_2.Font = Enum.Font.SourceSans
+Perth_2.Text = "PERTH"
+Perth_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Perth_2.TextSize = 14.000
+
+UIAspectRatioConstraint_8.Parent = Perth_2
+UIAspectRatioConstraint_8.AspectRatio = 5.500
+
+UICorner_7.Parent = Perth_2
+
+Tokyo_2.Name = "Tokyo"
+Tokyo_2.Parent = STAR
+Tokyo_2.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+Tokyo_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tokyo_2.BorderSizePixel = 0
+Tokyo_2.Size = UDim2.new(1, 0, 1, 0)
+Tokyo_2.ZIndex = 17
+Tokyo_2.Font = Enum.Font.SourceSans
+Tokyo_2.Text = "TOKYO"
+Tokyo_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tokyo_2.TextSize = 14.000
+
+UIAspectRatioConstraint_9.Parent = Tokyo_2
+UIAspectRatioConstraint_9.AspectRatio = 5.500
+
+UICorner_8.Parent = Tokyo_2
+
+CusRoute.Name = "CusRoute"
+CusRoute.Parent = Routes
+CusRoute.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CusRoute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CusRoute.BorderSizePixel = 0
+CusRoute.Position = UDim2.new(0.0500000343, 0, 0, 0)
+CusRoute.Size = UDim2.new(0.899999976, 0, 0.136730626, 0)
+CusRoute.Visible = false
+CusRoute.ZIndex = 17
+
+UICorner_9.Parent = CusRoute
+
+UIAspectRatioConstraint_10.Parent = CusRoute
+UIAspectRatioConstraint_10.AspectRatio = 10.000
+
+RouteList.Name = "RouteList"
+RouteList.Parent = CusRoute
+RouteList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RouteList.BackgroundTransparency = 1.000
+RouteList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RouteList.BorderSizePixel = 0
+RouteList.Size = UDim2.new(0.800000012, 0, 1, 0)
+RouteList.ZIndex = 17
+RouteList.Font = Enum.Font.SourceSans
+RouteList.Text = "<Point List>"
+RouteList.TextColor3 = Color3.fromRGB(0, 0, 0)
+RouteList.TextSize = 14.000
+
+delete.Name = "delete"
+delete.Parent = CusRoute
+delete.AnchorPoint = Vector2.new(1, 0.5)
+delete.BackgroundTransparency = 1.000
+delete.Position = UDim2.new(1, 0, 0.5, 0)
+delete.Size = UDim2.new(1, 0, 1, 0)
+delete.ZIndex = 17
+delete.Image = "rbxassetid://3926305904"
+delete.ImageColor3 = Color3.fromRGB(161, 0, 3)
+delete.ImageRectOffset = Vector2.new(644, 724)
+delete.ImageRectSize = Vector2.new(36, 36)
+
+UIAspectRatioConstraint_11.Parent = delete
+
+Visible.Name = "Visible"
+Visible.Parent = CusRoute
+Visible.AnchorPoint = Vector2.new(1, 0.5)
+Visible.BackgroundTransparency = 1.000
+Visible.LayoutOrder = 4
+Visible.Position = UDim2.new(0.899999976, 0, 0.5, 0)
+Visible.Size = UDim2.new(1, 0, 1, 0)
+Visible.ZIndex = 18
+Visible.Image = "rbxassetid://3926307971"
+Visible.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Visible.ImageRectOffset = Vector2.new(84, 44)
+Visible.ImageRectSize = Vector2.new(36, 36)
+
+UIAspectRatioConstraint_12.Parent = Visible
+
+Invisible.Name = "Invisible"
+Invisible.Parent = CusRoute
+Invisible.AnchorPoint = Vector2.new(1, 0.5)
+Invisible.BackgroundTransparency = 1.000
+Invisible.LayoutOrder = 14
+Invisible.Position = UDim2.new(0.899999976, 0, 0.5, 0)
+Invisible.Size = UDim2.new(1, 0, 1, 0)
+Invisible.Visible = false
+Invisible.ZIndex = 18
+Invisible.Image = "rbxassetid://3926307971"
+Invisible.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Invisible.ImageRectOffset = Vector2.new(564, 44)
+Invisible.ImageRectSize = Vector2.new(36, 36)
+
+UIAspectRatioConstraint_13.Parent = Invisible
+
+RouteList_2.Name = "RouteList"
+RouteList_2.Parent = RouteFrame
+RouteList_2.AnchorPoint = Vector2.new(1, 0.5)
+RouteList_2.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+RouteList_2.BorderSizePixel = 2
+RouteList_2.Position = UDim2.new(0, 0, 0.5, 0)
+RouteList_2.Size = UDim2.new(0.5, 0, 0.975000024, 0)
+RouteList_2.ZIndex = 17
+
+Label.Name = "Label"
+Label.Parent = RouteList_2
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label.BorderSizePixel = 0
+Label.Size = UDim2.new(1, 0, 0.100000001, 0)
+Label.ZIndex = 18
+Label.Font = Enum.Font.SourceSans
+Label.Text = "Rockford SID"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextWrapped = true
+
+RockfordSID.Name = "RockfordSID"
+RockfordSID.Parent = RouteList_2
+RockfordSID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RockfordSID.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RockfordSID.BorderSizePixel = 0
+RockfordSID.Position = UDim2.new(0, 0, 0.100000001, 0)
+RockfordSID.Size = UDim2.new(1, 0, 0.899999976, 0)
+RockfordSID.Visible = false
+
+UIListLayout_4.Parent = RockfordSID
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 2)
+
+INDEX4AB.Name = "INDEX4AB"
+INDEX4AB.Parent = RockfordSID
+INDEX4AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+INDEX4AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4AB.BorderSizePixel = 0
+INDEX4AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+INDEX4AB.ZIndex = 18
+INDEX4AB.Font = Enum.Font.SourceSans
+INDEX4AB.Text = "INDEX 4 A/B"
+INDEX4AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4AB.TextSize = 14.000
+
+UICorner_10.Parent = INDEX4AB
+
+UIPadding_4.Parent = RockfordSID
+UIPadding_4.PaddingLeft = UDim.new(0, 2)
+UIPadding_4.PaddingRight = UDim.new(0, 2)
+
+WELSH3AB.Name = "WELSH3AB"
+WELSH3AB.Parent = RockfordSID
+WELSH3AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+WELSH3AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WELSH3AB.BorderSizePixel = 0
+WELSH3AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+WELSH3AB.ZIndex = 18
+WELSH3AB.Font = Enum.Font.SourceSans
+WELSH3AB.Text = "WELSH 3 A/B"
+WELSH3AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+WELSH3AB.TextSize = 14.000
+
+UICorner_11.Parent = WELSH3AB
+
+GUESS1AB.Name = "GUESS1AB"
+GUESS1AB.Parent = RockfordSID
+GUESS1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+GUESS1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1AB.BorderSizePixel = 0
+GUESS1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+GUESS1AB.ZIndex = 18
+GUESS1AB.Font = Enum.Font.SourceSans
+GUESS1AB.Text = "GUESS 1 A/B"
+GUESS1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1AB.TextSize = 14.000
+
+UICorner_12.Parent = GUESS1AB
+
+SETHR1AB.Name = "SETHR1AB"
+SETHR1AB.Parent = RockfordSID
+SETHR1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SETHR1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SETHR1AB.BorderSizePixel = 0
+SETHR1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SETHR1AB.ZIndex = 18
+SETHR1AB.Font = Enum.Font.SourceSans
+SETHR1AB.Text = "SETHR 1 A/B"
+SETHR1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+SETHR1AB.TextSize = 14.000
+
+UICorner_13.Parent = SETHR1AB
+
+JAMSI1AB.Name = "JAMSI1AB"
+JAMSI1AB.Parent = RockfordSID
+JAMSI1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+JAMSI1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JAMSI1AB.BorderSizePixel = 0
+JAMSI1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+JAMSI1AB.ZIndex = 18
+JAMSI1AB.Font = Enum.Font.SourceSans
+JAMSI1AB.Text = "JAMSI 1 A/B"
+JAMSI1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+JAMSI1AB.TextSize = 14.000
+
+UICorner_14.Parent = JAMSI1AB
+
+LAZAR1AB.Name = "LAZAR1AB"
+LAZAR1AB.Parent = RockfordSID
+LAZAR1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+LAZAR1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LAZAR1AB.BorderSizePixel = 0
+LAZAR1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+LAZAR1AB.ZIndex = 18
+LAZAR1AB.Font = Enum.Font.SourceSans
+LAZAR1AB.Text = "LAZAR 1 A/B"
+LAZAR1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAZAR1AB.TextSize = 14.000
+
+UICorner_15.Parent = LAZAR1AB
+
+SEEKS1AB.Name = "SEEKS1AB"
+SEEKS1AB.Parent = RockfordSID
+SEEKS1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SEEKS1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1AB.BorderSizePixel = 0
+SEEKS1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SEEKS1AB.ZIndex = 18
+SEEKS1AB.Font = Enum.Font.SourceSans
+SEEKS1AB.Text = "SEEKS 1 A/B"
+SEEKS1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1AB.TextSize = 14.000
+
+UICorner_16.Parent = SEEKS1AB
+
+INDEX4CD.Name = "INDEX4CD"
+INDEX4CD.Parent = RockfordSID
+INDEX4CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+INDEX4CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4CD.BorderSizePixel = 0
+INDEX4CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+INDEX4CD.ZIndex = 18
+INDEX4CD.Font = Enum.Font.SourceSans
+INDEX4CD.Text = "INDEX 4 C/D"
+INDEX4CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4CD.TextSize = 14.000
+
+UICorner_17.Parent = INDEX4CD
+
+WELSH4CD.Name = "WELSH4CD"
+WELSH4CD.Parent = RockfordSID
+WELSH4CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+WELSH4CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WELSH4CD.BorderSizePixel = 0
+WELSH4CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+WELSH4CD.ZIndex = 18
+WELSH4CD.Font = Enum.Font.SourceSans
+WELSH4CD.Text = "WELSH 4 C/D"
+WELSH4CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+WELSH4CD.TextSize = 14.000
+
+UICorner_18.Parent = WELSH4CD
+
+SEEKS1CD.Name = "SEEKS1CD"
+SEEKS1CD.Parent = RockfordSID
+SEEKS1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SEEKS1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1CD.BorderSizePixel = 0
+SEEKS1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SEEKS1CD.ZIndex = 18
+SEEKS1CD.Font = Enum.Font.SourceSans
+SEEKS1CD.Text = "SEEKS 1 C/D"
+SEEKS1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1CD.TextSize = 14.000
+
+UICorner_19.Parent = SEEKS1CD
+
+GUESS1CD.Name = "GUESS1CD"
+GUESS1CD.Parent = RockfordSID
+GUESS1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+GUESS1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1CD.BorderSizePixel = 0
+GUESS1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+GUESS1CD.ZIndex = 18
+GUESS1CD.Font = Enum.Font.SourceSans
+GUESS1CD.Text = "GUESS 1 C/D"
+GUESS1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1CD.TextSize = 14.000
+
+UICorner_20.Parent = GUESS1CD
+
+WELSH1CD.Name = "WELSH1CD"
+WELSH1CD.Parent = RockfordSID
+WELSH1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+WELSH1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WELSH1CD.BorderSizePixel = 0
+WELSH1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+WELSH1CD.ZIndex = 18
+WELSH1CD.Font = Enum.Font.SourceSans
+WELSH1CD.Text = "WELSH 1 C/D"
+WELSH1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+WELSH1CD.TextSize = 14.000
+
+UICorner_21.Parent = WELSH1CD
+
+SETHR1CD.Name = "SETHR1CD"
+SETHR1CD.Parent = RockfordSID
+SETHR1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SETHR1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SETHR1CD.BorderSizePixel = 0
+SETHR1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SETHR1CD.ZIndex = 18
+SETHR1CD.Font = Enum.Font.SourceSans
+SETHR1CD.Text = "SETHR 1 C/D"
+SETHR1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+SETHR1CD.TextSize = 14.000
+
+UICorner_22.Parent = SETHR1CD
+
+JAMSI2CD.Name = "JAMSI2CD"
+JAMSI2CD.Parent = RockfordSID
+JAMSI2CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+JAMSI2CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JAMSI2CD.BorderSizePixel = 0
+JAMSI2CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+JAMSI2CD.ZIndex = 18
+JAMSI2CD.Font = Enum.Font.SourceSans
+JAMSI2CD.Text = "JAMSI 2 C/D"
+JAMSI2CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+JAMSI2CD.TextSize = 14.000
+
+UICorner_23.Parent = JAMSI2CD
+
+LAZAR1CD.Name = "LAZAR1CD"
+LAZAR1CD.Parent = RockfordSID
+LAZAR1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+LAZAR1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LAZAR1CD.BorderSizePixel = 0
+LAZAR1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+LAZAR1CD.ZIndex = 18
+LAZAR1CD.Font = Enum.Font.SourceSans
+LAZAR1CD.Text = "LAZAR 1 C/D"
+LAZAR1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAZAR1CD.TextSize = 14.000
+
+UICorner_24.Parent = LAZAR1CD
+
+RockfordSTAR.Name = "RockfordSTAR"
+RockfordSTAR.Parent = RouteList_2
+RockfordSTAR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RockfordSTAR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RockfordSTAR.BorderSizePixel = 0
+RockfordSTAR.Position = UDim2.new(0, 0, 0.100000001, 0)
+RockfordSTAR.Size = UDim2.new(1, 0, 0.899999976, 0)
+RockfordSTAR.Visible = false
+
+UIListLayout_5.Parent = RockfordSTAR
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 2)
+
+UIPadding_5.Parent = RockfordSTAR
+UIPadding_5.PaddingLeft = UDim.new(0, 2)
+UIPadding_5.PaddingRight = UDim.new(0, 2)
+
+GUESS1A.Name = "GUESS1A"
+GUESS1A.Parent = RockfordSTAR
+GUESS1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+GUESS1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1A.BorderSizePixel = 0
+GUESS1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+GUESS1A.ZIndex = 18
+GUESS1A.Font = Enum.Font.SourceSans
+GUESS1A.Text = "GUESS 1 A"
+GUESS1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1A.TextSize = 14.000
+
+UICorner_25.Parent = GUESS1A
+
+INDEX4A.Name = "INDEX4A"
+INDEX4A.Parent = RockfordSTAR
+INDEX4A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+INDEX4A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4A.BorderSizePixel = 0
+INDEX4A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+INDEX4A.ZIndex = 18
+INDEX4A.Font = Enum.Font.SourceSans
+INDEX4A.Text = "INDEX 4 A"
+INDEX4A.TextColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4A.TextSize = 14.000
+
+UICorner_26.Parent = INDEX4A
+
+INDEX4B.Name = "INDEX4B"
+INDEX4B.Parent = RockfordSTAR
+INDEX4B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+INDEX4B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4B.BorderSizePixel = 0
+INDEX4B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+INDEX4B.ZIndex = 18
+INDEX4B.Font = Enum.Font.SourceSans
+INDEX4B.Text = "INDEX 4 B"
+INDEX4B.TextColor3 = Color3.fromRGB(0, 0, 0)
+INDEX4B.TextSize = 14.000
+
+UICorner_27.Parent = INDEX4B
+
+WELSH3A.Name = "WELSH3A"
+WELSH3A.Parent = RockfordSTAR
+WELSH3A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+WELSH3A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WELSH3A.BorderSizePixel = 0
+WELSH3A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+WELSH3A.ZIndex = 18
+WELSH3A.Font = Enum.Font.SourceSans
+WELSH3A.Text = "WELSH 3 A"
+WELSH3A.TextColor3 = Color3.fromRGB(0, 0, 0)
+WELSH3A.TextSize = 14.000
+
+UICorner_28.Parent = WELSH3A
+
+WELSH3B.Name = "WELSH3B"
+WELSH3B.Parent = RockfordSTAR
+WELSH3B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+WELSH3B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WELSH3B.BorderSizePixel = 0
+WELSH3B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+WELSH3B.ZIndex = 18
+WELSH3B.Font = Enum.Font.SourceSans
+WELSH3B.Text = "WELSH 3 B"
+WELSH3B.TextColor3 = Color3.fromRGB(0, 0, 0)
+WELSH3B.TextSize = 14.000
+
+UICorner_29.Parent = WELSH3B
+
+GUESS1B.Name = "GUESS1B"
+GUESS1B.Parent = RockfordSTAR
+GUESS1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+GUESS1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1B.BorderSizePixel = 0
+GUESS1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+GUESS1B.ZIndex = 18
+GUESS1B.Font = Enum.Font.SourceSans
+GUESS1B.Text = "GUESS 1 B"
+GUESS1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUESS1B.TextSize = 14.000
+
+UICorner_30.Parent = GUESS1B
+
+SETHR1A.Name = "SETHR1A"
+SETHR1A.Parent = RockfordSTAR
+SETHR1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SETHR1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SETHR1A.BorderSizePixel = 0
+SETHR1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SETHR1A.ZIndex = 18
+SETHR1A.Font = Enum.Font.SourceSans
+SETHR1A.Text = "SETHR 1 A"
+SETHR1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+SETHR1A.TextSize = 14.000
+
+UICorner_31.Parent = SETHR1A
+
+JAMSI1A.Name = "JAMSI1A"
+JAMSI1A.Parent = RockfordSTAR
+JAMSI1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+JAMSI1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JAMSI1A.BorderSizePixel = 0
+JAMSI1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+JAMSI1A.ZIndex = 18
+JAMSI1A.Font = Enum.Font.SourceSans
+JAMSI1A.Text = "JAMSI 1 A"
+JAMSI1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+JAMSI1A.TextSize = 14.000
+
+UICorner_32.Parent = JAMSI1A
+
+LAZAR1A.Name = "LAZAR1A"
+LAZAR1A.Parent = RockfordSTAR
+LAZAR1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+LAZAR1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LAZAR1A.BorderSizePixel = 0
+LAZAR1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+LAZAR1A.ZIndex = 18
+LAZAR1A.Font = Enum.Font.SourceSans
+LAZAR1A.Text = "LAZAR 1 A"
+LAZAR1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAZAR1A.TextSize = 14.000
+
+UICorner_33.Parent = LAZAR1A
+
+SEEKS1A.Name = "SEEKS1A"
+SEEKS1A.Parent = RockfordSTAR
+SEEKS1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SEEKS1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1A.BorderSizePixel = 0
+SEEKS1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SEEKS1A.ZIndex = 18
+SEEKS1A.Font = Enum.Font.SourceSans
+SEEKS1A.Text = "SEEKS 1 A"
+SEEKS1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1A.TextSize = 14.000
+
+UICorner_34.Parent = SEEKS1A
+
+SEEKS1B.Name = "SEEKS1B"
+SEEKS1B.Parent = RockfordSTAR
+SEEKS1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+SEEKS1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1B.BorderSizePixel = 0
+SEEKS1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+SEEKS1B.ZIndex = 18
+SEEKS1B.Font = Enum.Font.SourceSans
+SEEKS1B.Text = "SEEKS 1 B"
+SEEKS1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEEKS1B.TextSize = 14.000
+
+UICorner_35.Parent = SEEKS1B
+
+TokyoSID.Name = "TokyoSID"
+TokyoSID.Parent = RouteList_2
+TokyoSID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TokyoSID.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TokyoSID.BorderSizePixel = 0
+TokyoSID.Position = UDim2.new(0, 0, 0.100000001, 0)
+TokyoSID.Size = UDim2.new(1, 0, 0.899999976, 0)
+TokyoSID.Visible = false
+
+UIListLayout_6.Parent = TokyoSID
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Padding = UDim.new(0, 2)
+
+UIPadding_6.Parent = TokyoSID
+UIPadding_6.PaddingLeft = UDim.new(0, 2)
+UIPadding_6.PaddingRight = UDim.new(0, 2)
+
+EURAD1KN.Name = "EURAD1KN"
+EURAD1KN.Parent = TokyoSID
+EURAD1KN.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+EURAD1KN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1KN.BorderSizePixel = 0
+EURAD1KN.Size = UDim2.new(1, 0, 0.0599999987, 0)
+EURAD1KN.ZIndex = 18
+EURAD1KN.Font = Enum.Font.SourceSans
+EURAD1KN.Text = "EURAD 1 KN"
+EURAD1KN.TextColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1KN.TextSize = 14.000
+
+UICorner_36.Parent = EURAD1KN
+
+EURAD1LM.Name = "EURAD1LM"
+EURAD1LM.Parent = TokyoSID
+EURAD1LM.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+EURAD1LM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1LM.BorderSizePixel = 0
+EURAD1LM.Size = UDim2.new(1, 0, 0.0599999987, 0)
+EURAD1LM.ZIndex = 18
+EURAD1LM.Font = Enum.Font.SourceSans
+EURAD1LM.Text = "EURAD 1 LM"
+EURAD1LM.TextColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1LM.TextSize = 14.000
+
+UICorner_37.Parent = EURAD1LM
+
+RENDR1KN.Name = "RENDR1KN"
+RENDR1KN.Parent = TokyoSID
+RENDR1KN.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+RENDR1KN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1KN.BorderSizePixel = 0
+RENDR1KN.Size = UDim2.new(1, 0, 0.0599999987, 0)
+RENDR1KN.ZIndex = 18
+RENDR1KN.Font = Enum.Font.SourceSans
+RENDR1KN.Text = "RENDR 1 KN"
+RENDR1KN.TextColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1KN.TextSize = 14.000
+
+UICorner_38.Parent = RENDR1KN
+
+RENDR1LM.Name = "RENDR1LM"
+RENDR1LM.Parent = TokyoSID
+RENDR1LM.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+RENDR1LM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1LM.BorderSizePixel = 0
+RENDR1LM.Size = UDim2.new(1, 0, 0.0599999987, 0)
+RENDR1LM.ZIndex = 18
+RENDR1LM.Font = Enum.Font.SourceSans
+RENDR1LM.Text = "RENDR 1 LM"
+RENDR1LM.TextColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1LM.TextSize = 14.000
+
+UICorner_39.Parent = RENDR1LM
+
+HONDA1N.Name = "HONDA1N"
+HONDA1N.Parent = TokyoSID
+HONDA1N.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+HONDA1N.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1N.BorderSizePixel = 0
+HONDA1N.Size = UDim2.new(1, 0, 0.0599999987, 0)
+HONDA1N.ZIndex = 18
+HONDA1N.Font = Enum.Font.SourceSans
+HONDA1N.Text = "HONDA 1 N"
+HONDA1N.TextColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1N.TextSize = 14.000
+
+UICorner_40.Parent = HONDA1N
+
+TokyoSTAR.Name = "TokyoSTAR"
+TokyoSTAR.Parent = RouteList_2
+TokyoSTAR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TokyoSTAR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TokyoSTAR.BorderSizePixel = 0
+TokyoSTAR.Position = UDim2.new(0, 0, 0.100000001, 0)
+TokyoSTAR.Size = UDim2.new(1, 0, 0.899999976, 0)
+TokyoSTAR.Visible = false
+
+UIListLayout_7.Parent = TokyoSTAR
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_7.Padding = UDim.new(0, 2)
+
+UIPadding_7.Parent = TokyoSTAR
+UIPadding_7.PaddingLeft = UDim.new(0, 2)
+UIPadding_7.PaddingRight = UDim.new(0, 2)
+
+HONDA1A.Name = "HONDA1A"
+HONDA1A.Parent = TokyoSTAR
+HONDA1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+HONDA1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1A.BorderSizePixel = 0
+HONDA1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+HONDA1A.ZIndex = 18
+HONDA1A.Font = Enum.Font.SourceSans
+HONDA1A.Text = "HONDA1A"
+HONDA1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1A.TextSize = 14.000
+
+UICorner_41.Parent = HONDA1A
+
+HONDA1B.Name = "HONDA1B"
+HONDA1B.Parent = TokyoSTAR
+HONDA1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+HONDA1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1B.BorderSizePixel = 0
+HONDA1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+HONDA1B.ZIndex = 18
+HONDA1B.Font = Enum.Font.SourceSans
+HONDA1B.Text = "HONDA 1 B"
+HONDA1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1B.TextSize = 14.000
+
+UICorner_42.Parent = HONDA1B
+
+HONDA1C.Name = "HONDA1C"
+HONDA1C.Parent = TokyoSTAR
+HONDA1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+HONDA1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1C.BorderSizePixel = 0
+HONDA1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+HONDA1C.ZIndex = 18
+HONDA1C.Font = Enum.Font.SourceSans
+HONDA1C.Text = "HONDA 1 C"
+HONDA1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+HONDA1C.TextSize = 14.000
+
+UICorner_43.Parent = HONDA1C
+
+ONDER1A.Name = "ONDER1A"
+ONDER1A.Parent = TokyoSTAR
+ONDER1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ONDER1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ONDER1A.BorderSizePixel = 0
+ONDER1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ONDER1A.ZIndex = 18
+ONDER1A.Font = Enum.Font.SourceSans
+ONDER1A.Text = "ONDER 1 A"
+ONDER1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+ONDER1A.TextSize = 14.000
+
+UICorner_44.Parent = ONDER1A
+
+ONDER1B.Name = "ONDER1B"
+ONDER1B.Parent = TokyoSTAR
+ONDER1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ONDER1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ONDER1B.BorderSizePixel = 0
+ONDER1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ONDER1B.ZIndex = 18
+ONDER1B.Font = Enum.Font.SourceSans
+ONDER1B.Text = "ONDER 1 B"
+ONDER1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+ONDER1B.TextSize = 14.000
+
+UICorner_45.Parent = ONDER1B
+
+ONDER1C.Name = "ONDER1C"
+ONDER1C.Parent = TokyoSTAR
+ONDER1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ONDER1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ONDER1C.BorderSizePixel = 0
+ONDER1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ONDER1C.ZIndex = 18
+ONDER1C.Font = Enum.Font.SourceSans
+ONDER1C.Text = "ONDER 1 C"
+ONDER1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+ONDER1C.TextSize = 14.000
+
+UICorner_46.Parent = ONDER1C
+
+RENDR1A.Name = "RENDR1A"
+RENDR1A.Parent = TokyoSTAR
+RENDR1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+RENDR1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1A.BorderSizePixel = 0
+RENDR1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+RENDR1A.ZIndex = 18
+RENDR1A.Font = Enum.Font.SourceSans
+RENDR1A.Text = "RENDR 1 A"
+RENDR1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1A.TextSize = 14.000
+
+UICorner_47.Parent = RENDR1A
+
+RENDR1B.Name = "RENDR1B"
+RENDR1B.Parent = TokyoSTAR
+RENDR1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+RENDR1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1B.BorderSizePixel = 0
+RENDR1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+RENDR1B.ZIndex = 18
+RENDR1B.Font = Enum.Font.SourceSans
+RENDR1B.Text = "RENDR 1 B"
+RENDR1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1B.TextSize = 14.000
+
+UICorner_48.Parent = RENDR1B
+
+RENDR1C.Name = "RENDR1C"
+RENDR1C.Parent = TokyoSTAR
+RENDR1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+RENDR1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1C.BorderSizePixel = 0
+RENDR1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+RENDR1C.ZIndex = 18
+RENDR1C.Font = Enum.Font.SourceSans
+RENDR1C.Text = "RENDR 1 C"
+RENDR1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+RENDR1C.TextSize = 14.000
+
+UICorner_49.Parent = RENDR1C
+
+EURAD1A.Name = "EURAD1A"
+EURAD1A.Parent = TokyoSTAR
+EURAD1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+EURAD1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1A.BorderSizePixel = 0
+EURAD1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+EURAD1A.ZIndex = 18
+EURAD1A.Font = Enum.Font.SourceSans
+EURAD1A.Text = "EURAD 1 A"
+EURAD1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1A.TextSize = 14.000
+
+UICorner_50.Parent = EURAD1A
+
+EURAD1B.Name = "EURAD1B"
+EURAD1B.Parent = TokyoSTAR
+EURAD1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+EURAD1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1B.BorderSizePixel = 0
+EURAD1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+EURAD1B.ZIndex = 18
+EURAD1B.Font = Enum.Font.SourceSans
+EURAD1B.Text = "EURAD 1 B"
+EURAD1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1B.TextSize = 14.000
+
+UICorner_51.Parent = EURAD1B
+
+EURAD1C.Name = "EURAD1C"
+EURAD1C.Parent = TokyoSTAR
+EURAD1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+EURAD1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1C.BorderSizePixel = 0
+EURAD1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+EURAD1C.ZIndex = 18
+EURAD1C.Font = Enum.Font.SourceSans
+EURAD1C.Text = "EURAD 1 C"
+EURAD1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+EURAD1C.TextSize = 14.000
+
+UICorner_52.Parent = EURAD1C
+
+PerthSID.Name = "PerthSID"
+PerthSID.Parent = RouteList_2
+PerthSID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PerthSID.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PerthSID.BorderSizePixel = 0
+PerthSID.Position = UDim2.new(0, 0, 0.100000001, 0)
+PerthSID.Size = UDim2.new(1, 0, 0.899999976, 0)
+PerthSID.Visible = false
+
+UIListLayout_8.Parent = PerthSID
+UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_8.Padding = UDim.new(0, 2)
+
+UIPadding_8.Parent = PerthSID
+UIPadding_8.PaddingLeft = UDim.new(0, 2)
+UIPadding_8.PaddingRight = UDim.new(0, 2)
+
+KNIFE1A.Name = "KNIFE1A"
+KNIFE1A.Parent = PerthSID
+KNIFE1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1A.BorderSizePixel = 0
+KNIFE1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1A.ZIndex = 18
+KNIFE1A.Font = Enum.Font.SourceSans
+KNIFE1A.Text = "KNIFE 1 A"
+KNIFE1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1A.TextSize = 14.000
+
+UICorner_53.Parent = KNIFE1A
+
+KNIFE1B.Name = "KNIFE1B"
+KNIFE1B.Parent = PerthSID
+KNIFE1B.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1B.BorderSizePixel = 0
+KNIFE1B.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1B.ZIndex = 18
+KNIFE1B.Font = Enum.Font.SourceSans
+KNIFE1B.Text = "KNIFE 1 B"
+KNIFE1B.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1B.TextSize = 14.000
+
+UICorner_54.Parent = KNIFE1B
+
+KNIFE1C.Name = "KNIFE1C"
+KNIFE1C.Parent = PerthSID
+KNIFE1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1C.BorderSizePixel = 0
+KNIFE1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1C.ZIndex = 18
+KNIFE1C.Font = Enum.Font.SourceSans
+KNIFE1C.Text = "KNIFE 1 C"
+KNIFE1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1C.TextSize = 14.000
+
+UICorner_55.Parent = KNIFE1C
+
+KNIFE1D.Name = "KNIFE1D"
+KNIFE1D.Parent = PerthSID
+KNIFE1D.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1D.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1D.BorderSizePixel = 0
+KNIFE1D.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1D.ZIndex = 18
+KNIFE1D.Font = Enum.Font.SourceSans
+KNIFE1D.Text = "KNIFE 1 D"
+KNIFE1D.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1D.TextSize = 14.000
+
+UICorner_56.Parent = KNIFE1D
+
+ROMENS1A.Name = "ROMENS1A"
+ROMENS1A.Parent = PerthSID
+ROMENS1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ROMENS1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ROMENS1A.BorderSizePixel = 0
+ROMENS1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ROMENS1A.ZIndex = 18
+ROMENS1A.Font = Enum.Font.SourceSans
+ROMENS1A.Text = "ROMANS 1 A"
+ROMENS1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+ROMENS1A.TextSize = 14.000
+
+UICorner_57.Parent = ROMENS1A
+
+ROMENS1C.Name = "ROMENS1C"
+ROMENS1C.Parent = PerthSID
+ROMENS1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ROMENS1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ROMENS1C.BorderSizePixel = 0
+ROMENS1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ROMENS1C.ZIndex = 18
+ROMENS1C.Font = Enum.Font.SourceSans
+ROMENS1C.Text = "ROMANS 1 C"
+ROMENS1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+ROMENS1C.TextSize = 14.000
+
+UICorner_58.Parent = ROMENS1C
+
+ROMENS1D.Name = "ROMENS1D"
+ROMENS1D.Parent = PerthSID
+ROMENS1D.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ROMENS1D.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ROMENS1D.BorderSizePixel = 0
+ROMENS1D.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ROMENS1D.ZIndex = 18
+ROMENS1D.Font = Enum.Font.SourceSans
+ROMENS1D.Text = "ROMANS 1 D"
+ROMENS1D.TextColor3 = Color3.fromRGB(0, 0, 0)
+ROMENS1D.TextSize = 14.000
+
+UICorner_59.Parent = ROMENS1D
+
+CAMEL1C.Name = "CAMEL1C"
+CAMEL1C.Parent = PerthSID
+CAMEL1C.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CAMEL1C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1C.BorderSizePixel = 0
+CAMEL1C.Size = UDim2.new(1, 0, 0.0599999987, 0)
+CAMEL1C.ZIndex = 18
+CAMEL1C.Font = Enum.Font.SourceSans
+CAMEL1C.Text = "CAMEL 1 C"
+CAMEL1C.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1C.TextSize = 14.000
+
+UICorner_60.Parent = CAMEL1C
+
+CAMEL1D.Name = "CAMEL1D"
+CAMEL1D.Parent = PerthSID
+CAMEL1D.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CAMEL1D.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1D.BorderSizePixel = 0
+CAMEL1D.Size = UDim2.new(1, 0, 0.0599999987, 0)
+CAMEL1D.ZIndex = 18
+CAMEL1D.Font = Enum.Font.SourceSans
+CAMEL1D.Text = "CAMEL 1 D"
+CAMEL1D.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1D.TextSize = 14.000
+
+UICorner_61.Parent = CAMEL1D
+
+CAMEL1A.Name = "CAMEL1A"
+CAMEL1A.Parent = PerthSID
+CAMEL1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CAMEL1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1A.BorderSizePixel = 0
+CAMEL1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+CAMEL1A.ZIndex = 18
+CAMEL1A.Font = Enum.Font.SourceSans
+CAMEL1A.Text = "CAMEL 1 A"
+CAMEL1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1A.TextSize = 14.000
+
+UICorner_62.Parent = CAMEL1A
+
+PerthSTAR.Name = "PerthSTAR"
+PerthSTAR.Parent = RouteList_2
+PerthSTAR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PerthSTAR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PerthSTAR.BorderSizePixel = 0
+PerthSTAR.Position = UDim2.new(0, 0, 0.100000001, 0)
+PerthSTAR.Size = UDim2.new(1, 0, 0.899999976, 0)
+PerthSTAR.Visible = false
+
+UIListLayout_9.Parent = PerthSTAR
+UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_9.Padding = UDim.new(0, 2)
+
+UIPadding_9.Parent = PerthSTAR
+UIPadding_9.PaddingLeft = UDim.new(0, 2)
+UIPadding_9.PaddingRight = UDim.new(0, 2)
+
+CAMEL1WX.Name = "CAMEL1WX"
+CAMEL1WX.Parent = PerthSTAR
+CAMEL1WX.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CAMEL1WX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1WX.BorderSizePixel = 0
+CAMEL1WX.Size = UDim2.new(1, 0, 0.0599999987, 0)
+CAMEL1WX.ZIndex = 18
+CAMEL1WX.Font = Enum.Font.SourceSans
+CAMEL1WX.Text = "CAMEL 1 WX"
+CAMEL1WX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1WX.TextSize = 14.000
+
+UICorner_63.Parent = CAMEL1WX
+
+CAMEL1Y.Name = "CAMEL1Y"
+CAMEL1Y.Parent = PerthSTAR
+CAMEL1Y.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CAMEL1Y.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1Y.BorderSizePixel = 0
+CAMEL1Y.Size = UDim2.new(1, 0, 0.0599999987, 0)
+CAMEL1Y.ZIndex = 18
+CAMEL1Y.Font = Enum.Font.SourceSans
+CAMEL1Y.Text = "CAMEL 1 Y"
+CAMEL1Y.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1Y.TextSize = 14.000
+
+UICorner_64.Parent = CAMEL1Y
+
+CAMEL1Z.Name = "CAMEL1Z"
+CAMEL1Z.Parent = PerthSTAR
+CAMEL1Z.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+CAMEL1Z.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1Z.BorderSizePixel = 0
+CAMEL1Z.Size = UDim2.new(1, 0, 0.0599999987, 0)
+CAMEL1Z.ZIndex = 18
+CAMEL1Z.Font = Enum.Font.SourceSans
+CAMEL1Z.Text = "CAMEL 1 Z"
+CAMEL1Z.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAMEL1Z.TextSize = 14.000
+
+UICorner_65.Parent = CAMEL1Z
+
+ROM1WX.Name = "ROM1WX"
+ROM1WX.Parent = PerthSTAR
+ROM1WX.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ROM1WX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ROM1WX.BorderSizePixel = 0
+ROM1WX.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ROM1WX.ZIndex = 18
+ROM1WX.Font = Enum.Font.SourceSans
+ROM1WX.Text = "ROM 1 WX"
+ROM1WX.TextColor3 = Color3.fromRGB(0, 0, 0)
+ROM1WX.TextSize = 14.000
+
+UICorner_66.Parent = ROM1WX
+
+ROM1Y.Name = "ROM1Y"
+ROM1Y.Parent = PerthSTAR
+ROM1Y.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ROM1Y.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ROM1Y.BorderSizePixel = 0
+ROM1Y.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ROM1Y.ZIndex = 18
+ROM1Y.Font = Enum.Font.SourceSans
+ROM1Y.Text = "ROM 1 Y"
+ROM1Y.TextColor3 = Color3.fromRGB(0, 0, 0)
+ROM1Y.TextSize = 14.000
+
+UICorner_67.Parent = ROM1Y
+
+ROM1Z.Name = "ROM1Z"
+ROM1Z.Parent = PerthSTAR
+ROM1Z.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+ROM1Z.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ROM1Z.BorderSizePixel = 0
+ROM1Z.Size = UDim2.new(1, 0, 0.0599999987, 0)
+ROM1Z.ZIndex = 18
+ROM1Z.Font = Enum.Font.SourceSans
+ROM1Z.Text = "ROM 1 Z"
+ROM1Z.TextColor3 = Color3.fromRGB(0, 0, 0)
+ROM1Z.TextSize = 14.000
+
+UICorner_68.Parent = ROM1Z
+
+KNIFE1WX.Name = "KNIFE1WX"
+KNIFE1WX.Parent = PerthSTAR
+KNIFE1WX.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1WX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1WX.BorderSizePixel = 0
+KNIFE1WX.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1WX.ZIndex = 18
+KNIFE1WX.Font = Enum.Font.SourceSans
+KNIFE1WX.Text = "KNIFE 1 WX"
+KNIFE1WX.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1WX.TextSize = 14.000
+
+UICorner_69.Parent = KNIFE1WX
+
+KNIFE1Y.Name = "KNIFE1Y"
+KNIFE1Y.Parent = PerthSTAR
+KNIFE1Y.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1Y.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1Y.BorderSizePixel = 0
+KNIFE1Y.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1Y.ZIndex = 18
+KNIFE1Y.Font = Enum.Font.SourceSans
+KNIFE1Y.Text = "KNIFE 1 Y"
+KNIFE1Y.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1Y.TextSize = 14.000
+
+UICorner_70.Parent = KNIFE1Y
+
+KNIFE1Z.Name = "KNIFE1Z"
+KNIFE1Z.Parent = PerthSTAR
+KNIFE1Z.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+KNIFE1Z.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1Z.BorderSizePixel = 0
+KNIFE1Z.Size = UDim2.new(1, 0, 0.0599999987, 0)
+KNIFE1Z.ZIndex = 18
+KNIFE1Z.Font = Enum.Font.SourceSans
+KNIFE1Z.Text = "KNIFE 1 Z"
+KNIFE1Z.TextColor3 = Color3.fromRGB(0, 0, 0)
+KNIFE1Z.TextSize = 14.000
+
+UICorner_71.Parent = KNIFE1Z
+
 -- Module Scripts:
 
 local fake_module_scripts = {}
@@ -13850,9 +15431,10 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			tailDot.Position = Position
 			tailDot.Size = UDim2.new(newScale/2,0,newScale/2,0)
 			
-			tailDot.Visible = true
+			if NewMiniMap["Screen"..screen].Content.Image.VStar.Visible then
+				tailDot.Visible = true
+			end
 			
-		
 			for i, frame in pairs(trailFolder:GetChildren()) do
 				if frame.Name ~= "PathLine" then
 					if tonumber(frame.Name) < Step-5 then
@@ -14050,13 +15632,9 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		
 		local diffTime = os.time() - TO			--Trail timing
 		if waitTime >= 1  then
-			if NewMiniMap.Screen1.Content.Image.VStar.Visible then
+			
 				newTrail[1] = true
-			end
-			if NewMiniMap.Screen2.Content.Image.VStar.Visible then
 				newTrail[2] = true
-			end
-			if NewMiniMap.Screen3.Content.Image.VStar.Visible then
 				newTrail[3] = true
 			end
 
@@ -14066,11 +15644,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			if diffTime >= SecsPerStep then
 				if NewMiniMap.Screen1.Content.Image.VStar.Visible then
 					newTrail[1] = true
-				end
-				if NewMiniMap.Screen2.Content.Image.VStar.Visible then
 					newTrail[2] = true
-				end
-				if NewMiniMap.Screen3.Content.Image.VStar.Visible then
 					newTrail[3] = true
 				end
 				TO = os.time()
@@ -14371,6 +15945,8 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		--Removing trail
 		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(0,0,0)
+		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(0,0,0)
+		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(0,0,0)
 		
 			for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
     		if v:IsA("TextLabel") then
@@ -14434,6 +16010,8 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		end
 		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
+		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
+		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
 		
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
     		if v:IsA("TextLabel") then
@@ -14504,6 +16082,8 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		end
 		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
+		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
+		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
 		
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
     		if v:IsA("TextLabel") then
@@ -14572,6 +16152,8 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		end
 		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
+		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
+		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
 		
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
     		if v:IsA("TextLabel") then
@@ -14707,8 +16289,97 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local MapState = require(script.Parent.Parent.MapState)
 
 	local mapHovering = {true, false, false}
-
 	local Connections = {}
+
+	local SIDs = {
+		Rockford = {
+			INDEX4AB = "RFD EASTN INDEX",
+			WELSH3AB = "RFD EASTN GUESS",
+			GUESS1AB = "RFD EASTN GUESS",
+			INDEX4CD = "RFD BLA TRN STOOD RESTS INDEX",
+			WELSH4CD = "RFD BLA TRN STOOD RESTS WELSH",
+			SETHR1AB = "RFD EASTN RESTS SETHR",
+			JAMSI1AB = "RFD EASTN RESTS HMS JAMSI",
+			LAZER1AB = "RFD EASTN RESTS HMS LAZER",
+			SEEKS1AB = "RFD EASTN ROCKET BEANS SEEKS",
+			SEEKS1CD = "RFD BLADES HELPR SEEKS"
+			GUESS1CD = "RFD BLADES HELPR WAREZ PARTS GUESS",
+			WELSH1CD = "RFD BLADES TRN STOOD RESTS WELSH",
+			SETHR1CD = "RFD BLADES TRN HMS SETHR",
+			JAMSI2CD = "RFD BLASES TRN SAVES JAMSI",
+			LAZER1CD = "RFD BLADES TRN SAVES LAZER"
+	  
+		},
+		 Perth = {
+			KNIFE1A = "BTM NOONU TALIS STRAX KNIFE",
+			ROMENS1A = "BTM NOONU TALIS ROM",
+			CAMEL1A = "BTM NOONU TALIS CAMEL",
+			KNIFE1B = "STRAX KNIFE",
+			KNIFE1C = "TINDR KNIFE",
+			ROMENS1C = "TINDR STRAX ROM"
+			CAMEL1C = "TINDR STRAX CAMEL",
+			KNIEF1D = "TINDR KNIFE",
+			ROMENS1D = "TINDR STRAX ROM",
+			CAMEL1D = "TINDR STRAX CAMEL"
+	  
+		},
+		Tokyo = {
+			EURAD1KN = "ASTRO GULEG EURAD",
+			RENDR1KN = "ASTRO RENDR",
+			EURAD1LM = "PIPER GULEG EURAD",
+			RENDR1LM = "PIPER RENDR",
+			HONDA1N "ASTRO PIPER HONDA"
+			
+		}
+	  
+	  }
+	  local STARs = {
+		Rockford = {
+			INDEX4A = "INDEX RESTS STOOD TRN BLA RFD",
+			INDEX4B = "INDEX KEN RFD",
+			GUESS1A = ''GUESS PARTS WAREZ HELPR BLA RFD'',
+			WELSH3A = ''WELSH RESTS STOOD TRN BLA RFD'',
+			WELSH3B = ''WELSH KEN'',
+			INDEX4B = ''INDEX KEN'',
+			GUESS1B = ''GUESS ENDER KEN'',
+			SETHR1A = ''SETHR HMS TRN BLA'',
+			JAMSI1A = ''JAMSI SAVES TRN BLA'',
+			LAZER1A = ''LAZER SAVES TRN BLA'',
+			SEEKS1A = ''SEEKS HELPR BLA'',
+			SEEKS1B = ''SEEKS BEANS ROK KEN''
+	  
+		},
+		 Perth = {
+		   CAMEL1WX = ''CAMEL STRAX TINDR PER'',
+		   ROM1WX = ''ROM STRAX TINDR PER'',
+		   KNIFE1WX = ''KNIFE TINDR PER'',
+		   KNIFE1Y = ''KNIFE STRAX TALIS NOONU PER'',
+		   ROM1Y = ''ROM TALIS NOONU PER'',
+		   CAMEL1Y = ''CAMEL TALIS NOONU PER'',
+		   KNIFE1Z = ''KNIFE STRAX PER'',
+		   ROM1Z = ''ROM PER'',
+		   CAMEL1Z = ''CAMEL PER''
+	  
+		},
+		Tokyo = {
+		   HONDA1A = ''HONDA CHILY NIKON'',
+		   ONDER1A = ''ONDER PIPER ASTRO SHIBA HME'',
+		   RENDER1A = ''RENDER PIPER ASTRO SHIBA HME'',
+		   EURAD1A = ''EUARD SHIBA HME'',
+		   RENDER1B = ''RENDER GULEG SHIBA NIKON '', 
+		   EURAD1B = ''EUARD SHIBA NIKON'',
+		   ONDER1B = ''ONDER KNIFE HONDA CHILY'',
+		   HONDA1B = ''HONDA CHILY'', 
+		   EURAD1C = ''EUARD KNIFE'',
+		   RENDER1C = ''RENDER ONDER KNIFE'',
+		   ONDER1C = ''ONDER KNIFE'',
+		   HONDA1C = ''HONDA KNIFE''
+		}
+	  
+	  } 
+	  
+
+
 
 	local function autoDisconnect(event)
 		table.insert(Connections, event)
@@ -15011,8 +16682,81 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	autoDisconnect(SquawkConnect)
 
 
+	local RouteFrame = ATCScreen.RouteFrame
+	local RouteList = RouteFrame.RouteList
+	
+	local RouteButton = Route.MouseButton1Down:Connect(function()
+		RouteFrame.Visible = not RouteFrame.Visible
+		if RouteFrame.Visible == false then
+			RouteList.Visible = false
+		end
+	end)
 
-	--Route tool
+	---Route System
+
+	---Route List Select
+	for i, listSelect in pairs(RouteFrame.Routes.SID:GetChildren()) do
+		if listSelect:IsA("TextButton") then
+			local selectedList = listSelect.Name.."SID"
+
+			listSelect.MouseButton1Down:Connect(function()
+				for i, lists in pairs(RouteList:GetChildren()) do
+					if lists:IsA("Frame") then
+						lists.Visible = false
+					end
+				end
+				RouteList[selectedList].Visible = true
+				RouteList.TextLabel.Text = selectedList.Name.. " SID"
+			end)
+		end
+	end
+
+	for i, listSelect in pairs(RouteFrame.Routes.STAR:GetChildren()) do
+		if listSelect:IsA("TextButton") then
+			local selectedList = listSelect.Name.."STAR"
+
+			listSelect.MouseButton1Down:Connect(function()
+				for i, lists in pairs(RouteList:GetChildren()) do
+					if lists:IsA("Frame") then
+						lists.Visible = false
+					end
+				end
+				RouteList[selectedList].Visible = true
+				RouteList.TextLabel.Text = selectedList.Name.. " STAR"
+			end)
+		end
+	end
+
+	--Connecting Route Buttons to route display
+	local Screen1 = ATCScreen.NewMiniMap.Screen1
+	
+	for i, list in pairs(RouteList:GetChildren()) do
+		for i, Route in pairs(list:GetDescendants()) do
+
+			Route.MouseButton1Down:Connect(function()
+				if Content[Route.Name] then
+					Content[Route.Name]:Destroy()
+				else
+					local newRoute = Instance.new("Folder")
+					newRoute.Name = Route.Name
+					newRoute.Prant = Screen1
+					
+					local RoutePoints
+					if string.sub(list.name, #list.name-2) == "SID" then
+						RoutePoints = string.split(SIDs[Route.name])
+						print(SIDs[Route.name])
+					else
+						RoutePoints = string.split(STARS[Route.name])
+						print(STARs[Route.name])
+					end
+					--Generate Route
+
+
+				end
+			end)
+		end
+	end
+
 	--[[RouteLosConnect = Route.FocusLost:Connect(function(enterPressed, _i)
 		local input
 		local routePoints = {}

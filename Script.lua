@@ -16820,7 +16820,8 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 						for d, point in pairs(RoutePoints) do
 							print("Routing: "..d)
-							if Wavepoints:FindFirstChild(point) and i < table.maxn(routePoints) then
+							print(point)
+							if Wavepoints:FindFirstChild(point) and d < #RoutePoints then
 								local wavepoint = Wavepoints[point]
 								local nextPoint = RoutePoints[d+1]
 

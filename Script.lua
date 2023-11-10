@@ -4,86 +4,86 @@
 -- Instances:
 
 local ATCScreen = Instance.new("ScreenGui")
-TextLabel = Instance.new("TextLabel")
-Direction = Instance.new("Frame")
-Frame = Instance.new("Frame")
-HeadingTool = Instance.new("Frame")
-ImageLabel = Instance.new("ImageLabel")
-Top = Instance.new("Frame")
-UICorner = Instance.new("UICorner")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-Bottom = Instance.new("Frame")
-UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-TextLabel_2 = Instance.new("TextLabel")
-UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-PlayerList = Instance.new("Frame")
-ScrollingFrame = Instance.new("ScrollingFrame")
-UIListLayout = Instance.new("UIListLayout")
-UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-Template = Instance.new("Frame")
-Balls = Instance.new("Frame")
-Player_2 = Instance.new("TextLabel")
-TextBox = Instance.new("TextBox")
-Tag = Instance.new("TextLabel")
-RouteLine = Instance.new("Frame")
-Frame_2 = Instance.new("Frame")
-SettingFrame = Instance.new("Frame")
-UICorner_2 = Instance.new("UICorner")
-Settings = Instance.new("Frame")
-UICorner_3 = Instance.new("UICorner")
-Name = Instance.new("TextLabel")
-ThemeButton = Instance.new("TextButton")
-PresetButton = Instance.new("TextButton")
-KeybindButton = Instance.new("TextButton")
-Version = Instance.new("TextLabel")
-CloseButton = Instance.new("TextButton")
-Theme = Instance.new("Frame")
-UIListLayout_2 = Instance.new("UIListLayout")
-Default = Instance.new("TextButton")
-UICorner_4 = Instance.new("UICorner")
-Button = Instance.new("Frame")
-UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-UICorner_5 = Instance.new("UICorner")
-VStars = Instance.new("TextButton")
-UICorner_6 = Instance.new("UICorner")
-Button_2 = Instance.new("Frame")
-UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-UICorner_7 = Instance.new("UICorner")
-Preset = Instance.new("Frame")
-UIGridLayout = Instance.new("UIGridLayout")
-ChicagoCenter = Instance.new("TextButton")
-UICorner_8 = Instance.new("UICorner")
-RockfordGround = Instance.new("TextButton")
-UICorner_9 = Instance.new("UICorner")
-TokyoCenter = Instance.new("TextButton")
-UICorner_10 = Instance.new("UICorner")
-TokyoGround = Instance.new("TextButton")
-UICorner_11 = Instance.new("UICorner")
-PerthCenter = Instance.new("TextButton")
-UICorner_12 = Instance.new("UICorner")
-PerthGround = Instance.new("TextButton")
-UICorner_13 = Instance.new("UICorner")
-LazarusCenter = Instance.new("TextButton")
-UICorner_14 = Instance.new("UICorner")
-LarnacaGround = Instance.new("TextButton")
-UICorner_15 = Instance.new("UICorner")
-NorsomCenter = Instance.new("TextButton")
-UICorner_16 = Instance.new("UICorner")
-IzoloraniGround = Instance.new("TextButton")
-UICorner_17 = Instance.new("UICorner")
-Keybind = Instance.new("Frame")
-UIGridLayout_2 = Instance.new("UIGridLayout")
-UICorner_18 = Instance.new("UICorner")
-NewMiniMap = Instance.new("Frame")
-UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-TextBox_2 = Instance.new("TextBox")
-Reset = Instance.new("TextButton")
-label = Instance.new("TextLabel")
-Direction_2 = Instance.new("TextLabel")
-
-Settings_2 = Instance.new("TextButton")
-Content = Instance.new("Frame")
-ATC_ARTCC = Instance.new("ImageLabel")
+ TextLabel = Instance.new("TextLabel")
+ Direction = Instance.new("Frame")
+ Frame = Instance.new("Frame")
+ HeadingTool = Instance.new("Frame")
+ ImageLabel = Instance.new("ImageLabel")
+ Top = Instance.new("Frame")
+ UICorner = Instance.new("UICorner")
+ UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+ Bottom = Instance.new("Frame")
+ UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+ TextLabel_2 = Instance.new("TextLabel")
+ UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+ PlayerList = Instance.new("Frame")
+ ScrollingFrame = Instance.new("ScrollingFrame")
+ UIListLayout = Instance.new("UIListLayout")
+ UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+ Template = Instance.new("Frame")
+ Balls = Instance.new("Frame")
+ Player_2 = Instance.new("TextLabel")
+ TextBox = Instance.new("TextBox")
+ Tag = Instance.new("TextLabel")
+ RouteLine = Instance.new("Frame")
+ Frame_2 = Instance.new("Frame")
+ SettingFrame = Instance.new("Frame")
+ UICorner_2 = Instance.new("UICorner")
+ Settings = Instance.new("Frame")
+ UICorner_3 = Instance.new("UICorner")
+ Name = Instance.new("TextLabel")
+ ThemeButton = Instance.new("TextButton")
+ PresetButton = Instance.new("TextButton")
+ KeybindButton = Instance.new("TextButton")
+ Version = Instance.new("TextLabel")
+ CloseButton = Instance.new("TextButton")
+ Theme = Instance.new("Frame")
+ UIListLayout_2 = Instance.new("UIListLayout")
+ Default = Instance.new("TextButton")
+ UICorner_4 = Instance.new("UICorner")
+ Button = Instance.new("Frame")
+ UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+ UICorner_5 = Instance.new("UICorner")
+ VStars = Instance.new("TextButton")
+ UICorner_6 = Instance.new("UICorner")
+ Button_2 = Instance.new("Frame")
+ UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+ UICorner_7 = Instance.new("UICorner")
+ Preset = Instance.new("Frame")
+ UIGridLayout = Instance.new("UIGridLayout")
+ ChicagoCenter = Instance.new("TextButton")
+ UICorner_8 = Instance.new("UICorner")
+ RockfordGround = Instance.new("TextButton")
+ UICorner_9 = Instance.new("UICorner")
+ TokyoCenter = Instance.new("TextButton")
+ UICorner_10 = Instance.new("UICorner")
+ TokyoGround = Instance.new("TextButton")
+ UICorner_11 = Instance.new("UICorner")
+ PerthCenter = Instance.new("TextButton")
+ UICorner_12 = Instance.new("UICorner")
+ PerthGround = Instance.new("TextButton")
+ UICorner_13 = Instance.new("UICorner")
+ LazarusCenter = Instance.new("TextButton")
+ UICorner_14 = Instance.new("UICorner")
+ LarnacaGround = Instance.new("TextButton")
+ UICorner_15 = Instance.new("UICorner")
+ NorsomCenter = Instance.new("TextButton")
+ UICorner_16 = Instance.new("UICorner")
+ IzoloraniGround = Instance.new("TextButton")
+ UICorner_17 = Instance.new("UICorner")
+ Keybind = Instance.new("Frame")
+ UIGridLayout_2 = Instance.new("UIGridLayout")
+ UICorner_18 = Instance.new("UICorner")
+ NewMiniMap = Instance.new("Frame")
+ UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+ TextBox_2 = Instance.new("TextBox")
+ Reset = Instance.new("TextButton")
+ label = Instance.new("TextLabel")
+ Direction_2 = Instance.new("TextLabel")
+ 
+ Settings_2 = Instance.new("TextButton")
+ Content = Instance.new("Frame")
+ ATC_ARTCC = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -113,27 +113,27 @@ TopCover.ZIndex = 9
 
 -- Instances:
 
-Player = Instance.new("ImageButton")
-PlayerFrames = Instance.new("Folder")
-Default = Instance.new("Frame")
-Direction = Instance.new("Frame")
-Frame = Instance.new("Frame")
-Round = Instance.new("Frame")
-UICorner4 = Instance.new("UICorner")
-Plane = Instance.new("ImageLabel")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-TextLine = Instance.new("Frame")
-Line = Instance.new("Frame")
-TextLabel = Instance.new("TextLabel")
-Trail = Instance.new("Frame")
-UICorner5 = Instance.new("UICorner")
-SelectedFrame = Instance.new("Frame")
-UICorner6 = Instance.new("UICorner")
-UIStroke = Instance.new("UIStroke")
+ Player = Instance.new("ImageButton")
+ PlayerFrames = Instance.new("Folder")
+ Default = Instance.new("Frame")
+ Direction = Instance.new("Frame")
+ Frame = Instance.new("Frame")
+ Round = Instance.new("Frame")
+ UICorner4 = Instance.new("UICorner")
+ Plane = Instance.new("ImageLabel")
+ UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+ TextLine = Instance.new("Frame")
+ Line = Instance.new("Frame")
+ TextLabel = Instance.new("TextLabel")
+ Trail = Instance.new("Frame")
+ UICorner5 = Instance.new("UICorner")
+ SelectedFrame = Instance.new("Frame")
+ UICorner6 = Instance.new("UICorner")
+ UIStroke = Instance.new("UIStroke")
 
-ColorValue = Instance.new("StringValue")
-FrameValue = Instance.new("StringValue")
-SelectedBool = Instance.new("BoolValue")
+ ColorValue = Instance.new("StringValue")
+ FrameValue = Instance.new("StringValue")
+ SelectedBool = Instance.new("BoolValue")
 
 --Properties:
 
@@ -326,10 +326,10 @@ HeadingTool.Size = UDim2.new(0.00999999978, 0, 0.200000003, 0)
 HeadingTool.Visible = false
 HeadingTool.ZIndex = 9
 
-WDistance = Instance.new("TextLabel")
-UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
-EDistance = Instance.new("TextLabel")
-UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+ WDistance = Instance.new("TextLabel")
+ UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+ EDistance = Instance.new("TextLabel")
+ UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -1351,26 +1351,26 @@ UICorner_8.Parent = TextLabel_4
 
 -- Instances:
 
-BindUp = Instance.new("TextButton")
-UICorner = Instance.new("UICorner")
-TextLabel = Instance.new("TextLabel")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-UICorner_2 = Instance.new("UICorner")
-BindDown = Instance.new("TextButton")
-UICorner_3 = Instance.new("UICorner")
-TextLabel_2 = Instance.new("TextLabel")
-UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-UICorner_4 = Instance.new("UICorner")
-BindLeft = Instance.new("TextButton")
-UICorner_5 = Instance.new("UICorner")
-TextLabel_3 = Instance.new("TextLabel")
-UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-UICorner_6 = Instance.new("UICorner")
-BindRight = Instance.new("TextButton")
-UICorner_7 = Instance.new("UICorner")
-TextLabel_4 = Instance.new("TextLabel")
-UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-UICorner_8 = Instance.new("UICorner")
+ BindUp = Instance.new("TextButton")
+ UICorner = Instance.new("UICorner")
+ TextLabel = Instance.new("TextLabel")
+ UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+ UICorner_2 = Instance.new("UICorner")
+ BindDown = Instance.new("TextButton")
+ UICorner_3 = Instance.new("UICorner")
+ TextLabel_2 = Instance.new("TextLabel")
+ UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+ UICorner_4 = Instance.new("UICorner")
+ BindLeft = Instance.new("TextButton")
+ UICorner_5 = Instance.new("UICorner")
+ TextLabel_3 = Instance.new("TextLabel")
+ UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+ UICorner_6 = Instance.new("UICorner")
+ BindRight = Instance.new("TextButton")
+ UICorner_7 = Instance.new("UICorner")
+ TextLabel_4 = Instance.new("TextLabel")
+ UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+ UICorner_8 = Instance.new("UICorner")
 
 --Properties:
 
@@ -1736,290 +1736,290 @@ local TopBarUI = {
 	Button = Instance.new("TextButton"),
 	FullScrn = Instance.new("TextButton"),
 	UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+	   
+   }
+   --Properties:
+   
+   TopBarUI.TopBar.Name = "TopBar"
+   TopBarUI.TopBar.Parent = ATCScreen.NewMiniMap
+   TopBarUI.TopBar.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.TopBar.BorderSizePixel = 3
+   TopBarUI.TopBar.Size = UDim2.new(1, 0, 0.0700000003, 0)
+   TopBarUI.TopBar.ZIndex = 9
+   
+   TopBarUI.Wind.Name = "Wind"
+   TopBarUI.Wind.Parent = TopBarUI.TopBar
+   TopBarUI.Wind.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Wind.BorderColor3 = Color3.fromRGB(27, 42, 53)
+   TopBarUI.Wind.LayoutOrder = 1
+   TopBarUI.Wind.Position = UDim2.new(0.0549999997, 0, 0, 0)
+   TopBarUI.Wind.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.Wind.ZIndex = 10
+   
+   TopBarUI.label.Name = "label"
+   TopBarUI.label.Parent = TopBarUI.Wind
+   TopBarUI.label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.label.BackgroundTransparency = 1.000
+   TopBarUI.label.Size = UDim2.new(1, 0, 0.25, 0)
+   TopBarUI.label.ZIndex = 10
+   TopBarUI.label.Font = Enum.Font.SourceSansBold
+   TopBarUI.label.Text = "Wind"
+   TopBarUI.label.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.label.TextScaled = true
+   TopBarUI.label.TextSize = 14.000
+   TopBarUI.label.TextWrapped = true
+   
+   TopBarUI.Direction.Name = "Direction"
+   TopBarUI.Direction.Parent = TopBarUI.Wind
+   TopBarUI.Direction.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Direction.BackgroundTransparency = 1.000
+   TopBarUI.Direction.Position = UDim2.new(0, 0, 0.300000012, 0)
+   TopBarUI.Direction.Size = UDim2.new(1, 0, 0.25, 0)
+   TopBarUI.Direction.ZIndex = 10
+   TopBarUI.Direction.Font = Enum.Font.SourceSansBold
+   TopBarUI.Direction.Text = "360"
+   TopBarUI.Direction.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Direction.TextScaled = true
+   TopBarUI.Direction.TextSize = 14.000
+   TopBarUI.Direction.TextWrapped = true
+   
+   TopBarUI.Speed.Name = "Speed"
+   TopBarUI.Speed.Parent = TopBarUI.Wind
+   TopBarUI.Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Speed.BackgroundTransparency = 1.000
+   TopBarUI.Speed.Position = UDim2.new(0, 0, 0.600000024, 0)
+   TopBarUI.Speed.Size = UDim2.new(1, 0, 0.25, 0)
+   TopBarUI.Speed.ZIndex = 10
+   TopBarUI.Speed.Font = Enum.Font.SourceSansBold
+   TopBarUI.Speed.Text = "360"
+   TopBarUI.Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Speed.TextScaled = true
+   TopBarUI.Speed.TextSize = 14.000
+   TopBarUI.Speed.TextWrapped = true
+   
+   TopBarUI.UIAspectRatioConstraint.Parent = TopBarUI.Wind
+   
+   TopBarUI.Settings.Name = "Settings"
+   TopBarUI.Settings.Parent = TopBarUI.TopBar
+   TopBarUI.Settings.AnchorPoint = Vector2.new(1, 0)
+   TopBarUI.Settings.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Settings.LayoutOrder = 6
+   TopBarUI.Settings.Position = UDim2.new(1, 0, 0, 0)
+   TopBarUI.Settings.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.Settings.ZIndex = 10
+   TopBarUI.Settings.Font = Enum.Font.SourceSansBold
+   TopBarUI.Settings.Text = "⚙️"
+   TopBarUI.Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Settings.TextScaled = true
+   TopBarUI.Settings.TextSize = 14.000
+   TopBarUI.Settings.TextWrapped = true
+   
+   TopBarUI.UIAspectRatioConstraint_2.Parent = TopBarUI.Settings
+   
+   TopBarUI.UIListLayout.Parent = TopBarUI.TopBar
+   TopBarUI.UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+   TopBarUI.UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+   
+   TopBarUI.Size.Name = "SizeFrame"
+   TopBarUI.Size.Parent = TopBarUI.TopBar
+   TopBarUI.Size.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Size.BorderColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Size.BorderSizePixel = 0
+   TopBarUI.Size.LayoutOrder = 2
+   TopBarUI.Size.Size = UDim2.new(1, 0, 1, 0)
+   
+   TopBarUI.UIAspectRatioConstraint_3.Parent = TopBarUI.Size
+   TopBarUI.UIAspectRatioConstraint_3.AspectRatio = 0.500
+   
+   TopBarUI.SizeUp.Name = "SizeUp"
+   TopBarUI.SizeUp.Parent = TopBarUI.Size
+   TopBarUI.SizeUp.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.SizeUp.Size = UDim2.new(1, 0, 0.5, 0)
+   TopBarUI.SizeUp.ZIndex = 11
+   TopBarUI.SizeUp.Font = Enum.Font.SourceSansBold
+   TopBarUI.SizeUp.Text = "+"
+   TopBarUI.SizeUp.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.SizeUp.TextSize = 14.000
+   
+   TopBarUI.SizeDown.Name = "SizeDown"
+   TopBarUI.SizeDown.Parent = TopBarUI.Size
+   TopBarUI.SizeDown.AnchorPoint = Vector2.new(0, 1)
+   TopBarUI.SizeDown.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.SizeDown.Position = UDim2.new(0, 0, 1, 0)
+   TopBarUI.SizeDown.Size = UDim2.new(1, 0, 0.5, 0)
+   TopBarUI.SizeDown.ZIndex = 11
+   TopBarUI.SizeDown.Font = Enum.Font.SourceSansBold
+   TopBarUI.SizeDown.Text = "-"
+   TopBarUI.SizeDown.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.SizeDown.TextSize = 14.000
+   
+   TopBarUI.Toggles.Name = "Toggles"
+   TopBarUI.Toggles.Parent = TopBarUI.TopBar
+   TopBarUI.Toggles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Toggles.BorderColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Toggles.BorderSizePixel = 0
+   TopBarUI.Toggles.LayoutOrder = 3
+   TopBarUI.Toggles.Size = UDim2.new(1, 0, 1, 0)
+   
+   TopBarUI.UIAspectRatioConstraint_4.Parent = TopBarUI.Toggles
+   TopBarUI.UIAspectRatioConstraint_4.AspectRatio = 0.500
+   
+   TopBarUI.Taxi.Name = "Taxi"
+   TopBarUI.Taxi.Parent = TopBarUI.Toggles
+   TopBarUI.Taxi.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Taxi.Size = UDim2.new(1, 0, 0.5, 0)
+   TopBarUI.Taxi.ZIndex = 11
+   TopBarUI.Taxi.Font = Enum.Font.SourceSansBold
+   TopBarUI.Taxi.Text = "T"
+   TopBarUI.Taxi.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Taxi.TextSize = 14.000
+   
+   TopBarUI.Wavepoint.Name = "Wavepoint"
+   TopBarUI.Wavepoint.Parent = TopBarUI.Toggles
+   TopBarUI.Wavepoint.AnchorPoint = Vector2.new(0, 1)
+   TopBarUI.Wavepoint.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Wavepoint.Position = UDim2.new(0, 0, 1, 0)
+   TopBarUI.Wavepoint.Size = UDim2.new(1, 0, 0.5, 0)
+   TopBarUI.Wavepoint.ZIndex = 11
+   TopBarUI.Wavepoint.Font = Enum.Font.SourceSansBold
+   TopBarUI.Wavepoint.Text = "W"
+   TopBarUI.Wavepoint.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Wavepoint.TextSize = 14.000
+   
+   TopBarUI.Routes.Name = "Routes"
+   TopBarUI.Routes.Parent = TopBarUI.TopBar
+   TopBarUI.Routes.AnchorPoint = Vector2.new(1, 0)
+   TopBarUI.Routes.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Routes.LayoutOrder = 5
+   TopBarUI.Routes.Position = UDim2.new(1, 0, 0, 0)
+   TopBarUI.Routes.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.Routes.ZIndex = 10
+   TopBarUI.Routes.Font = Enum.Font.SourceSansBold
+   TopBarUI.Routes.Text = "Routes"
+   TopBarUI.Routes.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Routes.TextScaled = true
+   TopBarUI.Routes.TextSize = 14.000
+   TopBarUI.Routes.TextWrapped = true
+   
+   TopBarUI.UIAspectRatioConstraint_5.Parent = TopBarUI.Routes
+   TopBarUI.UIAspectRatioConstraint_5.AspectRatio = 1.200
+   
+   TopBarUI.ScreenMode.Name = "ScreenMode"
+   TopBarUI.ScreenMode.Parent = TopBarUI.TopBar
+   TopBarUI.ScreenMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.ScreenMode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.ScreenMode.BorderSizePixel = 0
+   TopBarUI.ScreenMode.LayoutOrder = 10
+   TopBarUI.ScreenMode.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.ScreenMode.Visible = false
+   
+   TopBarUI.UIAspectRatioConstraint_6.Parent = TopBarUI.ScreenMode
+   
+   TopBarUI.Single.Name = "Single"
+   TopBarUI.Single.Parent = TopBarUI.ScreenMode
+   TopBarUI.Single.BackgroundColor3 = Color3.new(0.0980392, 0.156863, 0.2)
+   TopBarUI.Single.Size = UDim2.new(1, 0, 0.330000013, 0)
+   TopBarUI.Single.ZIndex = 11
+   TopBarUI.Single.Font = Enum.Font.SourceSansBold
+   TopBarUI.Single.Text = "Single"
+   TopBarUI.Single.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Single.TextSize = 14.000
+   
+   TopBarUI.Split.Name = "Split"
+   TopBarUI.Split.Parent = TopBarUI.ScreenMode
+   TopBarUI.Split.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Split.Position = UDim2.new(0, 0, 0.330000013, 0)
+   TopBarUI.Split.Size = UDim2.new(1, 0, 0.330000013, 0)
+   TopBarUI.Split.ZIndex = 11
+   TopBarUI.Split.Font = Enum.Font.SourceSansBold
+   TopBarUI.Split.Text = "Split"
+   TopBarUI.Split.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Split.TextSize = 14.000
+   
+   TopBarUI.Tri.Name = "Tri"
+   TopBarUI.Tri.Parent = TopBarUI.ScreenMode
+   TopBarUI.Tri.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Tri.Position = UDim2.new(0, 0, 0.660000026, 0)
+   TopBarUI.Tri.Size = UDim2.new(1, 0, 0.330000013, 0)
+   TopBarUI.Tri.ZIndex = 11
+   TopBarUI.Tri.Font = Enum.Font.SourceSansBold
+   TopBarUI.Tri.Text = "Tri"
+   TopBarUI.Tri.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Tri.TextSize = 14.000
+   
+   TopBarUI.Squawk.Name = "Squawk"
+   TopBarUI.Squawk.Parent = TopBarUI.TopBar
+   TopBarUI.Squawk.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.Squawk.BorderColor3 = Color3.fromRGB(27, 42, 53)
+   TopBarUI.Squawk.LayoutOrder = 4
+   TopBarUI.Squawk.Position = UDim2.new(0.0549999997, 0, 0, 0)
+   TopBarUI.Squawk.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.Squawk.ZIndex = 11
+   
+   TopBarUI.label_2.Name = "label"
+   TopBarUI.label_2.Parent = TopBarUI.Squawk
+   TopBarUI.label_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.label_2.BackgroundTransparency = 1.000
+   TopBarUI.label_2.Size = UDim2.new(1, 0, 0.5, 0)
+   TopBarUI.label_2.ZIndex = 12
+   TopBarUI.label_2.Font = Enum.Font.SourceSansBold
+   TopBarUI.label_2.Text = "Squawk"
+   TopBarUI.label_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.label_2.TextScaled = true
+   TopBarUI.label_2.TextSize = 14.000
+   TopBarUI.label_2.TextWrapped = true
+   
+   TopBarUI.Code.Name = "Code"
+   TopBarUI.Code.Parent = TopBarUI.Squawk
+   TopBarUI.Code.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Code.BackgroundTransparency = 1.000
+   TopBarUI.Code.Position = UDim2.new(0, 0, 0.5, 0)
+   TopBarUI.Code.Size = UDim2.new(1, 0, 0.5, 0)
+   TopBarUI.Code.ZIndex = 12
+   TopBarUI.Code.Font = Enum.Font.SourceSansBold
+   TopBarUI.Code.Text = "2131"
+   TopBarUI.Code.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Code.TextScaled = true
+   TopBarUI.Code.TextSize = 14.000
+   TopBarUI.Code.TextWrapped = true
+   
+   TopBarUI.UIAspectRatioConstraint_7.Parent = TopBarUI.Squawk
+   
+   TopBarUI.Button.Name = "Button"
+   TopBarUI.Button.Parent = TopBarUI.Squawk
+   TopBarUI.Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TopBarUI.Button.BackgroundTransparency = 1.000
+   TopBarUI.Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Button.BorderSizePixel = 0
+   TopBarUI.Button.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.Button.ZIndex = 13
+   TopBarUI.Button.Font = Enum.Font.SourceSans
+   TopBarUI.Button.Text = ""
+   TopBarUI.Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.Button.TextSize = 14.000
+   
+   TopBarUI.FullScrn.Name = "FullScrn"
+   TopBarUI.FullScrn.Parent = TopBarUI.TopBar
+   TopBarUI.FullScrn.AnchorPoint = Vector2.new(1, 0)
+   TopBarUI.FullScrn.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+   TopBarUI.FullScrn.LayoutOrder = 1
+   TopBarUI.FullScrn.Position = UDim2.new(1, 0, 0, 0)
+   TopBarUI.FullScrn.Size = UDim2.new(1, 0, 1, 0)
+   TopBarUI.FullScrn.ZIndex = 10
+   TopBarUI.FullScrn.Font = Enum.Font.SourceSansBold
+   TopBarUI.FullScrn.Text = "Full Scrn"
+   TopBarUI.FullScrn.TextColor3 = Color3.fromRGB(0, 0, 0)
+   TopBarUI.FullScrn.TextScaled = true
+   TopBarUI.FullScrn.TextSize = 14.000
+   TopBarUI.FullScrn.TextWrapped = true
+   
+   TopBarUI.UIAspectRatioConstraint_8.Parent = TopBarUI.FullScrn
 
-}
---Properties:
-
-TopBarUI.TopBar.Name = "TopBar"
-TopBarUI.TopBar.Parent = ATCScreen.NewMiniMap
-TopBarUI.TopBar.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.TopBar.BorderSizePixel = 3
-TopBarUI.TopBar.Size = UDim2.new(1, 0, 0.0700000003, 0)
-TopBarUI.TopBar.ZIndex = 9
-
-TopBarUI.Wind.Name = "Wind"
-TopBarUI.Wind.Parent = TopBarUI.TopBar
-TopBarUI.Wind.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Wind.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TopBarUI.Wind.LayoutOrder = 1
-TopBarUI.Wind.Position = UDim2.new(0.0549999997, 0, 0, 0)
-TopBarUI.Wind.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.Wind.ZIndex = 10
-
-TopBarUI.label.Name = "label"
-TopBarUI.label.Parent = TopBarUI.Wind
-TopBarUI.label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.label.BackgroundTransparency = 1.000
-TopBarUI.label.Size = UDim2.new(1, 0, 0.25, 0)
-TopBarUI.label.ZIndex = 10
-TopBarUI.label.Font = Enum.Font.SourceSansBold
-TopBarUI.label.Text = "Wind"
-TopBarUI.label.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.label.TextScaled = true
-TopBarUI.label.TextSize = 14.000
-TopBarUI.label.TextWrapped = true
-
-TopBarUI.Direction.Name = "Direction"
-TopBarUI.Direction.Parent = TopBarUI.Wind
-TopBarUI.Direction.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Direction.BackgroundTransparency = 1.000
-TopBarUI.Direction.Position = UDim2.new(0, 0, 0.300000012, 0)
-TopBarUI.Direction.Size = UDim2.new(1, 0, 0.25, 0)
-TopBarUI.Direction.ZIndex = 10
-TopBarUI.Direction.Font = Enum.Font.SourceSansBold
-TopBarUI.Direction.Text = "360"
-TopBarUI.Direction.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Direction.TextScaled = true
-TopBarUI.Direction.TextSize = 14.000
-TopBarUI.Direction.TextWrapped = true
-
-TopBarUI.Speed.Name = "Speed"
-TopBarUI.Speed.Parent = TopBarUI.Wind
-TopBarUI.Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Speed.BackgroundTransparency = 1.000
-TopBarUI.Speed.Position = UDim2.new(0, 0, 0.600000024, 0)
-TopBarUI.Speed.Size = UDim2.new(1, 0, 0.25, 0)
-TopBarUI.Speed.ZIndex = 10
-TopBarUI.Speed.Font = Enum.Font.SourceSansBold
-TopBarUI.Speed.Text = "360"
-TopBarUI.Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Speed.TextScaled = true
-TopBarUI.Speed.TextSize = 14.000
-TopBarUI.Speed.TextWrapped = true
-
-TopBarUI.UIAspectRatioConstraint.Parent = TopBarUI.Wind
-
-TopBarUI.Settings.Name = "Settings"
-TopBarUI.Settings.Parent = TopBarUI.TopBar
-TopBarUI.Settings.AnchorPoint = Vector2.new(1, 0)
-TopBarUI.Settings.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Settings.LayoutOrder = 6
-TopBarUI.Settings.Position = UDim2.new(1, 0, 0, 0)
-TopBarUI.Settings.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.Settings.ZIndex = 10
-TopBarUI.Settings.Font = Enum.Font.SourceSansBold
-TopBarUI.Settings.Text = "⚙️"
-TopBarUI.Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Settings.TextScaled = true
-TopBarUI.Settings.TextSize = 14.000
-TopBarUI.Settings.TextWrapped = true
-
-TopBarUI.UIAspectRatioConstraint_2.Parent = TopBarUI.Settings
-
-TopBarUI.UIListLayout.Parent = TopBarUI.TopBar
-TopBarUI.UIListLayout.FillDirection = Enum.FillDirection.Horizontal
-TopBarUI.UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-
-TopBarUI.Size.Name = "SizeFrame"
-TopBarUI.Size.Parent = TopBarUI.TopBar
-TopBarUI.Size.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Size.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Size.BorderSizePixel = 0
-TopBarUI.Size.LayoutOrder = 2
-TopBarUI.Size.Size = UDim2.new(1, 0, 1, 0)
-
-TopBarUI.UIAspectRatioConstraint_3.Parent = TopBarUI.Size
-TopBarUI.UIAspectRatioConstraint_3.AspectRatio = 0.500
-
-TopBarUI.SizeUp.Name = "SizeUp"
-TopBarUI.SizeUp.Parent = TopBarUI.Size
-TopBarUI.SizeUp.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.SizeUp.Size = UDim2.new(1, 0, 0.5, 0)
-TopBarUI.SizeUp.ZIndex = 11
-TopBarUI.SizeUp.Font = Enum.Font.SourceSansBold
-TopBarUI.SizeUp.Text = "+"
-TopBarUI.SizeUp.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.SizeUp.TextSize = 14.000
-
-TopBarUI.SizeDown.Name = "SizeDown"
-TopBarUI.SizeDown.Parent = TopBarUI.Size
-TopBarUI.SizeDown.AnchorPoint = Vector2.new(0, 1)
-TopBarUI.SizeDown.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.SizeDown.Position = UDim2.new(0, 0, 1, 0)
-TopBarUI.SizeDown.Size = UDim2.new(1, 0, 0.5, 0)
-TopBarUI.SizeDown.ZIndex = 11
-TopBarUI.SizeDown.Font = Enum.Font.SourceSansBold
-TopBarUI.SizeDown.Text = "-"
-TopBarUI.SizeDown.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.SizeDown.TextSize = 14.000
-
-TopBarUI.Toggles.Name = "Toggles"
-TopBarUI.Toggles.Parent = TopBarUI.TopBar
-TopBarUI.Toggles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Toggles.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Toggles.BorderSizePixel = 0
-TopBarUI.Toggles.LayoutOrder = 3
-TopBarUI.Toggles.Size = UDim2.new(1, 0, 1, 0)
-
-TopBarUI.UIAspectRatioConstraint_4.Parent = TopBarUI.Toggles
-TopBarUI.UIAspectRatioConstraint_4.AspectRatio = 0.500
-
-TopBarUI.Taxi.Name = "Taxi"
-TopBarUI.Taxi.Parent = TopBarUI.Toggles
-TopBarUI.Taxi.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Taxi.Size = UDim2.new(1, 0, 0.5, 0)
-TopBarUI.Taxi.ZIndex = 11
-TopBarUI.Taxi.Font = Enum.Font.SourceSansBold
-TopBarUI.Taxi.Text = "T"
-TopBarUI.Taxi.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Taxi.TextSize = 14.000
-
-TopBarUI.Wavepoint.Name = "Wavepoint"
-TopBarUI.Wavepoint.Parent = TopBarUI.Toggles
-TopBarUI.Wavepoint.AnchorPoint = Vector2.new(0, 1)
-TopBarUI.Wavepoint.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Wavepoint.Position = UDim2.new(0, 0, 1, 0)
-TopBarUI.Wavepoint.Size = UDim2.new(1, 0, 0.5, 0)
-TopBarUI.Wavepoint.ZIndex = 11
-TopBarUI.Wavepoint.Font = Enum.Font.SourceSansBold
-TopBarUI.Wavepoint.Text = "W"
-TopBarUI.Wavepoint.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Wavepoint.TextSize = 14.000
-
-TopBarUI.Routes.Name = "Routes"
-TopBarUI.Routes.Parent = TopBarUI.TopBar
-TopBarUI.Routes.AnchorPoint = Vector2.new(1, 0)
-TopBarUI.Routes.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Routes.LayoutOrder = 5
-TopBarUI.Routes.Position = UDim2.new(1, 0, 0, 0)
-TopBarUI.Routes.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.Routes.ZIndex = 10
-TopBarUI.Routes.Font = Enum.Font.SourceSansBold
-TopBarUI.Routes.Text = "Routes"
-TopBarUI.Routes.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Routes.TextScaled = true
-TopBarUI.Routes.TextSize = 14.000
-TopBarUI.Routes.TextWrapped = true
-
-TopBarUI.UIAspectRatioConstraint_5.Parent = TopBarUI.Routes
-TopBarUI.UIAspectRatioConstraint_5.AspectRatio = 1.200
-
-TopBarUI.ScreenMode.Name = "ScreenMode"
-TopBarUI.ScreenMode.Parent = TopBarUI.TopBar
-TopBarUI.ScreenMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.ScreenMode.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.ScreenMode.BorderSizePixel = 0
-TopBarUI.ScreenMode.LayoutOrder = 10
-TopBarUI.ScreenMode.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.ScreenMode.Visible = false
-
-TopBarUI.UIAspectRatioConstraint_6.Parent = TopBarUI.ScreenMode
-
-TopBarUI.Single.Name = "Single"
-TopBarUI.Single.Parent = TopBarUI.ScreenMode
-TopBarUI.Single.BackgroundColor3 = Color3.new(0.0980392, 0.156863, 0.2)
-TopBarUI.Single.Size = UDim2.new(1, 0, 0.330000013, 0)
-TopBarUI.Single.ZIndex = 11
-TopBarUI.Single.Font = Enum.Font.SourceSansBold
-TopBarUI.Single.Text = "Single"
-TopBarUI.Single.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Single.TextSize = 14.000
-
-TopBarUI.Split.Name = "Split"
-TopBarUI.Split.Parent = TopBarUI.ScreenMode
-TopBarUI.Split.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Split.Position = UDim2.new(0, 0, 0.330000013, 0)
-TopBarUI.Split.Size = UDim2.new(1, 0, 0.330000013, 0)
-TopBarUI.Split.ZIndex = 11
-TopBarUI.Split.Font = Enum.Font.SourceSansBold
-TopBarUI.Split.Text = "Split"
-TopBarUI.Split.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Split.TextSize = 14.000
-
-TopBarUI.Tri.Name = "Tri"
-TopBarUI.Tri.Parent = TopBarUI.ScreenMode
-TopBarUI.Tri.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Tri.Position = UDim2.new(0, 0, 0.660000026, 0)
-TopBarUI.Tri.Size = UDim2.new(1, 0, 0.330000013, 0)
-TopBarUI.Tri.ZIndex = 11
-TopBarUI.Tri.Font = Enum.Font.SourceSansBold
-TopBarUI.Tri.Text = "Tri"
-TopBarUI.Tri.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Tri.TextSize = 14.000
-
-TopBarUI.Squawk.Name = "Squawk"
-TopBarUI.Squawk.Parent = TopBarUI.TopBar
-TopBarUI.Squawk.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.Squawk.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TopBarUI.Squawk.LayoutOrder = 4
-TopBarUI.Squawk.Position = UDim2.new(0.0549999997, 0, 0, 0)
-TopBarUI.Squawk.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.Squawk.ZIndex = 11
-
-TopBarUI.label_2.Name = "label"
-TopBarUI.label_2.Parent = TopBarUI.Squawk
-TopBarUI.label_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.label_2.BackgroundTransparency = 1.000
-TopBarUI.label_2.Size = UDim2.new(1, 0, 0.5, 0)
-TopBarUI.label_2.ZIndex = 12
-TopBarUI.label_2.Font = Enum.Font.SourceSansBold
-TopBarUI.label_2.Text = "Squawk"
-TopBarUI.label_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.label_2.TextScaled = true
-TopBarUI.label_2.TextSize = 14.000
-TopBarUI.label_2.TextWrapped = true
-
-TopBarUI.Code.Name = "Code"
-TopBarUI.Code.Parent = TopBarUI.Squawk
-TopBarUI.Code.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Code.BackgroundTransparency = 1.000
-TopBarUI.Code.Position = UDim2.new(0, 0, 0.5, 0)
-TopBarUI.Code.Size = UDim2.new(1, 0, 0.5, 0)
-TopBarUI.Code.ZIndex = 12
-TopBarUI.Code.Font = Enum.Font.SourceSansBold
-TopBarUI.Code.Text = "2131"
-TopBarUI.Code.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Code.TextScaled = true
-TopBarUI.Code.TextSize = 14.000
-TopBarUI.Code.TextWrapped = true
-
-TopBarUI.UIAspectRatioConstraint_7.Parent = TopBarUI.Squawk
-
-TopBarUI.Button.Name = "Button"
-TopBarUI.Button.Parent = TopBarUI.Squawk
-TopBarUI.Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TopBarUI.Button.BackgroundTransparency = 1.000
-TopBarUI.Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Button.BorderSizePixel = 0
-TopBarUI.Button.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.Button.ZIndex = 13
-TopBarUI.Button.Font = Enum.Font.SourceSans
-TopBarUI.Button.Text = ""
-TopBarUI.Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.Button.TextSize = 14.000
-
-TopBarUI.FullScrn.Name = "FullScrn"
-TopBarUI.FullScrn.Parent = TopBarUI.TopBar
-TopBarUI.FullScrn.AnchorPoint = Vector2.new(1, 0)
-TopBarUI.FullScrn.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-TopBarUI.FullScrn.LayoutOrder = 1
-TopBarUI.FullScrn.Position = UDim2.new(1, 0, 0, 0)
-TopBarUI.FullScrn.Size = UDim2.new(1, 0, 1, 0)
-TopBarUI.FullScrn.ZIndex = 10
-TopBarUI.FullScrn.Font = Enum.Font.SourceSansBold
-TopBarUI.FullScrn.Text = "Full Scrn"
-TopBarUI.FullScrn.TextColor3 = Color3.fromRGB(0, 0, 0)
-TopBarUI.FullScrn.TextScaled = true
-TopBarUI.FullScrn.TextSize = 14.000
-TopBarUI.FullScrn.TextWrapped = true
-
-TopBarUI.UIAspectRatioConstraint_8.Parent = TopBarUI.FullScrn
-
-ScreenSelect = Instance.new("Frame")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-Screen1S = Instance.new("TextButton")
-Screen2S = Instance.new("TextButton")
-Screen3S = Instance.new("TextButton")
+ ScreenSelect = Instance.new("Frame")
+ UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+ Screen1S = Instance.new("TextButton")
+ Screen2S = Instance.new("TextButton")
+ Screen3S = Instance.new("TextButton")
 
 --Properties:
 
@@ -2205,105 +2205,105 @@ Tokyo.TextSize = 10.000
 -- Instances:
 
 local Background = Instance.new("Frame")
-Image = Instance.new("ImageLabel")
-Image_2 = Instance.new("ImageLabel")
-IBTH = Instance.new("Folder")
-ILS27 = Instance.new("ImageLabel")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-ILS09 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-Image_3 = Instance.new("ImageLabel")
-Image_4 = Instance.new("ImageLabel")
-Image_5 = Instance.new("ImageLabel")
-IGRV = Instance.new("Folder")
-ILS24 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-ILS06 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-Image_6 = Instance.new("ImageLabel")
-Image_7 = Instance.new("ImageLabel")
-ITKO = Instance.new("Folder")
-ILS13 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-ILS31 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-ILS20 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-Image_8 = Instance.new("ImageLabel")
-Image_9 = Instance.new("ImageLabel")
-Image_10 = Instance.new("ImageLabel")
-IPPH = Instance.new("Folder")
-ILS29 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
-ILS11 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-ILS15 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
-ILS33 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
-ILKL = Instance.new("Folder")
-ILS27_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
-Image_11 = Instance.new("ImageLabel")
-IMLR = Instance.new("Folder")
-ILS19 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
-ILS01 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
-Image_12 = Instance.new("ImageLabel")
-IMLR_2 = Instance.new("Folder")
-ILS29_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
-ILS11_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
-IRFD = Instance.new("Folder")
-ILS18R = Instance.new("ImageLabel")
-UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
-ILS18L = Instance.new("ImageLabel")
-UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
-ILS36L = Instance.new("ImageLabel")
-UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
-ILS36R = Instance.new("ImageLabel")
-UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
-Image_13 = Instance.new("ImageLabel")
-Image_14 = Instance.new("ImageLabel")
-IPAP = Instance.new("Folder")
-ILS35 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
-Image_15 = Instance.new("ImageLabel")
-ISAU = Instance.new("Folder")
-ILS26 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
-ILS08 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
-Image_16 = Instance.new("ImageLabel")
-IZOL = Instance.new("Folder")
-ILS28 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
-ILS10 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
-Image_17 = Instance.new("ImageLabel")
-ILAR = Instance.new("Folder")
-ILS24_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
-ILS06_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
-Image_18 = Instance.new("ImageLabel")
-Image_19 = Instance.new("ImageLabel")
-Image_20 = Instance.new("ImageLabel")
-Image_21 = Instance.new("ImageLabel")
-IPAP_2 = Instance.new("Folder")
-ILS17 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
-Image_22 = Instance.new("ImageLabel")
-Image_23 = Instance.new("ImageLabel")
-ITKO_2 = Instance.new("Folder")
-ILS13_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
-ILS31_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
-Image_24 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
+  Image = Instance.new("ImageLabel")
+  Image_2 = Instance.new("ImageLabel")
+  IBTH = Instance.new("Folder")
+  ILS27 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+  ILS09 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+  Image_3 = Instance.new("ImageLabel")
+  Image_4 = Instance.new("ImageLabel")
+  Image_5 = Instance.new("ImageLabel")
+  IGRV = Instance.new("Folder")
+  ILS24 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+  ILS06 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+  Image_6 = Instance.new("ImageLabel")
+  Image_7 = Instance.new("ImageLabel")
+  ITKO = Instance.new("Folder")
+  ILS13 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+  ILS31 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+  ILS20 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+  Image_8 = Instance.new("ImageLabel")
+  Image_9 = Instance.new("ImageLabel")
+  Image_10 = Instance.new("ImageLabel")
+  IPPH = Instance.new("Folder")
+  ILS29 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+  ILS11 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+  ILS15 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+  ILS33 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+  ILKL = Instance.new("Folder")
+  ILS27_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+  Image_11 = Instance.new("ImageLabel")
+  IMLR = Instance.new("Folder")
+  ILS19 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+  ILS01 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+  Image_12 = Instance.new("ImageLabel")
+  IMLR_2 = Instance.new("Folder")
+  ILS29_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+  ILS11_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+  IRFD = Instance.new("Folder")
+  ILS18R = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+  ILS18L = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+  ILS36L = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+  ILS36R = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+  Image_13 = Instance.new("ImageLabel")
+  Image_14 = Instance.new("ImageLabel")
+  IPAP = Instance.new("Folder")
+  ILS35 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+  Image_15 = Instance.new("ImageLabel")
+  ISAU = Instance.new("Folder")
+  ILS26 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+  ILS08 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+  Image_16 = Instance.new("ImageLabel")
+  IZOL = Instance.new("Folder")
+  ILS28 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+  ILS10 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+  Image_17 = Instance.new("ImageLabel")
+  ILAR = Instance.new("Folder")
+  ILS24_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+  ILS06_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+  Image_18 = Instance.new("ImageLabel")
+  Image_19 = Instance.new("ImageLabel")
+  Image_20 = Instance.new("ImageLabel")
+  Image_21 = Instance.new("ImageLabel")
+  IPAP_2 = Instance.new("Folder")
+  ILS17 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
+  Image_22 = Instance.new("ImageLabel")
+  Image_23 = Instance.new("ImageLabel")
+  ITKO_2 = Instance.new("Folder")
+  ILS13_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
+  ILS31_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
+  Image_24 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -6197,193 +6197,193 @@ scaleValue1.Parent = game:GetService("Players").LocalPlayer.PlayerGui.ATCScreen
 scaleValue1.Value = Vector3.new(5,5,5)
 
 
-Ground = Instance.new("Frame")
-RockfordGround = Instance.new("ImageLabel")
-TextLabel = Instance.new("TextLabel")
-TextLabel_2 = Instance.new("TextLabel")
-TextLabel_3 = Instance.new("TextLabel")
-TextLabel_4 = Instance.new("TextLabel")
-TextLabel_5 = Instance.new("TextLabel")
-TextLabel_6 = Instance.new("TextLabel")
-TextLabel_7 = Instance.new("TextLabel")
-TextLabel_8 = Instance.new("TextLabel")
-TextLabel_9 = Instance.new("TextLabel")
-TextLabel_10 = Instance.new("TextLabel")
-TextLabel_11 = Instance.new("TextLabel")
-TextLabel_12 = Instance.new("TextLabel")
-TextLabel_13 = Instance.new("TextLabel")
-TextLabel_14 = Instance.new("TextLabel")
-TextLabel_15 = Instance.new("TextLabel")
-TextLabel_16 = Instance.new("TextLabel")
-TextLabel_17 = Instance.new("TextLabel")
-TextLabel_18 = Instance.new("TextLabel")
-TextLabel_19 = Instance.new("TextLabel")
-TextLabel_20 = Instance.new("TextLabel")
-TextLabel_21 = Instance.new("TextLabel")
-TextLabel_22 = Instance.new("TextLabel")
-TextLabel_23 = Instance.new("TextLabel")
-TextLabel_24 = Instance.new("TextLabel")
-TextLabel_25 = Instance.new("TextLabel")
-TextLabel_26 = Instance.new("TextLabel")
-TextLabel_27 = Instance.new("TextLabel")
-TextLabel_28 = Instance.new("TextLabel")
-TextLabel_29 = Instance.new("TextLabel")
-TextLabel_30 = Instance.new("TextLabel")
-TextLabel_31 = Instance.new("TextLabel")
-TextLabel_32 = Instance.new("TextLabel")
-TextLabel_33 = Instance.new("TextLabel")
-TextLabel_34 = Instance.new("TextLabel")
-TextLabel_35 = Instance.new("TextLabel")
-TextLabel_36 = Instance.new("TextLabel")
-TokyoGround = Instance.new("ImageLabel")
-TextLabel_37 = Instance.new("TextLabel")
-TextLabel_38 = Instance.new("TextLabel")
-TextLabel_39 = Instance.new("TextLabel")
-TextLabel_40 = Instance.new("TextLabel")
-TextLabel_41 = Instance.new("TextLabel")
-TextLabel_42 = Instance.new("TextLabel")
-TextLabel_43 = Instance.new("TextLabel")
-TextLabel_44 = Instance.new("TextLabel")
-TextLabel_45 = Instance.new("TextLabel")
-TextLabel_46 = Instance.new("TextLabel")
-TextLabel_47 = Instance.new("TextLabel")
-TextLabel_48 = Instance.new("TextLabel")
-TextLabel_49 = Instance.new("TextLabel")
-TextLabel_50 = Instance.new("TextLabel")
-TextLabel_51 = Instance.new("TextLabel")
-TextLabel_52 = Instance.new("TextLabel")
-TextLabel_53 = Instance.new("TextLabel")
-TextLabel_54 = Instance.new("TextLabel")
-TextLabel_55 = Instance.new("TextLabel")
-TextLabel_56 = Instance.new("TextLabel")
-TextLabel_57 = Instance.new("TextLabel")
-TextLabel_58 = Instance.new("TextLabel")
-TextLabel_59 = Instance.new("TextLabel")
-TextLabel_60 = Instance.new("TextLabel")
-TextLabel_61 = Instance.new("TextLabel")
-TextLabel_62 = Instance.new("TextLabel")
-TextLabel_63 = Instance.new("TextLabel")
-TextLabel_64 = Instance.new("TextLabel")
-TextLabel_65 = Instance.new("TextLabel")
-TextLabel_66 = Instance.new("TextLabel")
-TextLabel_67 = Instance.new("TextLabel")
-TextLabel_68 = Instance.new("TextLabel")
-TextLabel_69 = Instance.new("TextLabel")
-TextLabel_70 = Instance.new("TextLabel")
-TextLabel_71 = Instance.new("TextLabel")
-TextLabel_72 = Instance.new("TextLabel")
-TextLabel_73 = Instance.new("TextLabel")
-TextLabel_74 = Instance.new("TextLabel")
-TextLabel_75 = Instance.new("TextLabel")
-TextLabel_76 = Instance.new("TextLabel")
-TextLabel_77 = Instance.new("TextLabel")
-TextLabel_78 = Instance.new("TextLabel")
-TextLabel_79 = Instance.new("TextLabel")
-TextLabel_80 = Instance.new("TextLabel")
-TextLabel_81 = Instance.new("TextLabel")
-TextLabel_82 = Instance.new("TextLabel")
-TextLabel_83 = Instance.new("TextLabel")
-TextLabel_84 = Instance.new("TextLabel")
-TextLabel_85 = Instance.new("TextLabel")
-TextLabel_86 = Instance.new("TextLabel")
-TextLabel_87 = Instance.new("TextLabel")
-TextLabel_88 = Instance.new("TextLabel")
-TextLabel_89 = Instance.new("TextLabel")
-TextLabel_90 = Instance.new("TextLabel")
-TextLabel_91 = Instance.new("TextLabel")
-TextLabel_92 = Instance.new("TextLabel")
-TextLabel_93 = Instance.new("TextLabel")
-TextLabel_94 = Instance.new("TextLabel")
-PerthGround = Instance.new("ImageLabel")
-TextLabel_95 = Instance.new("TextLabel")
-TextLabel_96 = Instance.new("TextLabel")
-TextLabel_97 = Instance.new("TextLabel")
-TextLabel_98 = Instance.new("TextLabel")
-TextLabel_99 = Instance.new("TextLabel")
-TextLabel_100 = Instance.new("TextLabel")
-TextLabel_101 = Instance.new("TextLabel")
-TextLabel_102 = Instance.new("TextLabel")
-TextLabel_103 = Instance.new("TextLabel")
-TextLabel_104 = Instance.new("TextLabel")
-TextLabel_105 = Instance.new("TextLabel")
-TextLabel_106 = Instance.new("TextLabel")
-TextLabel_107 = Instance.new("TextLabel")
-TextLabel_108 = Instance.new("TextLabel")
-TextLabel_109 = Instance.new("TextLabel")
-TextLabel_110 = Instance.new("TextLabel")
-TextLabel_111 = Instance.new("TextLabel")
-TextLabel_112 = Instance.new("TextLabel")
-TextLabel_113 = Instance.new("TextLabel")
-TextLabel_114 = Instance.new("TextLabel")
-TextLabel_115 = Instance.new("TextLabel")
-TextLabel_116 = Instance.new("TextLabel")
-TextLabel_117 = Instance.new("TextLabel")
-TextLabel_118 = Instance.new("TextLabel")
-TextLabel_119 = Instance.new("TextLabel")
-TextLabel_120 = Instance.new("TextLabel")
-TextLabel_121 = Instance.new("TextLabel")
-TextLabel_122 = Instance.new("TextLabel")
-TextLabel_123 = Instance.new("TextLabel")
-TextLabel_124 = Instance.new("TextLabel")
-TextLabel_125 = Instance.new("TextLabel")
-TextLabel_126 = Instance.new("TextLabel")
-TextLabel_127 = Instance.new("TextLabel")
-TextLabel_128 = Instance.new("TextLabel")
-TextLabel_129 = Instance.new("TextLabel")
-LarnacaGround = Instance.new("ImageLabel")
-TextLabel_130 = Instance.new("TextLabel")
-TextLabel_131 = Instance.new("TextLabel")
-TextLabel_132 = Instance.new("TextLabel")
-TextLabel_133 = Instance.new("TextLabel")
-TextLabel_134 = Instance.new("TextLabel")
-TextLabel_135 = Instance.new("TextLabel")
-TextLabel_136 = Instance.new("TextLabel")
-TextLabel_137 = Instance.new("TextLabel")
-TextLabel_138 = Instance.new("TextLabel")
-TextLabel_139 = Instance.new("TextLabel")
-TextLabel_140 = Instance.new("TextLabel")
-TextLabel_141 = Instance.new("TextLabel")
-TextLabel_142 = Instance.new("TextLabel")
-TextLabel_143 = Instance.new("TextLabel")
-TextLabel_144 = Instance.new("TextLabel")
-TextLabel_145 = Instance.new("TextLabel")
-TextLabel_146 = Instance.new("TextLabel")
-TextLabel_147 = Instance.new("TextLabel")
-TextLabel_148 = Instance.new("TextLabel")
-TextLabel_149 = Instance.new("TextLabel")
-TextLabel_150 = Instance.new("TextLabel")
-TextLabel_151 = Instance.new("TextLabel")
-TextLabel_152 = Instance.new("TextLabel")
-TextLabel_153 = Instance.new("TextLabel")
-IzoloraniGround = Instance.new("ImageLabel")
-TextLabel_154 = Instance.new("TextLabel")
-TextLabel_155 = Instance.new("TextLabel")
-TextLabel_156 = Instance.new("TextLabel")
-TextLabel_157  = Instance.new("TextLabel")
-TextLabel_158 = Instance.new("TextLabel")
-TextLabel_159 = Instance.new("TextLabel")
-TextLabel_160 = Instance.new("TextLabel")
-TextLabel_161 = Instance.new("TextLabel")
-TextLabel_162 = Instance.new("TextLabel")
-TextLabel_163 = Instance.new("TextLabel")
-TextLabel_164 = Instance.new("TextLabel")
-TextLabel_165 = Instance.new("TextLabel")
-TextLabel_166 = Instance.new("TextLabel")
-TextLabel_167 = Instance.new("TextLabel")
-TextLabel_168 = Instance.new("TextLabel")
-TextLabel_169 = Instance.new("TextLabel")
-TextLabel_170 = Instance.new("TextLabel")
-TextLabel_171 = Instance.new("TextLabel")
-TextLabel_172 = Instance.new("TextLabel")
-TextLabel_173 = Instance.new("TextLabel")
-TextLabel_174 = Instance.new("TextLabel")
-TextLabel_175 = Instance.new("TextLabel")
-TextLabel_176 = Instance.new("TextLabel")
-TextLabel_177 = Instance.new("TextLabel")
-TextLabel_178 = Instance.new("TextLabel")
-TextLabel_179 = Instance.new("TextLabel")
+ Ground = Instance.new("Frame")
+ RockfordGround = Instance.new("ImageLabel")
+ TextLabel = Instance.new("TextLabel")
+ TextLabel_2 = Instance.new("TextLabel")
+ TextLabel_3 = Instance.new("TextLabel")
+ TextLabel_4 = Instance.new("TextLabel")
+ TextLabel_5 = Instance.new("TextLabel")
+ TextLabel_6 = Instance.new("TextLabel")
+ TextLabel_7 = Instance.new("TextLabel")
+ TextLabel_8 = Instance.new("TextLabel")
+ TextLabel_9 = Instance.new("TextLabel")
+ TextLabel_10 = Instance.new("TextLabel")
+ TextLabel_11 = Instance.new("TextLabel")
+ TextLabel_12 = Instance.new("TextLabel")
+ TextLabel_13 = Instance.new("TextLabel")
+ TextLabel_14 = Instance.new("TextLabel")
+ TextLabel_15 = Instance.new("TextLabel")
+ TextLabel_16 = Instance.new("TextLabel")
+ TextLabel_17 = Instance.new("TextLabel")
+ TextLabel_18 = Instance.new("TextLabel")
+ TextLabel_19 = Instance.new("TextLabel")
+ TextLabel_20 = Instance.new("TextLabel")
+ TextLabel_21 = Instance.new("TextLabel")
+ TextLabel_22 = Instance.new("TextLabel")
+ TextLabel_23 = Instance.new("TextLabel")
+ TextLabel_24 = Instance.new("TextLabel")
+ TextLabel_25 = Instance.new("TextLabel")
+ TextLabel_26 = Instance.new("TextLabel")
+ TextLabel_27 = Instance.new("TextLabel")
+ TextLabel_28 = Instance.new("TextLabel")
+ TextLabel_29 = Instance.new("TextLabel")
+ TextLabel_30 = Instance.new("TextLabel")
+ TextLabel_31 = Instance.new("TextLabel")
+ TextLabel_32 = Instance.new("TextLabel")
+ TextLabel_33 = Instance.new("TextLabel")
+ TextLabel_34 = Instance.new("TextLabel")
+ TextLabel_35 = Instance.new("TextLabel")
+ TextLabel_36 = Instance.new("TextLabel")
+ TokyoGround = Instance.new("ImageLabel")
+ TextLabel_37 = Instance.new("TextLabel")
+ TextLabel_38 = Instance.new("TextLabel")
+ TextLabel_39 = Instance.new("TextLabel")
+ TextLabel_40 = Instance.new("TextLabel")
+ TextLabel_41 = Instance.new("TextLabel")
+ TextLabel_42 = Instance.new("TextLabel")
+ TextLabel_43 = Instance.new("TextLabel")
+ TextLabel_44 = Instance.new("TextLabel")
+ TextLabel_45 = Instance.new("TextLabel")
+ TextLabel_46 = Instance.new("TextLabel")
+ TextLabel_47 = Instance.new("TextLabel")
+ TextLabel_48 = Instance.new("TextLabel")
+ TextLabel_49 = Instance.new("TextLabel")
+ TextLabel_50 = Instance.new("TextLabel")
+ TextLabel_51 = Instance.new("TextLabel")
+ TextLabel_52 = Instance.new("TextLabel")
+ TextLabel_53 = Instance.new("TextLabel")
+ TextLabel_54 = Instance.new("TextLabel")
+ TextLabel_55 = Instance.new("TextLabel")
+ TextLabel_56 = Instance.new("TextLabel")
+ TextLabel_57 = Instance.new("TextLabel")
+ TextLabel_58 = Instance.new("TextLabel")
+ TextLabel_59 = Instance.new("TextLabel")
+ TextLabel_60 = Instance.new("TextLabel")
+ TextLabel_61 = Instance.new("TextLabel")
+ TextLabel_62 = Instance.new("TextLabel")
+ TextLabel_63 = Instance.new("TextLabel")
+ TextLabel_64 = Instance.new("TextLabel")
+ TextLabel_65 = Instance.new("TextLabel")
+ TextLabel_66 = Instance.new("TextLabel")
+ TextLabel_67 = Instance.new("TextLabel")
+ TextLabel_68 = Instance.new("TextLabel")
+ TextLabel_69 = Instance.new("TextLabel")
+ TextLabel_70 = Instance.new("TextLabel")
+ TextLabel_71 = Instance.new("TextLabel")
+ TextLabel_72 = Instance.new("TextLabel")
+ TextLabel_73 = Instance.new("TextLabel")
+ TextLabel_74 = Instance.new("TextLabel")
+ TextLabel_75 = Instance.new("TextLabel")
+ TextLabel_76 = Instance.new("TextLabel")
+ TextLabel_77 = Instance.new("TextLabel")
+ TextLabel_78 = Instance.new("TextLabel")
+ TextLabel_79 = Instance.new("TextLabel")
+ TextLabel_80 = Instance.new("TextLabel")
+ TextLabel_81 = Instance.new("TextLabel")
+ TextLabel_82 = Instance.new("TextLabel")
+ TextLabel_83 = Instance.new("TextLabel")
+ TextLabel_84 = Instance.new("TextLabel")
+ TextLabel_85 = Instance.new("TextLabel")
+ TextLabel_86 = Instance.new("TextLabel")
+ TextLabel_87 = Instance.new("TextLabel")
+ TextLabel_88 = Instance.new("TextLabel")
+ TextLabel_89 = Instance.new("TextLabel")
+ TextLabel_90 = Instance.new("TextLabel")
+ TextLabel_91 = Instance.new("TextLabel")
+ TextLabel_92 = Instance.new("TextLabel")
+ TextLabel_93 = Instance.new("TextLabel")
+ TextLabel_94 = Instance.new("TextLabel")
+ PerthGround = Instance.new("ImageLabel")
+ TextLabel_95 = Instance.new("TextLabel")
+ TextLabel_96 = Instance.new("TextLabel")
+ TextLabel_97 = Instance.new("TextLabel")
+ TextLabel_98 = Instance.new("TextLabel")
+ TextLabel_99 = Instance.new("TextLabel")
+ TextLabel_100 = Instance.new("TextLabel")
+ TextLabel_101 = Instance.new("TextLabel")
+ TextLabel_102 = Instance.new("TextLabel")
+ TextLabel_103 = Instance.new("TextLabel")
+ TextLabel_104 = Instance.new("TextLabel")
+ TextLabel_105 = Instance.new("TextLabel")
+ TextLabel_106 = Instance.new("TextLabel")
+ TextLabel_107 = Instance.new("TextLabel")
+ TextLabel_108 = Instance.new("TextLabel")
+ TextLabel_109 = Instance.new("TextLabel")
+ TextLabel_110 = Instance.new("TextLabel")
+ TextLabel_111 = Instance.new("TextLabel")
+ TextLabel_112 = Instance.new("TextLabel")
+ TextLabel_113 = Instance.new("TextLabel")
+ TextLabel_114 = Instance.new("TextLabel")
+ TextLabel_115 = Instance.new("TextLabel")
+ TextLabel_116 = Instance.new("TextLabel")
+ TextLabel_117 = Instance.new("TextLabel")
+ TextLabel_118 = Instance.new("TextLabel")
+ TextLabel_119 = Instance.new("TextLabel")
+ TextLabel_120 = Instance.new("TextLabel")
+ TextLabel_121 = Instance.new("TextLabel")
+ TextLabel_122 = Instance.new("TextLabel")
+ TextLabel_123 = Instance.new("TextLabel")
+ TextLabel_124 = Instance.new("TextLabel")
+ TextLabel_125 = Instance.new("TextLabel")
+ TextLabel_126 = Instance.new("TextLabel")
+ TextLabel_127 = Instance.new("TextLabel")
+ TextLabel_128 = Instance.new("TextLabel")
+ TextLabel_129 = Instance.new("TextLabel")
+ LarnacaGround = Instance.new("ImageLabel")
+ TextLabel_130 = Instance.new("TextLabel")
+ TextLabel_131 = Instance.new("TextLabel")
+ TextLabel_132 = Instance.new("TextLabel")
+ TextLabel_133 = Instance.new("TextLabel")
+ TextLabel_134 = Instance.new("TextLabel")
+ TextLabel_135 = Instance.new("TextLabel")
+ TextLabel_136 = Instance.new("TextLabel")
+ TextLabel_137 = Instance.new("TextLabel")
+ TextLabel_138 = Instance.new("TextLabel")
+ TextLabel_139 = Instance.new("TextLabel")
+ TextLabel_140 = Instance.new("TextLabel")
+ TextLabel_141 = Instance.new("TextLabel")
+ TextLabel_142 = Instance.new("TextLabel")
+ TextLabel_143 = Instance.new("TextLabel")
+ TextLabel_144 = Instance.new("TextLabel")
+ TextLabel_145 = Instance.new("TextLabel")
+ TextLabel_146 = Instance.new("TextLabel")
+ TextLabel_147 = Instance.new("TextLabel")
+ TextLabel_148 = Instance.new("TextLabel")
+ TextLabel_149 = Instance.new("TextLabel")
+ TextLabel_150 = Instance.new("TextLabel")
+ TextLabel_151 = Instance.new("TextLabel")
+ TextLabel_152 = Instance.new("TextLabel")
+ TextLabel_153 = Instance.new("TextLabel")
+ IzoloraniGround = Instance.new("ImageLabel")
+ TextLabel_154 = Instance.new("TextLabel")
+ TextLabel_155 = Instance.new("TextLabel")
+ TextLabel_156 = Instance.new("TextLabel")
+ TextLabel_157  = Instance.new("TextLabel")
+ TextLabel_158 = Instance.new("TextLabel")
+ TextLabel_159 = Instance.new("TextLabel")
+ TextLabel_160 = Instance.new("TextLabel")
+ TextLabel_161 = Instance.new("TextLabel")
+ TextLabel_162 = Instance.new("TextLabel")
+ TextLabel_163 = Instance.new("TextLabel")
+ TextLabel_164 = Instance.new("TextLabel")
+ TextLabel_165 = Instance.new("TextLabel")
+ TextLabel_166 = Instance.new("TextLabel")
+ TextLabel_167 = Instance.new("TextLabel")
+ TextLabel_168 = Instance.new("TextLabel")
+ TextLabel_169 = Instance.new("TextLabel")
+ TextLabel_170 = Instance.new("TextLabel")
+ TextLabel_171 = Instance.new("TextLabel")
+ TextLabel_172 = Instance.new("TextLabel")
+ TextLabel_173 = Instance.new("TextLabel")
+ TextLabel_174 = Instance.new("TextLabel")
+ TextLabel_175 = Instance.new("TextLabel")
+ TextLabel_176 = Instance.new("TextLabel")
+ TextLabel_177 = Instance.new("TextLabel")
+ TextLabel_178 = Instance.new("TextLabel")
+ TextLabel_179 = Instance.new("TextLabel")
 
-
+ 
 
 --Properties:
 
@@ -11613,40 +11613,40 @@ Gui.TextLabel_221.TextSize = 10.000
 
 -- Instances:
 
-AircraftInfo = Instance.new("Frame")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-UICorner = Instance.new("UICorner")
-UIStroke = Instance.new("UIStroke")
-PlayerName = Instance.new("TextLabel")
-UICorner_2 = Instance.new("UICorner")
-Aircraft = Instance.new("ViewportFrame")
-UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-UICorner_3 = Instance.new("UICorner")
-AircraftDetails = Instance.new("Frame")
-UICorner_4 = Instance.new("UICorner")
-Label = Instance.new("TextLabel")
-UIListLayout = Instance.new("UIListLayout")
-Fuel = Instance.new("TextLabel")
-MaxSpeed = Instance.new("TextLabel")
-StallSpeed = Instance.new("TextLabel")
-LandingSpeed = Instance.new("TextLabel")
-Flaps = Instance.new("TextLabel")
-Throttle = Instance.new("TextLabel")
-Gear = Instance.new("TextLabel")
-AltitudeHold = Instance.new("TextLabel")
-UIPadding = Instance.new("UIPadding")
-FlightPlan = Instance.new("Frame")
-Label_2 = Instance.new("TextLabel")
-UIListLayout_2 = Instance.new("UIListLayout")
-Callsign = Instance.new("TextLabel")
-Aircraft_2 = Instance.new("TextLabel")
-FlightRule = Instance.new("TextLabel")
-Departing = Instance.new("TextLabel")
-Arriving = Instance.new("TextLabel")
-FlightLevel = Instance.new("TextLabel")
-Label_3 = Instance.new("TextLabel")
-Route = Instance.new("TextLabel")
-Close = Instance.new("TextButton")
+ AircraftInfo = Instance.new("Frame")
+ UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+ UICorner = Instance.new("UICorner")
+ UIStroke = Instance.new("UIStroke")
+ PlayerName = Instance.new("TextLabel")
+ UICorner_2 = Instance.new("UICorner")
+ Aircraft = Instance.new("ViewportFrame")
+ UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+ UICorner_3 = Instance.new("UICorner")
+ AircraftDetails = Instance.new("Frame")
+ UICorner_4 = Instance.new("UICorner")
+ Label = Instance.new("TextLabel")
+ UIListLayout = Instance.new("UIListLayout")
+ Fuel = Instance.new("TextLabel")
+ MaxSpeed = Instance.new("TextLabel")
+ StallSpeed = Instance.new("TextLabel")
+ LandingSpeed = Instance.new("TextLabel")
+ Flaps = Instance.new("TextLabel")
+ Throttle = Instance.new("TextLabel")
+ Gear = Instance.new("TextLabel")
+ AltitudeHold = Instance.new("TextLabel")
+ UIPadding = Instance.new("UIPadding")
+ FlightPlan = Instance.new("Frame")
+ Label_2 = Instance.new("TextLabel")
+ UIListLayout_2 = Instance.new("UIListLayout")
+ Callsign = Instance.new("TextLabel")
+ Aircraft_2 = Instance.new("TextLabel")
+ FlightRule = Instance.new("TextLabel")
+ Departing = Instance.new("TextLabel")
+ Arriving = Instance.new("TextLabel")
+ FlightLevel = Instance.new("TextLabel")
+ Label_3 = Instance.new("TextLabel")
+ Route = Instance.new("TextLabel")
+ Close = Instance.new("TextButton")
 
 --Properties:
 
@@ -12040,208 +12040,208 @@ Input.ImageRectSize = Vector2.new(36, 36)
 
 -- Instances:
 
-RouteFrame = Instance.new("Frame")
-UICorner = Instance.new("UICorner")
-Routes = Instance.new("Frame")
-UICorner_2 = Instance.new("UICorner")
-Name = Instance.new("TextLabel")
-CloseButton = Instance.new("TextButton")
-CustomList = Instance.new("ScrollingFrame")
-UIListLayout = Instance.new("UIListLayout")
-UIPadding = Instance.new("UIPadding")
-Custom = Instance.new("TextBox")
-add = Instance.new("ImageButton")
-UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-LabelSID = Instance.new("TextLabel")
-ImageLabel = Instance.new("ImageLabel")
-UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-flight_land = Instance.new("ImageButton")
-LabelSTAR = Instance.new("TextLabel")
-ImageLabel_2 = Instance.new("ImageLabel")
-UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-SID = Instance.new("Frame")
-Rockford = Instance.new("TextButton")
-UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-UICorner_3 = Instance.new("UICorner")
-UIListLayout_2 = Instance.new("UIListLayout")
-UIPadding_2 = Instance.new("UIPadding")
-Perth = Instance.new("TextButton")
-UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-UICorner_4 = Instance.new("UICorner")
-Tokyo = Instance.new("TextButton")
-UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-UICorner_5 = Instance.new("UICorner")
-STAR = Instance.new("Frame")
-Rockford_2 = Instance.new("TextButton")
-UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-UICorner_6 = Instance.new("UICorner")
-UIListLayout_3 = Instance.new("UIListLayout")
-UIPadding_3 = Instance.new("UIPadding")
-Perth_2 = Instance.new("TextButton")
-UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
-UICorner_7 = Instance.new("UICorner")
-Tokyo_2 = Instance.new("TextButton")
-UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-UICorner_8 = Instance.new("UICorner")
-CusRoute = Instance.new("Frame")
-UICorner_9 = Instance.new("UICorner")
-UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
-RouteList = Instance.new("TextLabel")
-delete = Instance.new("ImageButton")
-UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
-Visible = Instance.new("ImageButton")
-UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
-Invisible = Instance.new("ImageButton")
-UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
-RouteList_2 = Instance.new("Frame")
-Label = Instance.new("TextLabel")
-RockfordSID = Instance.new("Frame")
-UIListLayout_4 = Instance.new("UIListLayout")
-INDEX4AB = Instance.new("TextButton")
-UICorner_10 = Instance.new("UICorner")
-UIPadding_4 = Instance.new("UIPadding")
-WELSH3AB = Instance.new("TextButton")
-UICorner_11 = Instance.new("UICorner")
-GUESS1AB = Instance.new("TextButton")
-UICorner_12 = Instance.new("UICorner")
-SETHR1AB = Instance.new("TextButton")
-UICorner_13 = Instance.new("UICorner")
-JAMSI1AB = Instance.new("TextButton")
-UICorner_14 = Instance.new("UICorner")
-LAZAR1AB = Instance.new("TextButton")
-UICorner_15 = Instance.new("UICorner")
-SEEKS1AB = Instance.new("TextButton")
-UICorner_16 = Instance.new("UICorner")
-INDEX4CD = Instance.new("TextButton")
-UICorner_17 = Instance.new("UICorner")
-WELSH4CD = Instance.new("TextButton")
-UICorner_18 = Instance.new("UICorner")
-SEEKS1CD = Instance.new("TextButton")
-UICorner_19 = Instance.new("UICorner")
-GUESS1CD = Instance.new("TextButton")
-UICorner_20 = Instance.new("UICorner")
-WELSH1CD = Instance.new("TextButton")
-UICorner_21 = Instance.new("UICorner")
-SETHR1CD = Instance.new("TextButton")
-UICorner_22 = Instance.new("UICorner")
-JAMSI2CD = Instance.new("TextButton")
-UICorner_23 = Instance.new("UICorner")
-LAZAR1CD = Instance.new("TextButton")
-UICorner_24 = Instance.new("UICorner")
-RockfordSTAR = Instance.new("Frame")
-UIListLayout_5 = Instance.new("UIListLayout")
-UIPadding_5 = Instance.new("UIPadding")
-GUESS1A = Instance.new("TextButton")
-UICorner_25 = Instance.new("UICorner")
-INDEX4A = Instance.new("TextButton")
-UICorner_26 = Instance.new("UICorner")
-INDEX4B = Instance.new("TextButton")
-UICorner_27 = Instance.new("UICorner")
-WELSH3A = Instance.new("TextButton")
-UICorner_28 = Instance.new("UICorner")
-WELSH3B = Instance.new("TextButton")
-UICorner_29 = Instance.new("UICorner")
-GUESS1B = Instance.new("TextButton")
-UICorner_30 = Instance.new("UICorner")
-SETHR1A = Instance.new("TextButton")
-UICorner_31 = Instance.new("UICorner")
-JAMSI1A = Instance.new("TextButton")
-UICorner_32 = Instance.new("UICorner")
-LAZAR1A = Instance.new("TextButton")
-UICorner_33 = Instance.new("UICorner")
-SEEKS1A = Instance.new("TextButton")
-UICorner_34 = Instance.new("UICorner")
-SEEKS1B = Instance.new("TextButton")
-UICorner_35 = Instance.new("UICorner")
-TokyoSID = Instance.new("Frame")
-UIListLayout_6 = Instance.new("UIListLayout")
-UIPadding_6 = Instance.new("UIPadding")
-EURAD1KN = Instance.new("TextButton")
-UICorner_36 = Instance.new("UICorner")
-EURAD1LM = Instance.new("TextButton")
-UICorner_37 = Instance.new("UICorner")
-RENDR1KN = Instance.new("TextButton")
-UICorner_38 = Instance.new("UICorner")
-RENDR1LM = Instance.new("TextButton")
-UICorner_39 = Instance.new("UICorner")
-HONDA1N = Instance.new("TextButton")
-UICorner_40 = Instance.new("UICorner")
-TokyoSTAR = Instance.new("Frame")
-UIListLayout_7 = Instance.new("UIListLayout")
-UIPadding_7 = Instance.new("UIPadding")
-HONDA1A = Instance.new("TextButton")
-UICorner_41 = Instance.new("UICorner")
-HONDA1B = Instance.new("TextButton")
-UICorner_42 = Instance.new("UICorner")
-HONDA1C = Instance.new("TextButton")
-UICorner_43 = Instance.new("UICorner")
-ONDER1A = Instance.new("TextButton")
-UICorner_44 = Instance.new("UICorner")
-ONDER1B = Instance.new("TextButton")
-UICorner_45 = Instance.new("UICorner")
-ONDER1C = Instance.new("TextButton")
-UICorner_46 = Instance.new("UICorner")
-RENDR1A = Instance.new("TextButton")
-UICorner_47 = Instance.new("UICorner")
-RENDR1B = Instance.new("TextButton")
-UICorner_48 = Instance.new("UICorner")
-RENDR1C = Instance.new("TextButton")
-UICorner_49 = Instance.new("UICorner")
-EURAD1A = Instance.new("TextButton")
-UICorner_50 = Instance.new("UICorner")
-EURAD1B = Instance.new("TextButton")
-UICorner_51 = Instance.new("UICorner")
-EURAD1C = Instance.new("TextButton")
-UICorner_52 = Instance.new("UICorner")
-PerthSID = Instance.new("Frame")
-UIListLayout_8 = Instance.new("UIListLayout")
-UIPadding_8 = Instance.new("UIPadding")
-KNIFE1A = Instance.new("TextButton")
-UICorner_53 = Instance.new("UICorner")
-KNIFE1B = Instance.new("TextButton")
-UICorner_54 = Instance.new("UICorner")
-KNIFE1C = Instance.new("TextButton")
-UICorner_55 = Instance.new("UICorner")
-KNIFE1D = Instance.new("TextButton")
-UICorner_56 = Instance.new("UICorner")
-ROMENS1A = Instance.new("TextButton")
-UICorner_57 = Instance.new("UICorner")
-ROMENS1C = Instance.new("TextButton")
-UICorner_58 = Instance.new("UICorner")
-ROMENS1D = Instance.new("TextButton")
-UICorner_59 = Instance.new("UICorner")
-CAMEL1C = Instance.new("TextButton")
-UICorner_60 = Instance.new("UICorner")
-CAMEL1D = Instance.new("TextButton")
-UICorner_61 = Instance.new("UICorner")
-CAMEL1A = Instance.new("TextButton")
-UICorner_62 = Instance.new("UICorner")
-PerthSTAR = Instance.new("Frame")
-UIListLayout_9 = Instance.new("UIListLayout")
-UIPadding_9 = Instance.new("UIPadding")
-CAMEL1WX = Instance.new("TextButton")
-UICorner_63 = Instance.new("UICorner")
-CAMEL1Y = Instance.new("TextButton")
-UICorner_64 = Instance.new("UICorner")
-CAMEL1Z = Instance.new("TextButton")
-UICorner_65 = Instance.new("UICorner")
-ROM1WX = Instance.new("TextButton")
-UICorner_66 = Instance.new("UICorner")
-ROM1Y = Instance.new("TextButton")
-UICorner_67 = Instance.new("UICorner")
-ROM1Z = Instance.new("TextButton")
-UICorner_68 = Instance.new("UICorner")
-KNIFE1WX = Instance.new("TextButton")
-UICorner_69 = Instance.new("UICorner")
-KNIFE1Y = Instance.new("TextButton")
-UICorner_70 = Instance.new("UICorner")
-KNIFE1Z = Instance.new("TextButton")
-UICorner_71 = Instance.new("UICorner")
+  RouteFrame = Instance.new("Frame")
+  UICorner = Instance.new("UICorner")
+  Routes = Instance.new("Frame")
+  UICorner_2 = Instance.new("UICorner")
+  Name = Instance.new("TextLabel")
+  CloseButton = Instance.new("TextButton")
+  CustomList = Instance.new("ScrollingFrame")
+  UIListLayout = Instance.new("UIListLayout")
+  UIPadding = Instance.new("UIPadding")
+  Custom = Instance.new("TextBox")
+  add = Instance.new("ImageButton")
+  UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+  LabelSID = Instance.new("TextLabel")
+  ImageLabel = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+  flight_land = Instance.new("ImageButton")
+  LabelSTAR = Instance.new("TextLabel")
+  ImageLabel_2 = Instance.new("ImageLabel")
+  UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+  SID = Instance.new("Frame")
+  Rockford = Instance.new("TextButton")
+  UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+  UICorner_3 = Instance.new("UICorner")
+  UIListLayout_2 = Instance.new("UIListLayout")
+  UIPadding_2 = Instance.new("UIPadding")
+  Perth = Instance.new("TextButton")
+  UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+  UICorner_4 = Instance.new("UICorner")
+  Tokyo = Instance.new("TextButton")
+  UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+  UICorner_5 = Instance.new("UICorner")
+  STAR = Instance.new("Frame")
+  Rockford_2 = Instance.new("TextButton")
+  UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+  UICorner_6 = Instance.new("UICorner")
+  UIListLayout_3 = Instance.new("UIListLayout")
+  UIPadding_3 = Instance.new("UIPadding")
+  Perth_2 = Instance.new("TextButton")
+  UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+  UICorner_7 = Instance.new("UICorner")
+  Tokyo_2 = Instance.new("TextButton")
+  UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+  UICorner_8 = Instance.new("UICorner")
+  CusRoute = Instance.new("Frame")
+  UICorner_9 = Instance.new("UICorner")
+  UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+  RouteList = Instance.new("TextLabel")
+  delete = Instance.new("ImageButton")
+  UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+  Visible = Instance.new("ImageButton")
+  UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+  Invisible = Instance.new("ImageButton")
+  UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+  RouteList_2 = Instance.new("Frame")
+  Label = Instance.new("TextLabel")
+  RockfordSID = Instance.new("Frame")
+  UIListLayout_4 = Instance.new("UIListLayout")
+  INDEX4AB = Instance.new("TextButton")
+  UICorner_10 = Instance.new("UICorner")
+  UIPadding_4 = Instance.new("UIPadding")
+  WELSH3AB = Instance.new("TextButton")
+  UICorner_11 = Instance.new("UICorner")
+  GUESS1AB = Instance.new("TextButton")
+  UICorner_12 = Instance.new("UICorner")
+  SETHR1AB = Instance.new("TextButton")
+  UICorner_13 = Instance.new("UICorner")
+  JAMSI1AB = Instance.new("TextButton")
+  UICorner_14 = Instance.new("UICorner")
+  LAZAR1AB = Instance.new("TextButton")
+  UICorner_15 = Instance.new("UICorner")
+  SEEKS1AB = Instance.new("TextButton")
+  UICorner_16 = Instance.new("UICorner")
+  INDEX4CD = Instance.new("TextButton")
+  UICorner_17 = Instance.new("UICorner")
+  WELSH4CD = Instance.new("TextButton")
+  UICorner_18 = Instance.new("UICorner")
+  SEEKS1CD = Instance.new("TextButton")
+  UICorner_19 = Instance.new("UICorner")
+  GUESS1CD = Instance.new("TextButton")
+  UICorner_20 = Instance.new("UICorner")
+  WELSH1CD = Instance.new("TextButton")
+  UICorner_21 = Instance.new("UICorner")
+  SETHR1CD = Instance.new("TextButton")
+  UICorner_22 = Instance.new("UICorner")
+  JAMSI2CD = Instance.new("TextButton")
+  UICorner_23 = Instance.new("UICorner")
+  LAZAR1CD = Instance.new("TextButton")
+  UICorner_24 = Instance.new("UICorner")
+  RockfordSTAR = Instance.new("Frame")
+  UIListLayout_5 = Instance.new("UIListLayout")
+  UIPadding_5 = Instance.new("UIPadding")
+  GUESS1A = Instance.new("TextButton")
+  UICorner_25 = Instance.new("UICorner")
+  INDEX4A = Instance.new("TextButton")
+  UICorner_26 = Instance.new("UICorner")
+  INDEX4B = Instance.new("TextButton")
+  UICorner_27 = Instance.new("UICorner")
+  WELSH3A = Instance.new("TextButton")
+  UICorner_28 = Instance.new("UICorner")
+  WELSH3B = Instance.new("TextButton")
+  UICorner_29 = Instance.new("UICorner")
+  GUESS1B = Instance.new("TextButton")
+  UICorner_30 = Instance.new("UICorner")
+  SETHR1A = Instance.new("TextButton")
+  UICorner_31 = Instance.new("UICorner")
+  JAMSI1A = Instance.new("TextButton")
+  UICorner_32 = Instance.new("UICorner")
+  LAZAR1A = Instance.new("TextButton")
+  UICorner_33 = Instance.new("UICorner")
+  SEEKS1A = Instance.new("TextButton")
+  UICorner_34 = Instance.new("UICorner")
+  SEEKS1B = Instance.new("TextButton")
+  UICorner_35 = Instance.new("UICorner")
+  TokyoSID = Instance.new("Frame")
+  UIListLayout_6 = Instance.new("UIListLayout")
+  UIPadding_6 = Instance.new("UIPadding")
+  EURAD1KN = Instance.new("TextButton")
+  UICorner_36 = Instance.new("UICorner")
+  EURAD1LM = Instance.new("TextButton")
+  UICorner_37 = Instance.new("UICorner")
+  RENDR1KN = Instance.new("TextButton")
+  UICorner_38 = Instance.new("UICorner")
+  RENDR1LM = Instance.new("TextButton")
+  UICorner_39 = Instance.new("UICorner")
+  HONDA1N = Instance.new("TextButton")
+  UICorner_40 = Instance.new("UICorner")
+  TokyoSTAR = Instance.new("Frame")
+  UIListLayout_7 = Instance.new("UIListLayout")
+  UIPadding_7 = Instance.new("UIPadding")
+  HONDA1A = Instance.new("TextButton")
+  UICorner_41 = Instance.new("UICorner")
+  HONDA1B = Instance.new("TextButton")
+  UICorner_42 = Instance.new("UICorner")
+  HONDA1C = Instance.new("TextButton")
+  UICorner_43 = Instance.new("UICorner")
+  ONDER1A = Instance.new("TextButton")
+  UICorner_44 = Instance.new("UICorner")
+  ONDER1B = Instance.new("TextButton")
+  UICorner_45 = Instance.new("UICorner")
+  ONDER1C = Instance.new("TextButton")
+  UICorner_46 = Instance.new("UICorner")
+  RENDR1A = Instance.new("TextButton")
+  UICorner_47 = Instance.new("UICorner")
+  RENDR1B = Instance.new("TextButton")
+  UICorner_48 = Instance.new("UICorner")
+  RENDR1C = Instance.new("TextButton")
+  UICorner_49 = Instance.new("UICorner")
+  EURAD1A = Instance.new("TextButton")
+  UICorner_50 = Instance.new("UICorner")
+  EURAD1B = Instance.new("TextButton")
+  UICorner_51 = Instance.new("UICorner")
+  EURAD1C = Instance.new("TextButton")
+  UICorner_52 = Instance.new("UICorner")
+  PerthSID = Instance.new("Frame")
+  UIListLayout_8 = Instance.new("UIListLayout")
+  UIPadding_8 = Instance.new("UIPadding")
+  KNIFE1A = Instance.new("TextButton")
+  UICorner_53 = Instance.new("UICorner")
+  KNIFE1B = Instance.new("TextButton")
+  UICorner_54 = Instance.new("UICorner")
+  KNIFE1C = Instance.new("TextButton")
+  UICorner_55 = Instance.new("UICorner")
+  KNIFE1D = Instance.new("TextButton")
+  UICorner_56 = Instance.new("UICorner")
+  ROMENS1A = Instance.new("TextButton")
+  UICorner_57 = Instance.new("UICorner")
+  ROMENS1C = Instance.new("TextButton")
+  UICorner_58 = Instance.new("UICorner")
+  ROMENS1D = Instance.new("TextButton")
+  UICorner_59 = Instance.new("UICorner")
+  CAMEL1C = Instance.new("TextButton")
+  UICorner_60 = Instance.new("UICorner")
+  CAMEL1D = Instance.new("TextButton")
+  UICorner_61 = Instance.new("UICorner")
+  CAMEL1A = Instance.new("TextButton")
+  UICorner_62 = Instance.new("UICorner")
+  PerthSTAR = Instance.new("Frame")
+  UIListLayout_9 = Instance.new("UIListLayout")
+  UIPadding_9 = Instance.new("UIPadding")
+  CAMEL1WX = Instance.new("TextButton")
+  UICorner_63 = Instance.new("UICorner")
+  CAMEL1Y = Instance.new("TextButton")
+  UICorner_64 = Instance.new("UICorner")
+  CAMEL1Z = Instance.new("TextButton")
+  UICorner_65 = Instance.new("UICorner")
+  ROM1WX = Instance.new("TextButton")
+  UICorner_66 = Instance.new("UICorner")
+  ROM1Y = Instance.new("TextButton")
+  UICorner_67 = Instance.new("UICorner")
+  ROM1Z = Instance.new("TextButton")
+  UICorner_68 = Instance.new("UICorner")
+  KNIFE1WX = Instance.new("TextButton")
+  UICorner_69 = Instance.new("UICorner")
+  KNIFE1Y = Instance.new("TextButton")
+  UICorner_70 = Instance.new("UICorner")
+  KNIFE1Z = Instance.new("TextButton")
+  UICorner_71 = Instance.new("UICorner")
 
 --Properties:
 
 RouteFrame.Name = "RouteFrame"
-RouteFrame.Parent = game.StarterGui["ATCScreenV6"]
+RouteFrame.Parent = ATCScreen
 RouteFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 RouteFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 RouteFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -13675,7 +13675,7 @@ end
 
 ------------------------------------------------------------------MultiScreen SetUp.
 
-Screen2 = Screen1:Clone()
+ Screen2 = Screen1:Clone()
 
 Screen2.Name = "Screen2"
 Screen2.Parent = NewMiniMap
@@ -13708,160 +13708,160 @@ do -- ATCScreen.PlayerData
 
 		Callsigns = { 
 			["AirBalistic"] = {
-				default = "AirBaltic",
-				short = "BTI" 
+			   default = "AirBaltic",
+			   short = "BTI" 
 			},
 			["Air Canadian"] = {
-				default = "AirCanada",
-				short = "ACA"
+			   default = "AirCanada",
+			   short = "ACA"
 			},
 			["AirFrench"] = {
-				default = "AirFrans",
-				short = "AFR"
+			   default = "AirFrans",
+			   short = "AFR"
 			},
 			["Americano"] = {
-				default = "American",
-				short = "AAL"
+			   default = "American",
+			   short = "AAL"
 			},
 			["BritainAirways"] = {
-				default = "Speedbird",
-				short = "BAW"
+			   default = "Speedbird",
+			   short = "BAW"
 			},
 			["CafePacific"] = {
-				default = "Cathay",
-				short = "CPA"
+			   default = "Cathay",
+			   short = "CPA"
 			},
 			["Doncor"] = {
-				default = "Condor",
-				short = "CFG"
+			   default = "Condor",
+			   short = "CFG"
 			},
 			["Belta"] = {
-				default = "Delta",
-				short = "DAL"
+			   default = "Delta",
+			   short = "DAL"
 			},
 			["Byanair"] = {
-				default = "Ryanair",
-				short = "RYR"
+			   default = "Ryanair",
+			   short = "RYR"
 			},
 			["Scandialien"] = {
-				default = "Scandinavian",
-				short = "SZS"
+			   default = "Scandinavian",
+			   short = "SZS"
 			},
 			["Singadoor"] = {
-				default = "Singapore",
-				short = "SIN"
+			   default = "Singapore",
+			   short = "SIN"
 			},
 			["Northeast"] = {
-				default = "Southwest",
-				short = "SWA"
+			   default = "Southwest",
+			   short = "SWA"
 			},
 			["Sprit"] = {
-				default = "Spirit",
-				short = "NKS"
+			   default = "Spirit",
+			   short = "NKS"
 			},
 			["Bliss"] = {
-				default = "Swiss",
-				short = "SWR"
+			   default = "Swiss",
+			   short = "SWR"
 			},
 			["Thay"] = {
-				default = "Thai",
-				short = "THA"
+			   default = "Thai",
+			   short = "THA"
 			},
 			["HardJet"] = {
-				default = "Easy",
-				short = "EZY"
+			   default = "Easy",
+			   short = "EZY"
 			},
 			["Emarates"] = {
-				default = "Emirates",
-				short = "UAE"
+			   default = "Emirates",
+			   short = "UAE"
 			},
 			["Flybee"] = {
-				default = "Jersey",
-				short = "BEE"
+			   default = "Jersey",
+			   short = "BEE"
 			},
 			["Jet3"] = {
-				default = "Channex",
-				short = "EXS"
+			   default = "Channex",
+			   short = "EXS"
 			},
 			["JetBloo"] = {
-				default = "JetBlue",
-				short = "JBU"
+			   default = "JetBlue",
+			   short = "JBU"
 			},
 			["KLN"] = {
-				default = "KLM",
-				short = "KLM"
+			   default = "KLM",
+			   short = "KLM"
 			},
 			["Koreen"] = {
-				default = "KoreanAir",
-				short = "KAL"
+			   default = "KoreanAir",
+			   short = "KAL"
 			},
 			["KoreenCargo"] = {
-				default = "KoreanAir",
-				short = "KAL"
+			   default = "KoreanAir",
+			   short = "KAL"
 			},
 			["KOT"] = {
-				default = "Pollot",
-				short = "LOT"
+			   default = "Pollot",
+			   short = "LOT"
 			},
 			["Lifthansa"] = {
-				default = "Lufthansa",
-				short = "DLH"
+			   default = "Lufthansa",
+			   short = "DLH"
 			},
 			["OldZealand"] = {
-				default = "NewZealand",
-				short = "ANZ"
+			   default = "NewZealand",
+			   short = "ANZ"
 			},
 			["Oantas"] = {
-				default = "Qantas",
-				short = "QFA"
+			   default = "Qantas",
+			   short = "QFA"
 			},
 			["Oatar"] = {
-				default = "Qatari",
-				short = "QTR"
+			   default = "Qatari",
+			   short = "QTR"
 			},
 			["Lui"] = {
-				default = "Tomjet",
-				short = "TOM"
+			   default = "Tomjet",
+			   short = "TOM"
 			},
 			["Turkey"] = {
-				default = "Turkish",
-				short = "THY"
+			   default = "Turkish",
+			   short = "THY"
 			},
 			["Reunited"] = {
-				default = "United",
-				short = "UAL"
+			   default = "United",
+			   short = "UAL"
 			},
 			["Bizz"] = {
-				default = "WizzAir",
-				short = "WZZ"
+			   default = "WizzAir",
+			   short = "WZZ"
 			},
 			["AerDingus"] = {
-				default = "Shamrock",
-				short = "EIN"
+			   default = "Shamrock",
+			   short = "EIN"
 			},
 			["VHL"] = {
-				default = "Worldstar",
-				short = "DHL"
+			   default = "Worldstar",
+			   short = "DHL"
 			},
 			["TedEx"] = {
-				default = "FedEx",
-				short = "FDX"
+			   default = "FedEx",
+			   short = "FDX"
 			},
 			["SUS"] = {
-				default = "Ups",
-				short = "UPS"
+			   default = "Ups",
+			   short = "UPS"
 			},
 			["Airbus Beluga"] = {
-				default = "Supertransport",
-				short = "A3ST"
+			   default = "Supertransport",
+			   short = "A3ST"
 			},
 			["Mriya"] = {
 				default = "Antonov",
 				short = "ANTN"
 			}
-		}
+		 }
 
-		local baseTags = {
+		 local baseTags = {
 			["Apollo"] = "APO", --Aeropro (Canada) / Air Posh (Serbia)
 			["Baron"] = "BRO", --2Excel (UK) / Browser Flight Service (US)
 			["Cobra"] = "COB", --C0BRA JET (Egypt)
@@ -13890,7 +13890,7 @@ do -- ATCScreen.PlayerData
 			["Zenith"] = "ZEN" --Not a thing
 		}
 
-		module.AircraftCode = {
+        module.AircraftCode = {
 			["Boeing 777"] = "B773/H",
 			["MD-90"] = "MD90/H",
 			["Bombardier Learjet 45"] = "LJ45",
@@ -13947,12 +13947,12 @@ do -- ATCScreen.PlayerData
 			["An 225 Mriya"] = "A225"
 		}
 
+        
+        local function GetPlaneFromPlayer(player)
+        	for i,plane in pairs(game:GetService("Workspace").Aircraft:GetChildren()) do
+        		if player.Character:FindFirstChild("HumanoidRootPart") and plane:IsA("Model") then 
 
-		local function GetPlaneFromPlayer(player)
-			for i,plane in pairs(game:GetService("Workspace").Aircraft:GetChildren()) do
-				if player.Character:FindFirstChild("HumanoidRootPart") and plane:IsA("Model") then 
-
-					local distance = (plane:WaitForChild("Main"):WaitForChild("Seats"):WaitForChild("PilotSeat").Position - player.Character.HumanoidRootPart.Position).Magnitude
+        			local distance = (plane:WaitForChild("Main"):WaitForChild("Seats"):WaitForChild("PilotSeat").Position - player.Character.HumanoidRootPart.Position).Magnitude
 					if plane:FindFirstChild("Main"):FindFirstChild("Seats"):FindFirstChild("CoPilotSeat") then
 						local coDistance = (plane:WaitForChild("Main"):WaitForChild("Seats"):WaitForChild("CoPilotSeat").Position - player.Character.HumanoidRootPart.Position).Magnitude
 						if distance < 2 and coDistance > distance then
@@ -13963,101 +13963,101 @@ do -- ATCScreen.PlayerData
 							return plane
 						end
 					end	
-				end
-			end
-		end
-
-		module.GetPlaneFromPlayer = GetPlaneFromPlayer
-
-		module.GetPlayerHDG = function(player)
-			if(GetPlaneFromPlayer(player) ~= nil) then
-				local pFrame = player.Character.HumanoidRootPart.CFrame
-				return math.floor(math.deg(math.atan2(pFrame.LookVector.X, pFrame.LookVector.Z)))* -1 +180
-			end
-		end
-
-		module.GetPlayerALT = function(player)
-			if(GetPlaneFromPlayer(player) ~= nil) then
-				local plane = GetPlaneFromPlayer(player)
-
-				if plane.Main.Engine then
+        		end
+        	end
+        end
+        
+        module.GetPlaneFromPlayer = GetPlaneFromPlayer
+        
+        module.GetPlayerHDG = function(player)
+        	if(GetPlaneFromPlayer(player) ~= nil) then
+        		local pFrame = player.Character.HumanoidRootPart.CFrame
+        		return math.floor(math.deg(math.atan2(pFrame.LookVector.X, pFrame.LookVector.Z)))* -1 +180
+        	end
+        end
+        
+        module.GetPlayerALT = function(player)
+        	if(GetPlaneFromPlayer(player) ~= nil) then
+        		local plane = GetPlaneFromPlayer(player)
+        		
+        		if plane.Main.Engine then
 					for i, v in pairs(plane.Main:GetChildren()) do
 						if v.Name == "Engine" and v:IsA("Part") then
 							return (v.Position.Y*1.8372)
 						end
 					end
-				end
-			end
-		end
-
-		module.GetPlayerSpeed = function(player)
-			if(GetPlaneFromPlayer(player) ~= nil) then
-				local plane = GetPlaneFromPlayer(player)
-				return plane.Internal:GetAttribute("Speed")
-			end
-		end
+        		end
+        	end
+        end
+        
+        module.GetPlayerSpeed = function(player)
+        	if(GetPlaneFromPlayer(player) ~= nil) then
+        		local plane = GetPlaneFromPlayer(player)
+        		return plane.Internal:GetAttribute("Speed")
+        	end
+        end
 
 
 
 		module.GetPlayerDefaultTag = function(player)        	
-			if(GetPlaneFromPlayer(player) ~= nil) then
-				local plane = GetPlaneFromPlayer(player)
+        	if(GetPlaneFromPlayer(player) ~= nil) then
+        		local plane = GetPlaneFromPlayer(player)
+        		
+        		if Callsigns[plane.Name] then
+        			return Callsigns[plane.Name].default.." - ".. string.sub(player.tag.Value, string.len(player.tag.Value)-3)
+        		end
+        	end
+        	return player.tag.Value --default
+        end
 
-				if Callsigns[plane.Name] then
-					return Callsigns[plane.Name].default.." - ".. string.sub(player.tag.Value, string.len(player.tag.Value)-3)
-				end
-			end
-			return player.tag.Value --default
-		end
-
-		module.GetPlayerTAG = function(player)
-			local playerList = script.Parent.PlayerList
+        module.GetPlayerTAG = function(player)
+        	local playerList = script.Parent.PlayerList
 
 			local TextStyle = script.Parent.SettingFrame.Settings.Theme.TextStyle
-
-			if(GetPlaneFromPlayer(player) ~= nil) then
-				local plane = GetPlaneFromPlayer(player)
-
-				for _,v in pairs(playerList.ScrollingFrame:GetChildren()) do --Checking if there is a custom Callign
-					if v:IsA("Frame") then
-						if v.Name == player.Name and v.TextBox.Text ~= "" then
-							return v.TextBox.Text
-						end 
-					end
-				end
-
-				if Callsigns[plane.Name] then
+        	
+        	if(GetPlaneFromPlayer(player) ~= nil) then
+        		local plane = GetPlaneFromPlayer(player)
+        		
+        		for _,v in pairs(playerList.ScrollingFrame:GetChildren()) do --Checking if there is a custom Callign
+        			if v:IsA("Frame") then
+        				if v.Name == player.Name and v.TextBox.Text ~= "" then
+        					return v.TextBox.Text
+        				end 
+        			end
+        		end
+				
+        		if Callsigns[plane.Name] then
 					if TextStyle.Default.BackgroundColor3 == Color3.new(0, 0.5, 0) then
 						return Callsigns[plane.Name].default.." - ".. string.sub(player.tag.Value, string.len(player.tag.Value)-3)
 					else
 						return Callsigns[plane.Name].short.."".. string.sub(player.tag.Value, string.len(player.tag.Value)-3)
 					end
-
+				
 				elseif TextStyle.Default.BackgroundColor3 ~= Color3.new(0, 0.5, 0) then
 					local tag = string.sub(player.tag.value, 1, string.len(player.tag.value)-5)
 
 					if baseTags[tag] then
 						return baseTags[tag]..string.sub(player.tag.Value, string.len(player.tag.Value)-3)
 					end
-
-				end
-			end
-			return player.tag.Value --default
-		end
-
-		module.GetPlayerPosition = function(player, currentScale)
-			local localPlayer = game:GetService("Players").LocalPlayer
-
-			if(GetPlaneFromPlayer(player) ~= nil) then
-				local posX = localPlayer.Character.HumanoidRootPart.Position.X
-				local posZ = localPlayer.Character.HumanoidRootPart.Position.Z
-				local allX = player.Character.HumanoidRootPart.Position.X
-				local allZ = player.Character.HumanoidRootPart.Position.Z
-				return UDim2.new(0.5 + (allX) / 96355 * currentScale, 0, 0.5 + (allZ) / 92030 * currentScale, 0)
-			end
-		end
-
-		return module
+					
+        		end
+        	end
+        	return player.tag.Value --default
+        end
+        
+        module.GetPlayerPosition = function(player, currentScale)
+        	local localPlayer = game:GetService("Players").LocalPlayer
+        	
+        	if(GetPlaneFromPlayer(player) ~= nil) then
+        		local posX = localPlayer.Character.HumanoidRootPart.Position.X
+        		local posZ = localPlayer.Character.HumanoidRootPart.Position.Z
+        		local allX = player.Character.HumanoidRootPart.Position.X
+        		local allZ = player.Character.HumanoidRootPart.Position.Z
+        		return UDim2.new(0.5 + (allX) / 96355 * currentScale, 0, 0.5 + (allZ) / 92030 * currentScale, 0)
+        	end
+        end
+        
+        return module
 	end
 	fake_module_scripts[script] = module_script
 end
@@ -14069,25 +14069,25 @@ local function XHCFAVV_fake_script() -- AircraftInfo
 	script.Name = "DragScript"
 
 	local frame = script.Parent
-
+	
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		local delta = input.Position - dragStart
 		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
-
+	
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -14095,13 +14095,13 @@ local function XHCFAVV_fake_script() -- AircraftInfo
 			end)
 		end
 	end)
-
+	
 	frame.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
@@ -14115,25 +14115,25 @@ local function XHCFAV_fake_script() -- SetFrame
 	script.Name = "DragScript"
 
 	local frame = script.Parent
-
+	
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		local delta = input.Position - dragStart
 		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
-
+	
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -14141,13 +14141,13 @@ local function XHCFAV_fake_script() -- SetFrame
 			end)
 		end
 	end)
-
+	
 	frame.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
@@ -14161,27 +14161,27 @@ local function HCFAVV_fake_script() -- Screen1
 	script.Name = "DragScript"
 
 	local frame = script.Parent
-
+	
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		if script.Parent.Active then
 			local delta = input.Position - dragStart
 			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		end
 	end
-
+	
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
-
+	
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -14189,13 +14189,13 @@ local function HCFAVV_fake_script() -- Screen1
 			end)
 		end
 	end)
-
+	
 	frame.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
@@ -14209,27 +14209,27 @@ local function HFAVV2_fake_script() -- Screen2
 	script.Name = "DragScript"
 
 	local frame = script.Parent
-
+	
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		if script.Parent.Active then
 			local delta = input.Position - dragStart
 			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		end
 	end
-
+	
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
-
+	
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -14237,13 +14237,13 @@ local function HFAVV2_fake_script() -- Screen2
 			end)
 		end
 	end)
-
+	
 	frame.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
@@ -14257,27 +14257,27 @@ local function HCFAVV1_fake_script() -- Screen3
 	script.Name = "DragScript"
 
 	local frame = script.Parent
-
+	
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		if script.Parent.Active then
 			local delta = input.Position - dragStart
 			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		end
 	end
-
+	
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 			dragging = true
 			dragStart = input.Position
 			startPos = frame.Position
-
+	
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -14285,13 +14285,13 @@ local function HCFAVV1_fake_script() -- Screen3
 			end)
 		end
 	end)
-
+	
 	frame.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
@@ -14322,7 +14322,7 @@ do -- ATCScreen.MapState
 
 		local ATCSize = UDim2.new(0.4,0,.85,0)
 		local pilotSize = UDim2.new(0.2,0,.45,0)
-
+		
 		local scaleFactor = 1.25
 
 		local selectedColor = Color3.new(0.0980392, 0.156863, 0.2)
@@ -14356,10 +14356,10 @@ do -- ATCScreen.MapState
 				end
 
 				newScale = 1/((mapScale*100)*.9)
-
+				
 				module.mapScale = mapScale
 				module.itemScale = newScale
-
+				
 				for _,child in pairs(content.Dots:GetChildren()) do
 					if child:IsA("ImageLabel") then
 						child.Size = UDim2.new(newScale,0,newScale,0)
@@ -14371,7 +14371,7 @@ do -- ATCScreen.MapState
 						end
 					end
 				end
-
+				
 
 				local currentPos = Vector2.new(content.Position.X.Offset, content.Position.Y.Offset)
 				local currentPosScale = Vector2.new(content.Position.X.Scale, content.Position.Y.Scale)			
@@ -14381,7 +14381,7 @@ do -- ATCScreen.MapState
 					v.Size = UDim2.new(newScale, 0, newScale, 0)
 				end
 				content.Position = UDim2.new(currentPosScale.X , currentPos.X * mapNewScaleMuti, currentPosScale.Y, currentPos.Y * mapNewScaleMuti)
-
+				
 			end
 		end
 
@@ -14413,10 +14413,10 @@ do -- ATCScreen.MapState
 					image = content.Image
 				end
 				newScale = 1/((mapScale*100)*.9)
-
+				
 				module.mapScale = mapScale
 				module.itemScale = newScale
-
+				
 				for _,child in pairs(content.Dots:GetChildren()) do
 					if child:IsA("ImageLabel") then
 						child.Size = UDim2.new(newScale,0,newScale,0)
@@ -14437,11 +14437,11 @@ do -- ATCScreen.MapState
 					v.Size = UDim2.new(newScale, 0, newScale, 0)
 				end
 				content.Position = UDim2.new(currentPosScale.X , currentPos.X * mapNewScaleMuti, currentPosScale.Y, currentPos.Y * mapNewScaleMuti)
-
-
+				
+				
 			end
 		end
-
+		
 		local function SetScale(screen, num)
 			if screen == 1 then
 				if num < scaleValue.Value.X then
@@ -14450,7 +14450,7 @@ do -- ATCScreen.MapState
 						task.wait()
 					end
 				end
-
+				
 				if num > scaleValue.Value.X then
 					while num > scaleValue.Value.X do
 						ScaleUp(screen)
@@ -14460,11 +14460,11 @@ do -- ATCScreen.MapState
 			elseif screen == 2 then
 				if num < scaleValue.Value.Y then
 					while num < scaleValue.Value.Y do
-						ScaleDown(screen)
-						task.wait()
+					  ScaleDown(screen)
+					  task.wait()
 					end
 				end
-
+				
 				if num > scaleValue.Value.Y then
 					while num > scaleValue.Value.Y do
 						ScaleUp(screen)
@@ -14478,7 +14478,7 @@ do -- ATCScreen.MapState
 						task.wait()
 					end
 				end
-
+				
 				if num > scaleValue.Value.Z then
 					while num > scaleValue.Value.Z do
 						ScaleUp(screen)
@@ -14486,8 +14486,8 @@ do -- ATCScreen.MapState
 					end
 				end
 			end
-
-		end
+		  
+		 end
 
 		module.SetScale = SetScale
 		module.ScaleUp = ScaleUp
@@ -14576,7 +14576,7 @@ do -- ATCScreen.MapState
 
 				NewMiniMap.TopBar.ScreenMode.Visible = false
 				NewMiniMap.TopBar.ScreenSelect.Visible = false
-
+				
 				ATCScreen.ActiveScreen.Value = 1
 			end
 			if State == "Old" then -- Pilot > off
@@ -14619,7 +14619,7 @@ do -- ATCScreen.MapState
 		end
 
 		module.CycleState = function()
-
+			
 			if module.State == "ATC" then --ATC > Pilot
 				module.State = "Pilot"
 
@@ -14638,47 +14638,47 @@ do -- ATCScreen.MapState
 
 
 			elseif module.State == "Pilot" then -- Pilot > off
-				module.State = "Old"
+					module.State = "Old"
 
-				NewMiniMap.Visible = false
-				NewMiniMap.Size = ATCSize
-				NewMiniMap.Position = lowPosition
-				playerList.Visible = false
-				oldMap.Enabled = true
+					NewMiniMap.Visible = false
+					NewMiniMap.Size = ATCSize
+					NewMiniMap.Position = lowPosition
+					playerList.Visible = false
+					oldMap.Enabled = true
 
 
 			elseif module.State == "Old" then -- Off > Full
-				module.State = "Full"
+					module.State = "Full"
 
-				playerList.Visible = true
-				oldMap.Enabled = false
-				NewMiniMap.Visible = true
-				NewMiniMap.Size = UDim2.new(1,0, .9,0)
-				playerList.Size = UDim2.new(1,0,.1,0)
-				ATCScreen.TopCover.Visible = true
-				NewMiniMap.TextBox.Size = UDim2.new(.1,0,.025,0)
-				NewMiniMap.Position = defaultPosition
+					playerList.Visible = true
+					oldMap.Enabled = false
+					NewMiniMap.Visible = true
+					NewMiniMap.Size = UDim2.new(1,0, .9,0)
+					playerList.Size = UDim2.new(1,0,.1,0)
+					ATCScreen.TopCover.Visible = true
+					NewMiniMap.TextBox.Size = UDim2.new(.1,0,.025,0)
+					NewMiniMap.Position = defaultPosition
 
-				NewMiniMap.TopBar.ScreenMode.Visible = true
-				NewMiniMap.TopBar.ScreenSelect.Visible = true
-
+					NewMiniMap.TopBar.ScreenMode.Visible = true
+					NewMiniMap.TopBar.ScreenSelect.Visible = true
+					
 			else	--Full > ATC
-				module.State = "ATC"
+					module.State = "ATC"
 
-				NewMiniMap.Size = UDim2.new(.4,0,.9,0)
-				playerList.Size = UDim2.new(.4,0,.1,0)
-				ATCScreen.TopCover.Visible = false
-				NewMiniMap.TextBox.Size = UDim2.new(.21,0,.05,0)
+					NewMiniMap.Size = UDim2.new(.4,0,.9,0)
+					playerList.Size = UDim2.new(.4,0,.1,0)
+					ATCScreen.TopCover.Visible = false
+					NewMiniMap.TextBox.Size = UDim2.new(.21,0,.05,0)
+					
+					NewMiniMap.Size = ATCSize
+					NewMiniMap.Position = defaultPosition
 
-				NewMiniMap.Size = ATCSize
-				NewMiniMap.Position = defaultPosition
+					module.SetScreenMode("Single")
 
-				module.SetScreenMode("Single")
+					NewMiniMap.TopBar.ScreenMode.Visible = false
+					NewMiniMap.TopBar.ScreenSelect.Visible = false
 
-				NewMiniMap.TopBar.ScreenMode.Visible = false
-				NewMiniMap.TopBar.ScreenSelect.Visible = false
-
-				ATCScreen.ActiveScreen.Value = 1
+					ATCScreen.ActiveScreen.Value = 1
 
 			end
 		end
@@ -14793,7 +14793,7 @@ do -- ATCScreen.Keybinds
 						inputService.InputEnded:Once(function(key, behavior)
 							if input.UserInputType == Enum.UserInputType.Keyboard and key.KeyCode.Name == BindUpV.Value then
 								move = false
-
+								
 							end
 						end)
 
@@ -14803,13 +14803,13 @@ do -- ATCScreen.Keybinds
 				if input.KeyCode.Name == BindDownV.Value then
 					local move = true
 					while move do
-
+						
 						Content.Position -= UDim2.new(0,0,0,panSpeed) 
-
+						
 						inputService.InputEnded:Once(function(key, behavior)
 							if input.UserInputType == Enum.UserInputType.Keyboard and key.KeyCode.Name == BindDownV.Value then
 								move = false
-
+								
 							end
 						end)
 
@@ -14819,7 +14819,7 @@ do -- ATCScreen.Keybinds
 				if input.KeyCode.Name == BindLeftV.Value then
 					local move = true
 					while move do
-
+						
 						Content.Position += UDim2.new(0,panSpeed,0,0) 
 						inputService.InputEnded:Once(function(key, behavior)
 							if input.UserInputType == Enum.UserInputType.Keyboard and key.KeyCode.Name == BindLeftV.Value then
@@ -14833,13 +14833,13 @@ do -- ATCScreen.Keybinds
 				if input.KeyCode.Name == BindRightV.Value then
 					local move = true
 					while move do
-
+						
 						Content.Position -= UDim2.new(0,panSpeed,0,0) 
 
 						inputService.InputEnded:Once(function(key, behavior)
 							if input.UserInputType == Enum.UserInputType.Keyboard and key.KeyCode.Name == BindRightV.Value then
 								move = false
-
+								
 							end
 						end)
 
@@ -14881,14 +14881,14 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		end
 		return req(obj)
 	end
-
+    
 
 	local PlayerData = require(script.Parent.PlayerData)
 	local MapState = require(script.Parent.MapState)
 	local Keybinds = require(script.Parent.Keybinds)
 	local mapScale = script.Parent.scaleValue
-
-	local ATCScreen = script.Parent
+    
+    local ATCScreen = script.Parent
 	local playerList = script.Parent.PlayerList
 	local listTemplate = script.Parent.Template
 	local localPlayer = game:GetService("Players").LocalPlayer
@@ -14898,7 +14898,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	local NewMiniMap = script.Parent.NewMiniMap
 	local settingFrame = script.Parent.SettingFrame
 	local aircraftInfo = script.Parent.AircraftInfo
-
+	
 	local taxi = NewMiniMap.TopBar.Toggles.Taxi
 	local oldMap = localPlayer.PlayerGui.MiniMap
 	local pilotScreen = false
@@ -14920,7 +14920,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	local Step = 1
 	local newTrail = {false, false, false}
 
-	local Connections = {}
+    local Connections = {}
 
 	local function autoDisconnect(event)
 		table.insert(Connections, event)
@@ -14946,9 +14946,9 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 	end)
 	autoDisconnect(RemoveConnect)
-
+	
 	oldMap.Enabled = false
-
+	
 	acInfoCloseConnect = aircraftInfo.Close.MouseButton1Down:Connect(function()
 		aircraftInfo.Visible = false
 	end)
@@ -15086,7 +15086,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	end)
 	autoDisconnect(screen3Connect)
 	------Themes -----
-
+	
 	TextSyleConnect = TextStyle.Default.MouseButton1Down:Connect(function()
 		textStyle = "Default"
 		TextStyle.Default.BackgroundColor3 = Color3.new(0, 0.5, 0)
@@ -15102,7 +15102,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	end)
 	autoDisconnect(TextStyleLongConnect)
 
-
+	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zbossgamer/PTFS-Tools/main/Whitelist.lua"))()
 
 
@@ -15123,11 +15123,11 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		for i, v in pairs(Connections) do	--Disconnecting connections		
 			v:Disconnect()
 		end
-
+		
 		script.Parent:Destroy()
 	end
-
-
+    
+    
 	local function findRotaton(Delta)
 		local AbsDelta = Vector2.new(math.abs(Delta.X), math.abs(Delta.Y))
 		local Rotatoion
@@ -15226,10 +15226,10 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 				end
 			end
 		end
-
+		
 
 		if selectedContent.Dots:WaitForChild(player.Name, .1) then --Using existing dot
-			playerDot = selectedContent.Dots[player.Name]
+			 playerDot = selectedContent.Dots[player.Name]
 		else
 			playerDot = ATCScreen["Player"..screen]:Clone() --creating new dot
 			playerDot.Parent = selectedContent.Dots
@@ -15240,30 +15240,30 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			trailFolder = Instance.new("Folder")
 			trailFolder.Parent = selectedContent.Dots
 			trailFolder.Name = player.Name .. "_Trail"
-
+			
 			--Making the TextFrame dragable
 			local frame = playerDot.TextLabel
-
+	
 			local UserInputService = game:GetService("UserInputService")
-
+			
 			local dragging
 			local dragInput
 			local dragStart
 			local startPos
-
+			
 			local function update(input)
 				print("Drag Update")
 				local delta = input.Position - dragStart
 				frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 			end
-
+			
 			frameInputConnect = frame.InputBegan:Connect(function(input)
 				print("Frame Input Began")
 				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 					dragging = true
 					dragStart = input.Position
 					startPos = frame.Position
-
+			
 					input.Changed:Connect(function()
 						if input.UserInputState == Enum.UserInputState.End then
 							dragging = false
@@ -15272,14 +15272,14 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 				end
 			end)
 			autoDisconnect(frameInputConnect)
-
+			
 			frameChangeConnect = frame.InputChanged:Connect(function(input)
 				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 					dragInput = input
 				end
 			end)
 			autoDisconnect(frameChangeConnect)
-
+			
 			frameInChangeConnect = UserInputService.InputChanged:Connect(function(input)
 				if input == dragInput and dragging then
 					update(input)
@@ -15322,7 +15322,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 				if aircraftInfo.Aircraft:FindFirstChildOfClass("Model") then
 					aircraftInfo.Aircraft:FindFirstChildOfClass("Model"):Destroy()
 				end
-
+				
 				local camModel = plane:Clone()
 				camModel.Parent = aircraftInfo.Aircraft
 				camModel:PivotTo(CFrame.new())
@@ -15362,19 +15362,19 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 							newLine.Visible = true
 
 							local nextPoint = trailFolder:FindFirstChild(tonumber(dot.Name)-lineFreq)
-
+		
 							local endPos = Vector2.new(nextPoint.Position.X.Scale, -1* nextPoint.Position.Y.Scale)
 							local Delta = endPos - Vector2.new(dot.Position.X.Scale, -1* dot.Position.Y.Scale)
-
+		
 							newLine.Rotation = findRotaton(Delta)
 							newLine.Size = UDim2.new(.001, 0, 2*Delta.Magnitude)
 						end
 					end
-
+					
 
 					task.wait(.1)
 				end		
-
+				
 				if (selectedPlayer ~= player or not aircraftInfo.Visible) and selectedContent.Dots:FindFirstChild(selectedPlayer.Name.."_Trail") then
 					for i, pathline in pairs(selectedContent.Dots[player.Name.."_Trail"]:GetChildren()) do
 						if pathline.Name == "PathLine" then
@@ -15382,12 +15382,12 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 						end
 					end
 				end
-
+				
 			end)
 			autoDisconnect(PlayerDotConnect)
 
 			PlayerLabEnterConnect = playerDot.TextLabel.MouseEnter:Connect(function()
-
+				
 				playerDot.TextLabel.Active = true
 				selectedContent.Active = false
 			end)
@@ -15430,11 +15430,11 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 			tailDot.Position = Position
 			tailDot.Size = UDim2.new(newScale/2,0,newScale/2,0)
-
+			
 			if NewMiniMap["Screen"..screen].Content.Image.VStar.Visible then
 				tailDot.Visible = true
 			end
-
+			
 			for i, frame in pairs(trailFolder:GetChildren()) do
 				if frame.Name ~= "PathLine" then
 					if tonumber(frame.Name) < Step-5 then
@@ -15466,9 +15466,9 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 				newHeading = HDG
 			end
 		end
+		
 
-
-
+		
 		if playerList.ScrollingFrame:FindFirstChild(player.Name) then
 			if textStyle == "Default" then
 				if Iteration%2==0 then
@@ -15548,7 +15548,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	end)
 	autoDisconnect(Input2Connect)
 
-
+	
 	-------Player Added/Removed Scripts
 
 	PlayerRemoveConnect = game.Players.PlayerRemoving:Connect(function(t)
@@ -15566,7 +15566,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	autoDisconnect(PlayerRemoveConnect)
 
 	------Initializing the Playerlist----------
-
+	
 
 	-----Main Run loop--------	
 
@@ -15574,7 +15574,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 	local prevTime = os.time()
 	while script.Parent do
-
+		
 		local refreshTime = settingFrame.Settings.Theme.Values.RefreshTime.TextBox
 		local waitTime = .05
 		if tonumber(refreshTime.Text) then
@@ -15615,7 +15615,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 					UIFlightPlan.Route.Text = ""
 					UIFlightPlan.FlightLevel.Text = ""
 					aircraftInfo.PlayerName.Text = player.Name
-
+				
 				else
 					UIFlightPlan.Callsign.Text = "| Flight Plan System Down |"
 					UIFlightPlan.Aircraft.Text = "| Contact @gadget On Discord |"
@@ -15628,153 +15628,153 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 				end 
 			end
 		end
-
-
+		
+		
 		local diffTime = os.time() - TO			--Trail timing
 		if waitTime >= 1  then
-
-			newTrail[1] = true
-			newTrail[2] = true
-			newTrail[3] = true
-		end
-
-		Step+=1
-		TO = os.time()
-		
-	
-	if diffTime >= SecsPerStep then
-		if NewMiniMap.Screen1.Content.Image.VStar.Visible then
-			newTrail[1] = true
-			newTrail[2] = true
-			newTrail[3] = true
-		end
-		TO = os.time()
-		Step+=1
-	else
-		newTrail[1] = false
-		newTrail[2] = false
-		newTrail[3] = false
-	end
-end
-
-
-
-for i , item in pairs(playerList.ScrollingFrame:GetChildren()) do
-	if item:IsA("Frame") then
-		local playerName = item.Player.Text
-		if game:GetService("Players"):FindFirstChild(playerName) and game:GetService("Players")[playerName].Character then
-			item.Tag.Text = PlayerData.GetPlayerDefaultTag(game:GetService("Players")[playerName])
-
-			if PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]) then
-				item.Aircraft.Text = PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]):GetAttribute("Name")
-			else
-				item.Aircraft.Text = "No Plane"
+			
+				newTrail[1] = true
+				newTrail[2] = true
+				newTrail[3] = true
 			end
 
-			if flightPlans[playerName] then
-				if flightPlans[playerName].Arriving then
-					item.Destination.Text = flightPlans[playerName].Arriving
-				end
-			end
-		end
-	end
-end
-
-for i,player in pairs(game:GetService("Players"):GetPlayers()) do
-	if player.Character and game.workspace:FindFirstChild(player.Name) and game.workspace:FindFirstChild(player.Name):WaitForChild("Head", .01) then
-
-		local nameGUI = game.workspace[player.Name].Head.clonegui.TextLabel
-
-		if PlayerData.GetPlaneFromPlayer(player) ~= nil then
-
-			if os.time()-baseTime >= 2 then
-				local Default = TextStyle.Default
-				local Short = TextStyle.Short
-				Iteration += 1
-				baseTime = os.time()
-
-				if Iteration%2==0 then
-					Default.Text = "Delta-1234 \n HED ALT SP"
-					Short.Text = "DAL1234 \n ALT SP"
-				else
-					Default.Text = "Delta-1234 \n DEST AIRCRAFT"
-					Short.Text = "DAL1234 \n DEST AIRC"
-				end
-			end
-
-			local isLocalPlayer = false
-			if player.Name == localPlayer.Name then
-				isLocalPlayer = true
-			end
-
-			local plane = PlayerData.GetPlaneFromPlayer(player)
-			local a = PlayerData.GetPlayerTAG(player)
-			local b = PlayerData.GetPlayerHDG(player)
-			local c = PlayerData.GetPlayerALT(player)
-			local d = PlayerData.GetPlayerSpeed(player)
-			local e = PlayerData.GetPlayerPosition(player,1)
-
-			if plane == selectedPlane then
-				local details = aircraftInfo.AircraftDetails
-
-				if plane:GetAttribute("Type") == "Plane" then
-					details.MaxSpeed.Text = "Max Speed: ".. plane:GetAttribute("MaxSpeed")
-					details.StallSpeed.Text = "Stall Speed: ".. plane:GetAttribute("StallSpeed")
-					details.LandingSpeed.Text = "Landing Speed: ".. plane:GetAttribute("LandingSpeed")
-					details.Flaps.Text = "Flaps: ".. plane.Internal:GetAttribute("FlapStage").. "/".. plane.Internal:GetAttribute("FlapCount")
-					details.Throttle.Text = "Throttle: ".. math.floor(plane.Internal:GetAttribute("Throttle")*100).. "%"
-					details.Fuel.Text = "Fuel: ".. math.floor(plane.Internal:GetAttribute("CurrentFuel") / plane:GetAttribute("FuelAmount") *100).. "%"
-				end
-
-				if plane.Internal:GetAttribute("AltHold") then
-					details.AltitudeHold.Text = "Altitude Hold: On"
-				else
-					details.AltitudeHold.Text = "Altitude Hold: Off"
-				end
-
-				if plane.Internal:GetAttribute("GearUp") then
-					details.Gear.Text = "Gear: Up"
-				else 
-					details.Gear.Text = "Gear: Down"
-				end
-			end
-
-
-			nameGUI.Text = (a.. "\n".. player.Name)
-			updatePlayerDot(1 ,player, plane,a,b,c,d,e, isLocalPlayer)
-			updatePlayerDot(2 ,player, plane,a,b,c,d,e, isLocalPlayer)
-			updatePlayerDot(3 ,player, plane,a,b,c,d,e, isLocalPlayer)
-
+			Step+=1
+			TO = os.time()
 		else
-
-			nameGUI.Text = (player.Name)
-			if NewMiniMap.Screen1.Content.Dots:FindFirstChild(player.Name) then
-				NewMiniMap.Screen1.Content.Dots[player.Name]:Destroy()
-				if 	NewMiniMap.Screen2.Content.Dots:FindFirstChild(player.Name) then
-					NewMiniMap.Screen2.Content.Dots[player.Name]:Destroy()
+			if diffTime >= SecsPerStep then
+				if NewMiniMap.Screen1.Content.Image.VStar.Visible then
+					newTrail[1] = true
+					newTrail[2] = true
+					newTrail[3] = true
 				end
-				if 	NewMiniMap.Screen3.Content.Dots:FindFirstChild(player.Name) then
-					NewMiniMap.Screen3.Content.Dots[player.Name]:Destroy()
-				end
+				TO = os.time()
+				Step+=1
+			else
+				newTrail[1] = false
+				newTrail[2] = false
+				newTrail[3] = false
+			end
+		end
 
-				--Remove PlayerDot Connections
-				for i, connectionSet in pairs(DotConnections) do
-					if connectionSet.Player == player then
-						for j, connection in pairs(connectionSet.Connections) do
-							connection:Disconnect()
-							table.remove(Connections, table.find(Connections, connection))
+		
+		
+		for i , item in pairs(playerList.ScrollingFrame:GetChildren()) do
+			if item:IsA("Frame") then
+				local playerName = item.Player.Text
+				if game:GetService("Players"):FindFirstChild(playerName) and game:GetService("Players")[playerName].Character then
+					item.Tag.Text = PlayerData.GetPlayerDefaultTag(game:GetService("Players")[playerName])
+
+					if PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]) then
+						item.Aircraft.Text = PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]):GetAttribute("Name")
+					else
+						item.Aircraft.Text = "No Plane"
+					end
+
+					if flightPlans[playerName] then
+						if flightPlans[playerName].Arriving then
+							item.Destination.Text = flightPlans[playerName].Arriving
+						end
+					end
+				end
+			end
+		end
+		
+		for i,player in pairs(game:GetService("Players"):GetPlayers()) do
+			if player.Character and game.workspace:FindFirstChild(player.Name) and game.workspace:FindFirstChild(player.Name):WaitForChild("Head", .01) then
+				
+				local nameGUI = game.workspace[player.Name].Head.clonegui.TextLabel
+				
+				if PlayerData.GetPlaneFromPlayer(player) ~= nil then
+
+					if os.time()-baseTime >= 2 then
+						local Default = TextStyle.Default
+						local Short = TextStyle.Short
+						Iteration += 1
+						baseTime = os.time()
+
+						if Iteration%2==0 then
+							Default.Text = "Delta-1234 \n HED ALT SP"
+							Short.Text = "DAL1234 \n ALT SP"
+						else
+							Default.Text = "Delta-1234 \n DEST AIRCRAFT"
+							Short.Text = "DAL1234 \n DEST AIRC"
+						end
+					end
+
+					local isLocalPlayer = false
+					if player.Name == localPlayer.Name then
+						isLocalPlayer = true
+					end
+					
+					local plane = PlayerData.GetPlaneFromPlayer(player)
+					local a = PlayerData.GetPlayerTAG(player)
+					local b = PlayerData.GetPlayerHDG(player)
+					local c = PlayerData.GetPlayerALT(player)
+					local d = PlayerData.GetPlayerSpeed(player)
+					local e = PlayerData.GetPlayerPosition(player,1)
+					
+					if plane == selectedPlane then
+						local details = aircraftInfo.AircraftDetails
+
+						if plane:GetAttribute("Type") == "Plane" then
+							details.MaxSpeed.Text = "Max Speed: ".. plane:GetAttribute("MaxSpeed")
+							details.StallSpeed.Text = "Stall Speed: ".. plane:GetAttribute("StallSpeed")
+							details.LandingSpeed.Text = "Landing Speed: ".. plane:GetAttribute("LandingSpeed")
+							details.Flaps.Text = "Flaps: ".. plane.Internal:GetAttribute("FlapStage").. "/".. plane.Internal:GetAttribute("FlapCount")
+							details.Throttle.Text = "Throttle: ".. math.floor(plane.Internal:GetAttribute("Throttle")*100).. "%"
+							details.Fuel.Text = "Fuel: ".. math.floor(plane.Internal:GetAttribute("CurrentFuel") / plane:GetAttribute("FuelAmount") *100).. "%"
 						end
 
-						table.remove(DotConnections, i)
+						if plane.Internal:GetAttribute("AltHold") then
+							details.AltitudeHold.Text = "Altitude Hold: On"
+						else
+							details.AltitudeHold.Text = "Altitude Hold: Off"
+						end
+
+						if plane.Internal:GetAttribute("GearUp") then
+							details.Gear.Text = "Gear: Up"
+						else 
+							details.Gear.Text = "Gear: Down"
+						end
 					end
-				end	
+
+
+					nameGUI.Text = (a.. "\n".. player.Name)
+					updatePlayerDot(1 ,player, plane,a,b,c,d,e, isLocalPlayer)
+					updatePlayerDot(2 ,player, plane,a,b,c,d,e, isLocalPlayer)
+					updatePlayerDot(3 ,player, plane,a,b,c,d,e, isLocalPlayer)
+
+				else
+
+					nameGUI.Text = (player.Name)
+					if NewMiniMap.Screen1.Content.Dots:FindFirstChild(player.Name) then
+						NewMiniMap.Screen1.Content.Dots[player.Name]:Destroy()
+						if 	NewMiniMap.Screen2.Content.Dots:FindFirstChild(player.Name) then
+							NewMiniMap.Screen2.Content.Dots[player.Name]:Destroy()
+						end
+						if 	NewMiniMap.Screen3.Content.Dots:FindFirstChild(player.Name) then
+							NewMiniMap.Screen3.Content.Dots[player.Name]:Destroy()
+						end
+
+						--Remove PlayerDot Connections
+						for i, connectionSet in pairs(DotConnections) do
+							if connectionSet.Player == player then
+								for j, connection in pairs(connectionSet.Connections) do
+									connection:Disconnect()
+									table.remove(Connections, table.find(Connections, connection))
+								end
+
+								table.remove(DotConnections, i)
+							end
+						end	
+					end
+				end
+				
 			end
 		end
 
+		task.wait(waitTime)
 	end
-end
-
-task.wait(waitTime)
 end
 
 coroutine.wrap(QVFIYB_fake_script)()
@@ -15816,7 +15816,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 
 	--Colors
 
-	local menuSelectedColor = Color3.new(0.235294, 0.352941, 0.494118)
+    local menuSelectedColor = Color3.new(0.235294, 0.352941, 0.494118)
 	local defaultColor = Color3.new(0.105882, 0.164706, 0.207843)
 	local buttonSelectedColor = Color3.new(0, 0.5, 0)
 	local buttonDeselectColor = Color3.new(0.415686, 0.415686, 0.415686)
@@ -15883,7 +15883,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		Content.Position = UDim2.new(0.5,0,0.5,0)
 	end)
 
-
+	
 	local defaultSetting = "default"
 	local defaultGround = "ASDEX"
 
@@ -15908,10 +15908,10 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		--Set Red
 		Dot.PlayerFrames.Default.BackgroundColor3 = redColor
 		Dot.PlayerFrames.Default.Direction.Frame.BackgroundColor3 = redColor
-
+		
 		Dot.TextLabel.TextColor3 = blackColor
 		Dot.TextLine.Line.BackgroundColor3 = blackColor
-
+		
 		Dot.PlayerFrames.Round.BackgroundColor3 = blueColor
 		Dot.PlayerFrames.Plane.BackgroundColor3 = blueColor
 
@@ -15919,7 +15919,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		Dot.PlayerFrames.Default.Visible = true
 		Dot.PlayerFrames.Round.Visible = false
 		Dot.PlayerFrames.Plane.Visible = false
-
+		
 		for i,Dot in pairs(Content.Dots:GetChildren()) do
 			if Dot:IsA("ImageButton") then
 				Dot:Destroy()
@@ -15943,19 +15943,19 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		end
 
 		--Removing trail
-
+		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(0,0,0)
 		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(0,0,0)
 		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(0,0,0)
-
-		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
-			if v:IsA("TextLabel") then
-				v.TextColor3 = Color3.new(0,0,0)
-			end
-			if v:IsA("ImageLabel") then
-				v.BackgroundTransparency = 1
-			end
-		end
+		
+			for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
+    		if v:IsA("TextLabel") then
+    			v.TextColor3 = Color3.new(0,0,0)
+    		end
+    		if v:IsA("ImageLabel") then
+    		    v.BackgroundTransparency = 1
+    		 end
+    	end
 	end
 
 	local function setVStar()
@@ -15966,23 +15966,23 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		VStarButton.BackgroundColor3 = buttonSelectedColor
 		GroundButton.BackgroundColor3 = buttonDeselectColor
 		ASDEXButton.BackgroundColor3 = buttonDeselectColor
-
+		
 		Content.Image.VStar.Visible = true
 		Content.Image.Ground.Visible = false
 		Content.Image["ASDE-X"].Visible = false
 
 		Content.Parent.BackgroundColor3 = Color3.new(0,0,0)
-		Content.BackgroundColor3 = Color3.new(0,0,0)
+        Content.BackgroundColor3 = Color3.new(0,0,0)
 
 		--Settong New Icon Look
 		local Dot = ATCScreen["Player"..activeScreen.Value]
 		--Set Blue
 		Dot.PlayerFrames.Default.BackgroundColor3 = blueColor
 		Dot.PlayerFrames.Default.Direction.Frame.BackgroundColor3 = blueColor
-
+		
 		Dot.TextLabel.TextColor3 = whiteColor
 		Dot.TextLine.Line.BackgroundColor3 = whiteColor
-
+		
 		Dot.PlayerFrames.Round.BackgroundColor3 = blueColor
 		Dot.PlayerFrames.Plane.BackgroundColor3 = blueColor
 
@@ -15990,7 +15990,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		Dot.PlayerFrames.Default.Visible = false
 		Dot.PlayerFrames.Round.Visible = true
 		Dot.PlayerFrames.Plane.Visible = false
-
+		
 		--Set Runway
 		for i, image in pairs(Content.Image.Background:GetChildren()) do
 			for j, folder in pairs(image:GetChildren()) do
@@ -16002,26 +16002,26 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 			end
 		end
 
-
+		
 		for i,Dot in pairs(Content.Dots:GetChildren()) do
 			if Dot:IsA("ImageButton") then
 				Dot:Destroy()
 			end		
 		end
-
+		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
 		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
 		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
-
+		
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
-			if v:IsA("TextLabel") then
-				v.TextColor3 = Color3.new(1,1,1)
-			end
-			if v:IsA("ImageLabel") then
-				v.BackgroundTransparency = 0
-				v.BackgroundColor3 = Color3.new(0,0,0)
-				v.BorderColor3 = Color3.new(1,1,1)
-			end
+    		if v:IsA("TextLabel") then
+    			v.TextColor3 = Color3.new(1,1,1)
+    		end
+    		if v:IsA("ImageLabel") then
+    		    v.BackgroundTransparency = 0
+    		    v.BackgroundColor3 = Color3.new(0,0,0)
+    		    v.BorderColor3 = Color3.new(1,1,1)
+    		 end
 		end
 	end
 
@@ -16033,13 +16033,13 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		VStarButton.BackgroundColor3 = buttonDeselectColor
 		GroundButton.BackgroundColor3 = buttonSelectedColor
 		ASDEXButton.BackgroundColor3 = buttonDeselectColor
-
+		
 		Content.Image.VStar.Visible = false
 		Content.Image.Ground.Visible = true
 		Content.Image["ASDE-X"].Visible = false
 
 		Content.Parent.BackgroundColor3 = Color3.new(0,0,0)
-		Content.BackgroundColor3 = Color3.new(0,0,0)
+        Content.BackgroundColor3 = Color3.new(0,0,0)
 
 		--Settong New Icon Look
 		local Dot = ATCScreen["Player"..activeScreen.Value]
@@ -16069,7 +16069,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 			end
 		end
 
-
+		
 		for i,Dot in pairs(Content.Dots:GetChildren()) do
 			if Dot:IsA("ImageButton") then
 				Dot:Destroy()
@@ -16080,20 +16080,20 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 				end
 			end
 		end
-
+		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
 		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
 		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
-
+		
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
-			if v:IsA("TextLabel") then
-				v.TextColor3 = Color3.new(1,1,1)
-			end
-			if v:IsA("ImageLabel") then
-				v.BackgroundTransparency = 0
-				v.BackgroundColor3 = Color3.new(0,0,0)
-				v.BorderColor3 = Color3.new(1,1,1)
-			end
+    		if v:IsA("TextLabel") then
+    			v.TextColor3 = Color3.new(1,1,1)
+    		end
+    		if v:IsA("ImageLabel") then
+    		    v.BackgroundTransparency = 0
+    		    v.BackgroundColor3 = Color3.new(0,0,0)
+    		    v.BorderColor3 = Color3.new(1,1,1)
+    		 end
 		end
 	end
 
@@ -16105,12 +16105,12 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 		VStarButton.BackgroundColor3 = buttonDeselectColor
 		GroundButton.BackgroundColor3 = buttonDeselectColor
 		ASDEXButton.BackgroundColor3 = buttonSelectedColor
-
+		
 		Content.Image.VStar.Visible = false
 		Content.Image.Ground.Visible = false
 		Content.Image["ASDE-X"].Visible = true
 		Content.Parent.BackgroundColor3 = Color3.new(0,0,0)
-		Content.BackgroundColor3 = Color3.new(0,0,0)
+        Content.BackgroundColor3 = Color3.new(0,0,0)
 
 		--Settong New Icon Look
 		local Dot = ATCScreen["Player"..activeScreen.Value]
@@ -16150,20 +16150,20 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 				end
 			end
 		end
-
+		
 		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
 		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
 		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
-
+		
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
-			if v:IsA("TextLabel") then
-				v.TextColor3 = Color3.new(1,1,1)
-			end
-			if v:IsA("ImageLabel") then
-				v.BackgroundTransparency = 0
-				v.BackgroundColor3 = Color3.new(0,0,0)
-				v.BorderColor3 = Color3.new(1,1,1)
-			end
+    		if v:IsA("TextLabel") then
+    			v.TextColor3 = Color3.new(1,1,1)
+    		end
+    		if v:IsA("ImageLabel") then
+    		    v.BackgroundTransparency = 0
+    		    v.BackgroundColor3 = Color3.new(0,0,0)
+    		    v.BorderColor3 = Color3.new(1,1,1)
+    		 end
 		end
 	end
 
@@ -16191,7 +16191,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 	end)
 	autoDisconnect(ASDEXConnect)
 
-
+	
 
 	for i, button in pairs(KeybindFrame:GetChildren()) do
 		if button:IsA("TextButton") then
@@ -16199,7 +16199,7 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 
 				button.BackgroundColor3 = defaultColor
 				button.TextLabel.Text = "< >"
-
+				
 				local inputed 
 
 				inputed = inputService.InputBegan:Connect(function(input, behavior)
@@ -16302,81 +16302,82 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			JAMSI1AB = "RFD EASTN RESTS HMS JAMSI",
 			LAZER1AB = "RFD EASTN RESTS HMS LAZER",
 			SEEKS1AB = "RFD EASTN ROCKET BEANS SEEKS",
-			SEEKS1CD = "RFD BLADES HELPR SEEKS",
+			SEEKS1CD = "RFD BLADES HELPR SEEKS"
 			GUESS1CD = "RFD BLADES HELPR WAREZ PARTS GUESS",
 			WELSH1CD = "RFD BLADES TRN STOOD RESTS WELSH",
 			SETHR1CD = "RFD BLADES TRN HMS SETHR",
 			JAMSI2CD = "RFD BLASES TRN SAVES JAMSI",
 			LAZER1CD = "RFD BLADES TRN SAVES LAZER"
-
+	  
 		},
-		Perth = {
+		 Perth = {
 			KNIFE1A = "BTM NOONU TALIS STRAX KNIFE",
 			ROMENS1A = "BTM NOONU TALIS ROM",
 			CAMEL1A = "BTM NOONU TALIS CAMEL",
 			KNIFE1B = "STRAX KNIFE",
 			KNIFE1C = "TINDR KNIFE",
-			ROMENS1C = "TINDR STRAX ROM",
+			ROMENS1C = "TINDR STRAX ROM"
 			CAMEL1C = "TINDR STRAX CAMEL",
 			KNIEF1D = "TINDR KNIFE",
 			ROMENS1D = "TINDR STRAX ROM",
 			CAMEL1D = "TINDR STRAX CAMEL"
-
+	  
 		},
 		Tokyo = {
 			EURAD1KN = "ASTRO GULEG EURAD",
 			RENDR1KN = "ASTRO RENDR",
 			EURAD1LM = "PIPER GULEG EURAD",
 			RENDR1LM = "PIPER RENDR",
-			HONDA1N = "ASTRO PIPER HONDA"
-
+			HONDA1N "ASTRO PIPER HONDA"
+			
 		}
-
-	}
-	local STARs = {
+	  
+	  }
+	  local STARs = {
 		Rockford = {
 			INDEX4A = "INDEX RESTS STOOD TRN BLA RFD",
 			INDEX4B = "INDEX KEN RFD",
-			GUESS1A = "GUESS PARTS WAREZ HELPR BLA RFD",
-			WELSH3A = "WELSH RESTS STOOD TRN BLA RFD",
-			WELSH3B = "WELSH KEN",
-			GUESS1B = "GUESS ENDER KEN",
-			SETHR1A = "SETHR HMS TRN BLA",
-			JAMSI1A = "JAMSI SAVES TRN BLA",
-			LAZER1A = "LAZER SAVES TRN BLA",
-			SEEKS1A = "SEEKS HELPR BLA",
-			SEEKS1B = "SEEKS BEANS ROK KEN"
-
+			GUESS1A = ''GUESS PARTS WAREZ HELPR BLA RFD'',
+			WELSH3A = ''WELSH RESTS STOOD TRN BLA RFD'',
+			WELSH3B = ''WELSH KEN'',
+			INDEX4B = ''INDEX KEN'',
+			GUESS1B = ''GUESS ENDER KEN'',
+			SETHR1A = ''SETHR HMS TRN BLA'',
+			JAMSI1A = ''JAMSI SAVES TRN BLA'',
+			LAZER1A = ''LAZER SAVES TRN BLA'',
+			SEEKS1A = ''SEEKS HELPR BLA'',
+			SEEKS1B = ''SEEKS BEANS ROK KEN''
+	  
 		},
-		Perth = {
-			CAMEL1WX = "CAMEL STRAX TINDR PER",
-			ROM1WX = "ROM STRAX TINDR PER",
-			KNIFE1WX = "KNIFE TINDR PER",
-			KNIFE1Y = "KNIFE STRAX TALIS NOONU PER",
-			ROM1Y = "ROM TALIS NOONU PER",
-			CAMEL1Y = "CAMEL TALIS NOONU PER",
-			KNIFE1Z = "KNIFE STRAX PER",
-			ROM1Z = "ROM PER",
-			CAMEL1Z = "CAMEL PER"
-
+		 Perth = {
+		   CAMEL1WX = ''CAMEL STRAX TINDR PER'',
+		   ROM1WX = ''ROM STRAX TINDR PER'',
+		   KNIFE1WX = ''KNIFE TINDR PER'',
+		   KNIFE1Y = ''KNIFE STRAX TALIS NOONU PER'',
+		   ROM1Y = ''ROM TALIS NOONU PER'',
+		   CAMEL1Y = ''CAMEL TALIS NOONU PER'',
+		   KNIFE1Z = ''KNIFE STRAX PER'',
+		   ROM1Z = ''ROM PER'',
+		   CAMEL1Z = ''CAMEL PER''
+	  
 		},
 		Tokyo = {
-			HONDA1A = "HONDA CHILY NIKON",
-			ONDER1A = "ONDER PIPER ASTRO SHIBA HME",
-			RENDER1A = "RENDER PIPER ASTRO SHIBA HME",
-			EURAD1A = "EUARD SHIBA HME",
-			RENDER1B = "RENDER GULEG SHIBA NIKON ", 
-			EURAD1B = "EUARD SHIBA NIKON",
-			ONDER1B = "ONDER KNIFE HONDA CHILY",
-			HONDA1B = "HONDA CHILY", 
-			EURAD1C = "EUARD KNIFE",
-			RENDER1C = "RENDER ONDER KNIFE",
-			ONDER1C = "ONDER KNIFE",
-			HONDA1C = "HONDA KNIFE"
+		   HONDA1A = ''HONDA CHILY NIKON'',
+		   ONDER1A = ''ONDER PIPER ASTRO SHIBA HME'',
+		   RENDER1A = ''RENDER PIPER ASTRO SHIBA HME'',
+		   EURAD1A = ''EUARD SHIBA HME'',
+		   RENDER1B = ''RENDER GULEG SHIBA NIKON '', 
+		   EURAD1B = ''EUARD SHIBA NIKON'',
+		   ONDER1B = ''ONDER KNIFE HONDA CHILY'',
+		   HONDA1B = ''HONDA CHILY'', 
+		   EURAD1C = ''EUARD KNIFE'',
+		   RENDER1C = ''RENDER ONDER KNIFE'',
+		   ONDER1C = ''ONDER KNIFE'',
+		   HONDA1C = ''HONDA KNIFE''
 		}
-
-	} 
-
+	  
+	  } 
+	  
 
 
 
@@ -16430,7 +16431,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			MapState.setState("Full")
 
 		end
-
+	
 	end)
 
 
@@ -16446,19 +16447,19 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 				Point.Visible = true
 			end
 		end
-
+		
 		for i, letter in pairs(Image.Ground:GetDescendants()) do
-			if letter:IsA("TextLabel") then
-				letter.Visible = not letter.Visible
-			end
+	        if letter:IsA("TextLabel") then
+	            letter.Visible = not letter.Visible
+	        end
 		end
 
 		for i, letter in pairs(Image["ASDE-X"]:GetDescendants()) do
-			if letter:IsA("TextLabel") then
-				letter.Visible = not letter.Visible
-			end
+	        if letter:IsA("TextLabel") then
+	            letter.Visible = not letter.Visible
+	        end
 		end
-
+		
 		WState = not WState
 	end
 
@@ -16519,7 +16520,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 				end
 			end
 		end
-
+		
 		for i, runway in pairs(Background:GetDescendants()) do
 			if selection == runway.Name then
 				runway.Visible = not runway.Visible
@@ -16666,7 +16667,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	HeadInputConnect = inputService.InputBegan:Connect(function(input , b)
 		headingInputBegan(input, b)
-
+	
 	end)
 	autoDisconnect(HeadInputConnect)
 
@@ -16683,7 +16684,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	local RouteFrame = ATCScreen.RouteFrame
 	local RouteList = RouteFrame.RouteList
-
+	
 	local RouteButton = Route.MouseButton1Down:Connect(function()
 		RouteFrame.Visible = not RouteFrame.Visible
 		if RouteFrame.Visible == false then
@@ -16728,7 +16729,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	--Connecting Route Buttons to route display
 	local Screen1 = ATCScreen.NewMiniMap.Screen1
-
+	
 	for i, list in pairs(RouteList:GetChildren()) do
 		for i, Route in pairs(list:GetDescendants()) do
 
@@ -16739,7 +16740,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 					local newRoute = Instance.new("Folder")
 					newRoute.Name = Route.Name
 					newRoute.Prant = Screen1
-
+					
 					local RoutePoints
 					if string.sub(list.name, #list.name-2) == "SID" then
 						RoutePoints = string.split(SIDs[Route.name])
@@ -16856,7 +16857,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	end)
 	autoDisconnect(BSettingConnect)
 
-
+	
 
 	--Wind
 	local Wind = NewMiniMap.TopBar.Wind
@@ -16871,7 +16872,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		end
 		task.wait()
 	end
-
+	
 end
 
 

@@ -12241,7 +12241,7 @@ UICorner_71 = Instance.new("UICorner")
 --Properties:
 
 RouteFrame.Name = "RouteFrame"
-RouteFrame.Parent = ATCScreen
+RouteFrame.Parent = game.StarterGui["ATCScreenV6"]
 RouteFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 RouteFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 RouteFrame.Position = UDim2.new(0.5, 0, 0.5, 0)

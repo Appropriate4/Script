@@ -16804,11 +16804,11 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 						local RoutePoints
 						if string.sub(list.name, (#list.Name)-2) == "SID" then
-							local routeString = SIDs[string.sub(list.name, (#list.Name)-2)][Route.Name]
+							local routeString = SIDs[string.sub(list.name,1, (#list.Name)-2)][Route.Name]
 							RoutePoints = string.split(routeString)
 							print("SID "..Route.Name, ":" , routeString)
 						else
-							local routeString = SIDs[string.sub(list.name, (#list.Name)-3)][Route.Name]
+							local routeString = SIDs[string.sub(list.name,1, (#list.Name)-3)][Route.Name]
 							RoutePoints = string.split(routeString)
 							print("STAR "..Route.Name, ":" , routeString)
 						end

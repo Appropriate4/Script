@@ -545,6 +545,7 @@ RouteLine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 RouteLine.BackgroundTransparency = 1
 RouteLine.Position = UDim2.new(0.5, 0, 0.5, 0)
 RouteLine.Size = UDim2.new(0.00200000009, 0, 0.100000001, 0)
+RouteLine.ZIndex = 8
 
 Frame_2.Parent = RouteLine
 Frame_2.BackgroundColor3 = Color3.fromRGB(138, 0, 0)
@@ -16793,7 +16794,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local Screen1 = ATCScreen.NewMiniMap.Screen1
 
 	for i, list in pairs(RouteList:GetChildren()) do
-		for i, Route in pairs(list:GetDescendants()) do
+		for e, Route in pairs(list:GetDescendants()) do
 			if Route:IsA("TextButton") then
 				Route.MouseButton1Down:Connect(function()
 					if Content:FindFirstChild(Route.Name) then
@@ -16817,10 +16818,13 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						end
 						--Generate Route
 
-						for i, point in pairs(RoutePoints) do
+						for d, point in pairs(RoutePoints) do
+							print("Routing: "..d)
 							if Wavepoints:FindFirstChild(point) and i < table.maxn(routePoints) then
 								local wavepoint = Wavepoints[point]
-								local nextPoint = routePoints[i+1]
+								local nextPoint = routePoints[d+1]
+
+								print("New Line Created")
 
 								local newLine = RouteLine:Clone()
 								newLine.Parent = newRoute

@@ -12249,6 +12249,7 @@ RouteFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 RouteFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 RouteFrame.Size = UDim2.new(0.200000003, 0, 0.5, 0)
 RouteFrame.ZIndex = 15
+RouteFrame.Visible = false
 
 UICorner.Parent = RouteFrame
 
@@ -16753,7 +16754,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	---Route List Select
 	for i, listSelect in pairs(RouteFrame.Routes.SID:GetChildren()) do
 		if listSelect:IsA("TextButton") then
-			local selectedList = listSelect.Name.."SID"
+			local selectedList = listSelect.Name .."SID"
 
 			listSelect.MouseButton1Down:Connect(function()
 				for i, lists in pairs(RouteList:GetChildren()) do
@@ -16761,6 +16762,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						lists.Visible = false
 					end
 				end
+				RouteList.Visible = true
 				RouteList[selectedList].Visible = true
 				RouteList.Label.Text = selectedList.Name.. " SIDs"
 			end)
@@ -16777,6 +16779,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						lists.Visible = false
 					end
 				end
+				RouteList.Visible = true
 				RouteList[selectedList].Visible = true
 				RouteList.Label.Text = selectedList.Name.. " STARs"
 			end)

@@ -16740,7 +16740,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	end)
 	autoDisconnect(RouteButton)
 
-	local RouteCloseButton = Route.Close.MouseButton1Down:Connect(function()
+	local RouteCloseButton = Route.CloseButton.MouseButton1Down:Connect(function()
 		RouteFrame.Visible = not RouteFrame.Visible
 		if RouteFrame.Visible == false then
 			RouteList.Visible = false

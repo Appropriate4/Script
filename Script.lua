@@ -3,6 +3,8 @@
 
 -- Instances:
 
+warn("Launching UI Remastered: ATC Screen B605")
+
 local ATCScreen = Instance.new("ScreenGui")
 TextLabel = Instance.new("TextLabel")
 Direction = Instance.new("Frame")

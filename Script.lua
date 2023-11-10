@@ -16754,7 +16754,8 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	---Route List Select
 	for i, listSelect in pairs(RouteFrame.Routes.SID:GetChildren()) do
 		if listSelect:IsA("TextButton") then
-			local selectedList = listSelect.Name .."SID"
+			local name = listSelect.Name
+			local selectedList = name .."SID"
 
 			listSelect.MouseButton1Down:Connect(function()
 				for i, lists in pairs(RouteList:GetChildren()) do
@@ -16764,14 +16765,15 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 				end
 				RouteList.Visible = true
 				RouteList[selectedList].Visible = true
-				RouteList.Label.Text = selectedList.Name.. " SIDs"
+				RouteList.Label.Text = name.. " SIDs"
 			end)
 		end
 	end
 
 	for i, listSelect in pairs(RouteFrame.Routes.STAR:GetChildren()) do
 		if listSelect:IsA("TextButton") then
-			local selectedList = listSelect.Name.."STAR"
+			local name = listSelect.Name
+			local selectedList = name.."STAR"
 
 			listSelect.MouseButton1Down:Connect(function()
 				for i, lists in pairs(RouteList:GetChildren()) do
@@ -16781,7 +16783,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 				end
 				RouteList.Visible = true
 				RouteList[selectedList].Visible = true
-				RouteList.Label.Text = selectedList.Name.. " STARs"
+				RouteList.Label.Text = name.. " STARs"
 			end)
 		end
 	end
@@ -16793,7 +16795,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		for i, Route in pairs(list:GetDescendants()) do
 			if Route:IsA("TextButton") then
 				Route.MouseButton1Down:Connect(function()
-					if Content[Route.Name] then
+					if Content:FindFirstChild(Route.Name) then
 						Content[Route.Name]:Destroy()
 					else
 						local newRoute = Instance.new("Folder")

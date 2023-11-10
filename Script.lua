@@ -16804,7 +16804,6 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						newRoute.Parent = Screen1
 
 						local RoutePoints
-						print(string.sub(list.name, (#list.Name)-2))
 						if string.sub(list.name, (#list.Name)-2) == "SID" then
 							print("SID: ".. string.sub(list.name,1, (#list.Name)-3))
 							local routeString = SIDs[string.sub(list.name,1, (#list.Name)-3)][Route.Name]
@@ -16812,7 +16811,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 							print("SID "..Route.Name, ":" , routeString)
 						else
 							print("STAR "..string.sub(list.name,1, (#list.Name)-4))
-							local routeString = SIDs[string.sub(list.name,1, (#list.Name)-4)][Route.Name]
+							local routeString = STARs[string.sub(list.name,1, (#list.Name)-4)][Route.Name]
 							RoutePoints = string.split(routeString)
 							print("STAR "..Route.Name, ":" , routeString)
 						end

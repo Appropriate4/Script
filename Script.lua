@@ -16732,7 +16732,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local RouteFrame = ATCScreen.RouteFrame
 	local RouteList = RouteFrame.RouteList
 
-	local RouteButton = RouteFrame.Routes.Close.MouseButton1Down:Connect(function()
+	local RouteButton = RouteFrame.Routes.CloseButton.MouseButton1Down:Connect(function()
 		RouteFrame.Visible = not RouteFrame.Visible
 		if RouteFrame.Visible == false then
 			RouteList.Visible = false
@@ -16740,7 +16740,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	end)
 	autoDisconnect(RouteButton)
 
-	local RouteCloseButton = Route.CloseButton.MouseButton1Down:Connect(function()
+	local RouteCloseButton = Route.MouseButton1Down:Connect(function()
 		RouteFrame.Visible = not RouteFrame.Visible
 		if RouteFrame.Visible == false then
 			RouteList.Visible = false

@@ -16800,15 +16800,15 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 					else
 						local newRoute = Instance.new("Folder")
 						newRoute.Name = Route.Name
-						newRoute.Prant = Screen1
+						newRoute.Parant = Screen1
 
 						local RoutePoints
-						if string.sub(list.name, #list.name-2) == "SID" then
-							RoutePoints = string.split(SIDs[Route.name])
-							print(SIDs[Route.name])
+						if string.sub(list.name, (#list.Name)-2) == "SID" then
+							RoutePoints = string.split(SIDs[Route.Name])
+							print("SID "..Route.Name, ":" , SIDs[Route.Name])
 						else
-							RoutePoints = string.split(STARS[Route.name])
-							print(STARs[Route.name])
+							RoutePoints = string.split(STARS[Route.Name])
+							print(STARs[Route.Name])
 						end
 						--Generate Route
 

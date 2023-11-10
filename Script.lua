@@ -16818,7 +16818,25 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						end
 						--Generate Route
 
+						for i, point in pairs(RoutePoints) do
+							if Wavepoints:FindFirstChild(point) and i < table.maxn(routePoints) then
+								local wavepoint = Wavepoints[point]
+								local nextPoint = routePoints[i+1]
 
+								local newLine = RouteLine:Clone()
+								newLine.Parent = newRoute
+								newLine.Name = point .. " ".. nextPoint
+								newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
+								newLine.Frame.BackgroundTransparency = 0
+						
+			
+								local endPos = Vector2.new(Wavepoints[nextPoint].Position.X.Scale, -1* Wavepoints[nextPoint].Position.Y.Scale)
+								local Delta = endPos - Vector2.new(wavepoint.Position.X.Scale, -1* wavepoint.Position.Y.Scale)
+			
+								newLine.Rotation = findRotaton(Delta)
+								newLine.Size = UDim2.new(.002, 0, 2*Delta.Magnitude)
+							end
+						end
 					end
 				end)
 			end

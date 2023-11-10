@@ -16822,7 +16822,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 							print("Routing: "..d)
 							if Wavepoints:FindFirstChild(point) and i < table.maxn(routePoints) then
 								local wavepoint = Wavepoints[point]
-								local nextPoint = routePoints[d+1]
+								local nextPoint = RoutePoints[d+1]
 
 								print("New Line Created")
 

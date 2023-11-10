@@ -15644,139 +15644,138 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		TO = os.time()
 		
 	
-	if diffTime >= SecsPerStep then
-		if NewMiniMap.Screen1.Content.Image.VStar.Visible then
-			newTrail[1] = true
-			newTrail[2] = true
-			newTrail[3] = true
-		end
-		TO = os.time()
-		Step+=1
-	else
-		newTrail[1] = false
-		newTrail[2] = false
-		newTrail[3] = false
-	end
-end
-
-
-
-for i , item in pairs(playerList.ScrollingFrame:GetChildren()) do
-	if item:IsA("Frame") then
-		local playerName = item.Player.Text
-		if game:GetService("Players"):FindFirstChild(playerName) and game:GetService("Players")[playerName].Character then
-			item.Tag.Text = PlayerData.GetPlayerDefaultTag(game:GetService("Players")[playerName])
-
-			if PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]) then
-				item.Aircraft.Text = PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]):GetAttribute("Name")
-			else
-				item.Aircraft.Text = "No Plane"
+		if diffTime >= SecsPerStep then
+			if NewMiniMap.Screen1.Content.Image.VStar.Visible then
+				newTrail[1] = true
+				newTrail[2] = true
+				newTrail[3] = true
 			end
-
-			if flightPlans[playerName] then
-				if flightPlans[playerName].Arriving then
-					item.Destination.Text = flightPlans[playerName].Arriving
-				end
-			end
-		end
-	end
-end
-
-for i,player in pairs(game:GetService("Players"):GetPlayers()) do
-	if player.Character and game.workspace:FindFirstChild(player.Name) and game.workspace:FindFirstChild(player.Name):WaitForChild("Head", .01) then
-
-		local nameGUI = game.workspace[player.Name].Head.clonegui.TextLabel
-
-		if PlayerData.GetPlaneFromPlayer(player) ~= nil then
-
-			if os.time()-baseTime >= 2 then
-				local Default = TextStyle.Default
-				local Short = TextStyle.Short
-				Iteration += 1
-				baseTime = os.time()
-
-				if Iteration%2==0 then
-					Default.Text = "Delta-1234 \n HED ALT SP"
-					Short.Text = "DAL1234 \n ALT SP"
-				else
-					Default.Text = "Delta-1234 \n DEST AIRCRAFT"
-					Short.Text = "DAL1234 \n DEST AIRC"
-				end
-			end
-
-			local isLocalPlayer = false
-			if player.Name == localPlayer.Name then
-				isLocalPlayer = true
-			end
-
-			local plane = PlayerData.GetPlaneFromPlayer(player)
-			local a = PlayerData.GetPlayerTAG(player)
-			local b = PlayerData.GetPlayerHDG(player)
-			local c = PlayerData.GetPlayerALT(player)
-			local d = PlayerData.GetPlayerSpeed(player)
-			local e = PlayerData.GetPlayerPosition(player,1)
-
-			if plane == selectedPlane then
-				local details = aircraftInfo.AircraftDetails
-
-				if plane:GetAttribute("Type") == "Plane" then
-					details.MaxSpeed.Text = "Max Speed: ".. plane:GetAttribute("MaxSpeed")
-					details.StallSpeed.Text = "Stall Speed: ".. plane:GetAttribute("StallSpeed")
-					details.LandingSpeed.Text = "Landing Speed: ".. plane:GetAttribute("LandingSpeed")
-					details.Flaps.Text = "Flaps: ".. plane.Internal:GetAttribute("FlapStage").. "/".. plane.Internal:GetAttribute("FlapCount")
-					details.Throttle.Text = "Throttle: ".. math.floor(plane.Internal:GetAttribute("Throttle")*100).. "%"
-					details.Fuel.Text = "Fuel: ".. math.floor(plane.Internal:GetAttribute("CurrentFuel") / plane:GetAttribute("FuelAmount") *100).. "%"
-				end
-
-				if plane.Internal:GetAttribute("AltHold") then
-					details.AltitudeHold.Text = "Altitude Hold: On"
-				else
-					details.AltitudeHold.Text = "Altitude Hold: Off"
-				end
-
-				if plane.Internal:GetAttribute("GearUp") then
-					details.Gear.Text = "Gear: Up"
-				else 
-					details.Gear.Text = "Gear: Down"
-				end
-			end
-
-
-			nameGUI.Text = (a.. "\n".. player.Name)
-			updatePlayerDot(1 ,player, plane,a,b,c,d,e, isLocalPlayer)
-			updatePlayerDot(2 ,player, plane,a,b,c,d,e, isLocalPlayer)
-			updatePlayerDot(3 ,player, plane,a,b,c,d,e, isLocalPlayer)
-
+			TO = os.time()
+			Step+=1
 		else
+			newTrail[1] = false
+			newTrail[2] = false
+			newTrail[3] = false
+		end
 
-			nameGUI.Text = (player.Name)
-			if NewMiniMap.Screen1.Content.Dots:FindFirstChild(player.Name) then
-				NewMiniMap.Screen1.Content.Dots[player.Name]:Destroy()
-				if 	NewMiniMap.Screen2.Content.Dots:FindFirstChild(player.Name) then
-					NewMiniMap.Screen2.Content.Dots[player.Name]:Destroy()
-				end
-				if 	NewMiniMap.Screen3.Content.Dots:FindFirstChild(player.Name) then
-					NewMiniMap.Screen3.Content.Dots[player.Name]:Destroy()
-				end
+		task.wait()
 
-				--Remove PlayerDot Connections
-				for i, connectionSet in pairs(DotConnections) do
-					if connectionSet.Player == player then
-						for j, connection in pairs(connectionSet.Connections) do
-							connection:Disconnect()
-							table.remove(Connections, table.find(Connections, connection))
+		for i , item in pairs(playerList.ScrollingFrame:GetChildren()) do
+			if item:IsA("Frame") then
+				local playerName = item.Player.Text
+				if game:GetService("Players"):FindFirstChild(playerName) and game:GetService("Players")[playerName].Character then
+					item.Tag.Text = PlayerData.GetPlayerDefaultTag(game:GetService("Players")[playerName])
+
+					if PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]) then
+						item.Aircraft.Text = PlayerData.GetPlaneFromPlayer(game:GetService("Players")[item.name]):GetAttribute("Name")
+					else
+						item.Aircraft.Text = "No Plane"
+					end
+
+					if flightPlans[playerName] then
+						if flightPlans[playerName].Arriving then
+							item.Destination.Text = flightPlans[playerName].Arriving
+						end
+					end
+				end
+			end
+		end
+
+		for i,player in pairs(game:GetService("Players"):GetPlayers()) do
+			if player.Character and game.workspace:FindFirstChild(player.Name) and game.workspace:FindFirstChild(player.Name):WaitForChild("Head", .01) then
+
+				local nameGUI = game.workspace[player.Name].Head.clonegui.TextLabel
+
+				if PlayerData.GetPlaneFromPlayer(player) ~= nil then
+
+					if os.time()-baseTime >= 2 then
+						local Default = TextStyle.Default
+						local Short = TextStyle.Short
+						Iteration += 1
+						baseTime = os.time()
+
+						if Iteration%2==0 then
+							Default.Text = "Delta-1234 \n HED ALT SP"
+							Short.Text = "DAL1234 \n ALT SP"
+						else
+							Default.Text = "Delta-1234 \n DEST AIRCRAFT"
+							Short.Text = "DAL1234 \n DEST AIRC"
+						end
+					end
+
+					local isLocalPlayer = false
+					if player.Name == localPlayer.Name then
+						isLocalPlayer = true
+					end
+
+					local plane = PlayerData.GetPlaneFromPlayer(player)
+					local a = PlayerData.GetPlayerTAG(player)
+					local b = PlayerData.GetPlayerHDG(player)
+					local c = PlayerData.GetPlayerALT(player)
+					local d = PlayerData.GetPlayerSpeed(player)
+					local e = PlayerData.GetPlayerPosition(player,1)
+
+					if plane == selectedPlane then
+						local details = aircraftInfo.AircraftDetails
+
+						if plane:GetAttribute("Type") == "Plane" then
+							details.MaxSpeed.Text = "Max Speed: ".. plane:GetAttribute("MaxSpeed")
+							details.StallSpeed.Text = "Stall Speed: ".. plane:GetAttribute("StallSpeed")
+							details.LandingSpeed.Text = "Landing Speed: ".. plane:GetAttribute("LandingSpeed")
+							details.Flaps.Text = "Flaps: ".. plane.Internal:GetAttribute("FlapStage").. "/".. plane.Internal:GetAttribute("FlapCount")
+							details.Throttle.Text = "Throttle: ".. math.floor(plane.Internal:GetAttribute("Throttle")*100).. "%"
+							details.Fuel.Text = "Fuel: ".. math.floor(plane.Internal:GetAttribute("CurrentFuel") / plane:GetAttribute("FuelAmount") *100).. "%"
 						end
 
-						table.remove(DotConnections, i)
+						if plane.Internal:GetAttribute("AltHold") then
+							details.AltitudeHold.Text = "Altitude Hold: On"
+						else
+							details.AltitudeHold.Text = "Altitude Hold: Off"
+						end
+
+						if plane.Internal:GetAttribute("GearUp") then
+							details.Gear.Text = "Gear: Up"
+						else 
+							details.Gear.Text = "Gear: Down"
+						end
 					end
-				end	
+
+
+					nameGUI.Text = (a.. "\n".. player.Name)
+					updatePlayerDot(1 ,player, plane,a,b,c,d,e, isLocalPlayer)
+					updatePlayerDot(2 ,player, plane,a,b,c,d,e, isLocalPlayer)
+					updatePlayerDot(3 ,player, plane,a,b,c,d,e, isLocalPlayer)
+
+				else
+
+					nameGUI.Text = (player.Name)
+					if NewMiniMap.Screen1.Content.Dots:FindFirstChild(player.Name) then
+						NewMiniMap.Screen1.Content.Dots[player.Name]:Destroy()
+						if 	NewMiniMap.Screen2.Content.Dots:FindFirstChild(player.Name) then
+							NewMiniMap.Screen2.Content.Dots[player.Name]:Destroy()
+						end
+						if 	NewMiniMap.Screen3.Content.Dots:FindFirstChild(player.Name) then
+							NewMiniMap.Screen3.Content.Dots[player.Name]:Destroy()
+						end
+
+						--Remove PlayerDot Connections
+						for i, connectionSet in pairs(DotConnections) do
+							if connectionSet.Player == player then
+								for j, connection in pairs(connectionSet.Connections) do
+									connection:Disconnect()
+									table.remove(Connections, table.find(Connections, connection))
+								end
+
+								table.remove(DotConnections, i)
+							end
+						end	
+					end
+				end
+
 			end
 		end
-
+	task.wait(waitTime)
 	end
-end
-
-task.wait(waitTime)
 end
 
 coroutine.wrap(QVFIYB_fake_script)()
@@ -16879,4 +16878,4 @@ end
 
 coroutine.wrap(SVSQEHB_fake_script)()
 
-print("Loaded Successfully") --605
+print("Loaded Successfully") --606

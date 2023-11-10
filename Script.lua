@@ -16788,28 +16788,29 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	for i, list in pairs(RouteList:GetChildren()) do
 		for i, Route in pairs(list:GetDescendants()) do
-
-			Route.MouseButton1Down:Connect(function()
-				if Content[Route.Name] then
-					Content[Route.Name]:Destroy()
-				else
-					local newRoute = Instance.new("Folder")
-					newRoute.Name = Route.Name
-					newRoute.Prant = Screen1
-
-					local RoutePoints
-					if string.sub(list.name, #list.name-2) == "SID" then
-						RoutePoints = string.split(SIDs[Route.name])
-						print(SIDs[Route.name])
+			if Route:IsA("TextButton") then
+				Route.MouseButton1Down:Connect(function()
+					if Content[Route.Name] then
+						Content[Route.Name]:Destroy()
 					else
-						RoutePoints = string.split(STARS[Route.name])
-						print(STARs[Route.name])
+						local newRoute = Instance.new("Folder")
+						newRoute.Name = Route.Name
+						newRoute.Prant = Screen1
+
+						local RoutePoints
+						if string.sub(list.name, #list.name-2) == "SID" then
+							RoutePoints = string.split(SIDs[Route.name])
+							print(SIDs[Route.name])
+						else
+							RoutePoints = string.split(STARS[Route.name])
+							print(STARs[Route.name])
+						end
+						--Generate Route
+
+
 					end
-					--Generate Route
-
-
-				end
-			end)
+				end)
+			end
 		end
 	end
 

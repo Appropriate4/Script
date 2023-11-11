@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6054"
+Version.Text = "B6055"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16791,6 +16791,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	--Connecting Route Buttons to route display
 	local Screen1 = ATCScreen.NewMiniMap.Screen1
 	local Wavepoints = Screen1.Content.Image.Wavepoints
+	local State = {}
 
 	for i, list in pairs(RouteList:GetChildren()) do
 		for e, Route in pairs(list:GetDescendants()) do
@@ -16800,7 +16801,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						Screen1.Content[Route.Name]:Destroy()
 					end
 
-					if Route:GetAttribute("State") ~= "Green" then
+					if State[Route.Name] ~= "Green" then
 
 						local newRoute = Instance.new("Folder")
 						newRoute.Name = Route.Name
@@ -16836,15 +16837,12 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 								newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
 								newLine.Frame.BackgroundTransparency = 0
 
-								local state = Route:GetAttribute("State")
-								print(state)
-
-								if state == "Off" then
-									Route:SetAttribute("State", "Red")
+								if State[Route.Name] == "Off" then
+									State[Route.Name] = "Red"
 									Route.BackgroundColor3 = BrickColor.new("Red")
 									newLine.Frame.BackgroundColor3 = BrickColor.new("Red")
-								elseif state == "Red" then
-									Route:SetAttribute("State", "Green")
+								elseif State[Route.Name] == "Red" then
+									State[Route.Name] = "Green"
 									Route.BackgroundColor3 = BrickColor.new("Green")
 									newLine.Frame.BackgroundColor3 = BrickColor.new("Green")
 								end
@@ -16858,7 +16856,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 							end
 						end
 					else
-						Route:SetAttribute("State", "Off")
+						State[Route.Name] = "Off"
 						Route.BackgroundColor3 = Color3.fromRGB(59, 90, 126)
 					end
 				end)

@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B605"
+Version.Text = "B6051"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16351,12 +16351,12 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			JAMSI1AB = "RFD EASTN RESTS HMS JAMSI",
 			LAZER1AB = "RFD EASTN RESTS HMS LAZER",
 			SEEKS1AB = "RFD EASTN ROCKET BEANS SEEKS",
-			SEEKS1CD = "RFD BLADES HELPR SEEKS",
-			GUESS1CD = "RFD BLADES HELPR WAREZ PARTS GUESS",
-			WELSH1CD = "RFD BLADES TRN STOOD RESTS WELSH",
-			SETHR1CD = "RFD BLADES TRN HMS SETHR",
-			JAMSI2CD = "RFD BLASES TRN SAVES JAMSI",
-			LAZER1CD = "RFD BLADES TRN SAVES LAZER"
+			SEEKS1CD = "RFD BLA HELPR SEEKS",
+			GUESS1CD = "RFD BLA HELPR WAREZ PARTS GUESS",
+			WELSH1CD = "RFD BLA TRN STOOD RESTS WELSH",
+			SETHR1CD = "RFD BLA TRN HMS SETHR",
+			JAMSI2CD = "RFD BLA TRN SAVES JAMSI",
+			LAZER1CD = "RFD BLA TRN SAVES LAZER"
 
 		},
 		Perth = {
@@ -16819,6 +16819,8 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 						for d, point in pairs(RoutePoints) do
 							print("Routing: "..d)
 							print(point)
+							print(Wavepoints:FindFirstChild(point))
+							print(d, #RoutePoints)
 							if Wavepoints:FindFirstChild(point) and d < #RoutePoints then
 								local wavepoint = Wavepoints[point]
 								local nextPoint = RoutePoints[d+1]

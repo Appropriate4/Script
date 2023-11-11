@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6050"
+Version.Text = "B6051"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16848,10 +16848,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 								newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
 								newLine.Frame.BackgroundTransparency = 0
 
-								if State[Route.Name] == "Off" or not State[Route.Name] then
-									newLine.Frame.BackgroundColor3 = Green
-								elseif State[Route.Name] == "Red" then
+								if State[Route.Name] == "Red" or not State[Route.Name] then
 									newLine.Frame.BackgroundColor3 = Red
+								else
+									newLine.Frame.BackgroundColor3 = Green
 								end
 						
 			

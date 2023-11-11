@@ -3,8 +3,6 @@
 
 -- Instances:
 
-warn("Launching UI Remastered: ATC Screen B605")
-
 local ATCScreen = Instance.new("ScreenGui")
 TextLabel = Instance.new("TextLabel")
 Direction = Instance.new("Frame")
@@ -631,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "V6"
+Version.Text = "B605"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top

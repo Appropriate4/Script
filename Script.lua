@@ -16802,7 +16802,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 					else
 						local newRoute = Instance.new("Folder")
 						newRoute.Name = Route.Name
-						newRoute.Parent = Screen1
+						newRoute.Parent = Screen1.Content
 
 						local RoutePoints = {}
 						if string.sub(list.name, (#list.Name)-2) == "SID" then

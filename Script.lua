@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6058"
+Version.Text = "B6059"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16806,6 +16806,14 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 					print(State[Route.Name])
 					if State[Route.Name] ~= "Green" then
 
+						if State[Route.Name] == "Off" or not State[Route.Name] then
+							State[Route.Name] = "Red"
+							Route.BackgroundColor3 = Red
+						elseif State[Route.Name] == "Red" then
+							State[Route.Name] = "Green"
+							Route.BackgroundColor3 = Green
+						end
+
 						local newRoute = Instance.new("Folder")
 						newRoute.Name = Route.Name
 						newRoute.Parent = Screen1.Content
@@ -16841,12 +16849,8 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 								newLine.Frame.BackgroundTransparency = 0
 
 								if State[Route.Name] == "Off" or not State[Route.Name] then
-									State[Route.Name] = "Red"
-									Route.BackgroundColor3 = Red
 									newLine.Frame.BackgroundColor3 = Red
 								elseif State[Route.Name] == "Red" then
-									State[Route.Name] = "Green"
-									Route.BackgroundColor3 = Green
 									newLine.Frame.BackgroundColor3 = Green
 								end
 						

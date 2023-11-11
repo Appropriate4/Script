@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6052"
+Version.Text = "B6053"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16798,7 +16798,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 				Route.MouseButton1Down:Connect(function()
 					if Content:FindFirstChild(Route.Name) then
 						Content[Route.Name]:Destroy()
-					else
+					end
+
+					if Route:GetAttribute("State") ~= "Green" then
+
 						local newRoute = Instance.new("Folder")
 						newRoute.Name = Route.Name
 						newRoute.Parent = Screen1.Content
@@ -16833,6 +16836,18 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 								newLine.Name = point .. " ".. nextPoint
 								newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
 								newLine.Frame.BackgroundTransparency = 0
+
+								local state = Route:GetAttribute("State")
+
+								if state == "Off" then
+									Route:SetAttribute("State", "Red")
+									Route.BackgroundColor3 = BrickColor.new("Red")
+									newLine.Frame.BackgroundColor3 = BrickColor.new("Red")
+								elseif state == "Red" then
+									Route:SetAttribute("State", "Green")
+									Route.BackgroundColor3 = BrickColor.new("Green")
+									newLine.Frame.BackgroundColor3 = BrickColor.new("Green")
+								end
 						
 			
 								local endPos = Vector2.new(Wavepoints[nextPoint].Position.X.Scale, -1* Wavepoints[nextPoint].Position.Y.Scale)
@@ -16842,6 +16857,9 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 								newLine.Size = UDim2.new(.002, 0, 2*Delta.Magnitude)
 							end
 						end
+					else
+						Route:SetAttribute("State", "Off")
+						Route.BackgroundColor3 = Color3.fromRGB(59, 90, 126)
 					end
 				end)
 			end

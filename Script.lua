@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6055"
+Version.Text = "B6056"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16798,9 +16798,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			if Route:IsA("TextButton") then
 				Route.MouseButton1Down:Connect(function()
 					if Screen1.Content:FindFirstChild(Route.Name) then
+						print("Removing Old")
 						Screen1.Content[Route.Name]:Destroy()
 					end
-
+					print(State[Route.Name])
 					if State[Route.Name] ~= "Green" then
 
 						local newRoute = Instance.new("Folder")
@@ -16837,7 +16838,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 								newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
 								newLine.Frame.BackgroundTransparency = 0
 
-								if State[Route.Name] == "Off" then
+								if State[Route.Name] == "Off" or not State[Route.Name] then
 									State[Route.Name] = "Red"
 									Route.BackgroundColor3 = BrickColor.new("Red")
 									newLine.Frame.BackgroundColor3 = BrickColor.new("Red")

@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6051"
+Version.Text = "B6052"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16790,6 +16790,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	--Connecting Route Buttons to route display
 	local Screen1 = ATCScreen.NewMiniMap.Screen1
+	local Wavepoints = Screen1.Content.Image.Wavepoints
 
 	for i, list in pairs(RouteList:GetChildren()) do
 		for e, Route in pairs(list:GetDescendants()) do

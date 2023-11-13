@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6052"
+Version.Text = "B6053"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16716,6 +16716,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	local RouteFrame = ATCScreen.RouteFrame
 	local RouteList = RouteFrame.RouteList
+	local Custom = RouteFrame.Routes.Custom
 
 	local RouteButton = RouteFrame.Routes.CloseButton.MouseButton1Down:Connect(function()
 		RouteFrame.Visible = not RouteFrame.Visible
@@ -16849,11 +16850,16 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		end
 	end
 
+	local previousText
+	Custom.Focused:Connect(function()
+		Custom.Text = previousText
+	end)
+
 	SubmitRouteConnect = RouteFrame.Routes.add.MouseButton1Down:Connect(function()
 		local input
 		local routePoints = {}
 
-		input =  string.upper(Route.Text)
+		input =  string.upper(Custom.Text)
 		routePoints = string.split(input, " ")	
 
 		local newRoute = Instance.new("Folder")
@@ -16912,13 +16918,14 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	end)
 	autoDisconnect(SubmitRouteConnect)
 
-	RouteLosConnect = Route.FocusLost:Connect(function(enterPressed, _i)
+	RouteLosConnect = Custom.FocusLost:Connect(function(enterPressed, _i)
 		local input
 		local routePoints = {}
 		local valid = true
 
-		input =  string.upper(Route.Text)
+		input =  string.upper(Custom.Text)
 		routePoints = string.split(input, " ")	
+		previousText = input
 
 		for i, point in pairs(routePoints) do
 			if not Wavepoints:FindFirstChild(point)  then
@@ -16927,9 +16934,9 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		end
 
 		if valid then
-			Route.TextColor3 = Color3.new(0,1,0)
+			Custom.TextColor3 = Color3.new(0,1,0)
 		else
-			Route.TextColor3 = Color3.new(1,0,0)
+			Custom.TextColor3 = Color3.new(1,0,0)
 		end
 	end)
 	autoDisconnect(RouteLosConnect)

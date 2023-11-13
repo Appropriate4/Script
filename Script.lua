@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6051"
+Version.Text = "B6052"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -12109,13 +12109,12 @@ SETHR1AB = Instance.new("TextButton")
 UICorner_13 = Instance.new("UICorner")
 JAMSI1AB = Instance.new("TextButton")
 UICorner_14 = Instance.new("UICorner")
-LAZAR1AB = Instance.new("TextButton")
+LAZER1AB = Instance.new("TextButton")
 UICorner_15 = Instance.new("UICorner")
 SEEKS1AB = Instance.new("TextButton")
 UICorner_16 = Instance.new("UICorner")
 INDEX4CD = Instance.new("TextButton")
 UICorner_17 = Instance.new("UICorner")
-WELSH4CD = Instance.new("TextButton")
 UICorner_18 = Instance.new("UICorner")
 SEEKS1CD = Instance.new("TextButton")
 UICorner_19 = Instance.new("UICorner")
@@ -12127,7 +12126,7 @@ SETHR1CD = Instance.new("TextButton")
 UICorner_22 = Instance.new("UICorner")
 JAMSI2CD = Instance.new("TextButton")
 UICorner_23 = Instance.new("UICorner")
-LAZAR1CD = Instance.new("TextButton")
+LAZER1CD = Instance.new("TextButton")
 UICorner_24 = Instance.new("UICorner")
 RockfordSTAR = Instance.new("Frame")
 UIListLayout_5 = Instance.new("UIListLayout")
@@ -12148,7 +12147,7 @@ SETHR1A = Instance.new("TextButton")
 UICorner_31 = Instance.new("UICorner")
 JAMSI1A = Instance.new("TextButton")
 UICorner_32 = Instance.new("UICorner")
-LAZAR1A = Instance.new("TextButton")
+LAZER1A = Instance.new("TextButton")
 UICorner_33 = Instance.new("UICorner")
 SEEKS1A = Instance.new("TextButton")
 UICorner_34 = Instance.new("UICorner")
@@ -12723,19 +12722,19 @@ JAMSI1AB.TextSize = 14.000
 
 UICorner_14.Parent = JAMSI1AB
 
-LAZAR1AB.Name = "LAZAR1AB"
-LAZAR1AB.Parent = RockfordSID
-LAZAR1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-LAZAR1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LAZAR1AB.BorderSizePixel = 0
-LAZAR1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
-LAZAR1AB.ZIndex = 18
-LAZAR1AB.Font = Enum.Font.SourceSans
-LAZAR1AB.Text = "LAZAR 1 A/B"
-LAZAR1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
-LAZAR1AB.TextSize = 14.000
+LAZER1AB.Name = "LAZER1AB"
+LAZER1AB.Parent = RockfordSID
+LAZER1AB.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+LAZER1AB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LAZER1AB.BorderSizePixel = 0
+LAZER1AB.Size = UDim2.new(1, 0, 0.0599999987, 0)
+LAZER1AB.ZIndex = 18
+LAZER1AB.Font = Enum.Font.SourceSans
+LAZER1AB.Text = "LAZER 1 A/B"
+LAZER1AB.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAZER1AB.TextSize = 14.000
 
-UICorner_15.Parent = LAZAR1AB
+UICorner_15.Parent = LAZER1AB
 
 SEEKS1AB.Name = "SEEKS1AB"
 SEEKS1AB.Parent = RockfordSID
@@ -12764,20 +12763,6 @@ INDEX4CD.TextColor3 = Color3.fromRGB(0, 0, 0)
 INDEX4CD.TextSize = 14.000
 
 UICorner_17.Parent = INDEX4CD
-
-WELSH4CD.Name = "WELSH4CD"
-WELSH4CD.Parent = RockfordSID
-WELSH4CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-WELSH4CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
-WELSH4CD.BorderSizePixel = 0
-WELSH4CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
-WELSH4CD.ZIndex = 18
-WELSH4CD.Font = Enum.Font.SourceSans
-WELSH4CD.Text = "WELSH 4 C/D"
-WELSH4CD.TextColor3 = Color3.fromRGB(0, 0, 0)
-WELSH4CD.TextSize = 14.000
-
-UICorner_18.Parent = WELSH4CD
 
 SEEKS1CD.Name = "SEEKS1CD"
 SEEKS1CD.Parent = RockfordSID
@@ -12849,19 +12834,19 @@ JAMSI2CD.TextSize = 14.000
 
 UICorner_23.Parent = JAMSI2CD
 
-LAZAR1CD.Name = "LAZAR1CD"
-LAZAR1CD.Parent = RockfordSID
-LAZAR1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-LAZAR1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LAZAR1CD.BorderSizePixel = 0
-LAZAR1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
-LAZAR1CD.ZIndex = 18
-LAZAR1CD.Font = Enum.Font.SourceSans
-LAZAR1CD.Text = "LAZAR 1 C/D"
-LAZAR1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
-LAZAR1CD.TextSize = 14.000
+LAZER1CD.Name = "LAZER1CD"
+LAZER1CD.Parent = RockfordSID
+LAZER1CD.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+LAZER1CD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LAZER1CD.BorderSizePixel = 0
+LAZER1CD.Size = UDim2.new(1, 0, 0.0599999987, 0)
+LAZER1CD.ZIndex = 18
+LAZER1CD.Font = Enum.Font.SourceSans
+LAZER1CD.Text = "LAZER 1 C/D"
+LAZER1CD.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAZER1CD.TextSize = 14.000
 
-UICorner_24.Parent = LAZAR1CD
+UICorner_24.Parent = LAZER1CD
 
 RockfordSTAR.Name = "RockfordSTAR"
 RockfordSTAR.Parent = RouteList_2
@@ -12992,19 +12977,19 @@ JAMSI1A.TextSize = 14.000
 
 UICorner_32.Parent = JAMSI1A
 
-LAZAR1A.Name = "LAZAR1A"
-LAZAR1A.Parent = RockfordSTAR
-LAZAR1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
-LAZAR1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LAZAR1A.BorderSizePixel = 0
-LAZAR1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
-LAZAR1A.ZIndex = 18
-LAZAR1A.Font = Enum.Font.SourceSans
-LAZAR1A.Text = "LAZAR 1 A"
-LAZAR1A.TextColor3 = Color3.fromRGB(0, 0, 0)
-LAZAR1A.TextSize = 14.000
+LAZER1A.Name = "LAZER1A"
+LAZER1A.Parent = RockfordSTAR
+LAZER1A.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
+LAZER1A.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LAZER1A.BorderSizePixel = 0
+LAZER1A.Size = UDim2.new(1, 0, 0.0599999987, 0)
+LAZER1A.ZIndex = 18
+LAZER1A.Font = Enum.Font.SourceSans
+LAZER1A.Text = "LAZER 1 A"
+LAZER1A.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAZER1A.TextSize = 14.000
 
-UICorner_33.Parent = LAZAR1A
+UICorner_33.Parent = LAZER1A
 
 SEEKS1A.Name = "SEEKS1A"
 SEEKS1A.Parent = RockfordSTAR
@@ -16343,18 +16328,17 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local SIDs = {
 		Rockford = {
 			INDEX4AB = "RFD EASTN INDEX",
-			WELSH3AB = "RFD EASTN GUESS",
+			WELSH3AB = "RFD EASTN WELSH",
 			GUESS1AB = "RFD EASTN GUESS",
 			INDEX4CD = "RFD BLA TRN STOOD RESTS INDEX",
-			WELSH4CD = "RFD BLA TRN STOOD RESTS WELSH",
+			WELSH1CD = "RFD BLA TRN STOOD RESTS WELSH",
 			SETHR1AB = "RFD EASTN RESTS SETHR",
-			JAMSI1AB = "RFD EASTN RESTS HMS JAMSI",
-			LAZER1AB = "RFD EASTN RESTS HMS LAZER",
-			SEEKS1AB = "RFD EASTN ROCKET BEANS SEEKS",
+			JAMSI1AB = "RFD EASTN RESTS HMSQE JAMSI",
+			LAZER1AB = "RFD EASTN RESTS HMSQE LAZER",
+			SEEKS1AB = "RFD EASTN ROK BEANS SEEKS",
 			SEEKS1CD = "RFD BLA HELPR SEEKS",
 			GUESS1CD = "RFD BLA HELPR WAREZ PARTS GUESS",
-			WELSH1CD = "RFD BLA TRN STOOD RESTS WELSH",
-			SETHR1CD = "RFD BLA TRN HMS SETHR",
+			SETHR1CD = "RFD BLA TRN HMSQE SETHR",
 			JAMSI2CD = "RFD BLA TRN SAVES JAMSI",
 			LAZER1CD = "RFD BLA TRN SAVES LAZER"
 
@@ -16367,7 +16351,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			KNIFE1C = "TINDR KNIFE",
 			ROMENS1C = "TINDR STRAX ROM",
 			CAMEL1C = "TINDR STRAX CAMEL",
-			KNIEF1D = "TINDR KNIFE",
+			KNIFE1D = "TINDR KNIFE",
 			ROMENS1D = "TINDR STRAX ROM",
 			CAMEL1D = "TINDR STRAX CAMEL"
 
@@ -16384,13 +16368,13 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	}
 	local STARs = {
 		Rockford = {
-			INDEX4A = "INDEX RESTS STOOD TRN BLA RFD",
+			INDEX4A = "INDEX RESTS STOOD TRN BLA",
 			INDEX4B = "INDEX KEN RFD",
-			GUESS1A = "GUESS PARTS WAREZ HELPR BLA RFD",
-			WELSH3A = "WELSH RESTS STOOD TRN BLA RFD",
+			GUESS1A = "GUESS PARTS WAREZ HELPR BLA",
+			WELSH3A = "WELSH RESTS STOOD TRN BLA",
 			WELSH3B = "WELSH KEN",
 			GUESS1B = "GUESS ENDER KEN",
-			SETHR1A = "SETHR HMS TRN BLA",
+			SETHR1A = "SETHR HMSQE TRN BLA",
 			JAMSI1A = "JAMSI SAVES TRN BLA",
 			LAZER1A = "LAZER SAVES TRN BLA",
 			SEEKS1A = "SEEKS HELPR BLA",
@@ -16412,14 +16396,14 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		Tokyo = {
 			HONDA1A = "HONDA CHILY NIKON",
 			ONDER1A = "ONDER PIPER ASTRO SHIBA HME",
-			RENDER1A = "RENDER PIPER ASTRO SHIBA HME",
-			EURAD1A = "EUARD SHIBA HME",
-			RENDER1B = "RENDER GULEG SHIBA NIKON ", 
-			EURAD1B = "EUARD SHIBA NIKON",
+			RENDR1A = "RENDER PIPER ASTRO SHIBA HME",
+			EURAD1A = "EURAD SHIBA HME",
+			RENDR1B = "RENDER GULEG SHIBA NIKON ", 
+			EURAD1B = "EURAD SHIBA NIKON",
 			ONDER1B = "ONDER KNIFE HONDA CHILY",
 			HONDA1B = "HONDA CHILY", 
-			EURAD1C = "EUARD KNIFE",
-			RENDER1C = "RENDER ONDER KNIFE",
+			EURAD1C = "EURAD KNIFE",
+			RENDR1C = "RENDER ONDER KNIFE",
 			ONDER1C = "ONDER KNIFE",
 			HONDA1C = "HONDA KNIFE"
 		}
@@ -16795,12 +16779,15 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local Red = Color3.new(1,0,0)
 	local Green = Color3.new(0,1,0)
 
+	local Routes = Instance.new("Folder")
+	Routes.Name = "Routes"
+	Routes.Parent = Screen1.Content
+
 	for i, list in pairs(RouteList:GetChildren()) do
 		for e, Route in pairs(list:GetDescendants()) do
 			if Route:IsA("TextButton") then
 				Route.MouseButton1Down:Connect(function()
 					if Screen1.Content:FindFirstChild(Route.Name) then
-						print("Removing Old")
 						Screen1.Content[Route.Name]:Destroy()
 					end
 					print(State[Route.Name])
@@ -16820,27 +16807,18 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 						local RoutePoints = {}
 						if string.sub(list.name, (#list.Name)-2) == "SID" then
-							print("SID: ".. string.sub(list.name,1, (#list.Name)-3))
 							local routeString = SIDs[string.sub(list.name,1, (#list.Name)-3)][Route.Name]
 							RoutePoints = string.split(routeString, " ")
-							print("SID "..Route.Name, ":" , routeString)
 						else
-							print("STAR "..string.sub(list.name,1, (#list.Name)-4))
 							local routeString = STARs[string.sub(list.name,1, (#list.Name)-4)][Route.Name]
 							RoutePoints = string.split(routeString, " ")
-							print("STAR "..Route.Name, ":" , routeString)
 						end
 						--Generate Route
 
 						for d, point in pairs(RoutePoints) do
-							print("Routing: "..d)
-							print(point)
-							print(d, #RoutePoints)
 							if Wavepoints:FindFirstChild(point) and d < #RoutePoints then
 								local wavepoint = Wavepoints[point]
 								local nextPoint = RoutePoints[d+1]
-
-								print("New Line Created")
 
 								local newLine = RouteLine:Clone()
 								newLine.Parent = newRoute
@@ -16871,46 +16849,90 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		end
 	end
 
-	--[[RouteLosConnect = Route.FocusLost:Connect(function(enterPressed, _i)
+	SubmitRouteConnect = RouteFrame.Routes.add.MouseButton1Down:Connect(function()
 		local input
 		local routePoints = {}
-		if enterPressed then
-			input =  string.upper(Route.Text)
-			routePoints = string.split(input, " ")
 
-			--remove previous lines
-			for i , child in pairs(Content:GetChildren()) do
-				if child.Name == "Routing" then
-					child:Destroy()
-				end
+		input =  string.upper(Route.Text)
+		routePoints = string.split(input, " ")	
+
+		local newRoute = Instance.new("Folder")
+		newRoute.Parent = Routes
+		newRoute.Name = "Route".. #Routes:GetChildren()
+
+		local RouteCard = RouteFrame.CusRoute:Clone()
+		RouteCard.Parent = RouteFrame.Routes.CustomList
+		RouteCard.Name = newRoute.Name
+		RouteCard.RouteList.Text = routePoints[1] .. " > ".. routePoints[#routePoints]
+
+		RouteCard.delete.MouseButton1Down:Connect(function()
+			NewRoute[RouteCard.Name]:Destroy()
+			RouteCard:Destroy()
+		end)
+
+		RouteCard.Invisible.MouseButton1Down:Connect(function()
+			RouteCard.Invisible.Visible = false
+			RouteCard["Visible"].Visible = true
+
+			for i, v in pairs(NewRoute[RouteCard.Name]:GetChildren()) do
+				v.Visible = false
 			end
+		end)
 
-			for i, point in pairs(routePoints) do
-				if Wavepoints[point] and i < table.maxn(routePoints) then
-					local wavepoint = Wavepoints[point]
+		RouteCard["Visible"].MouseButton1Down:Connect(function()
+			RouteCard.Invisible.Visible = true
+			RouteCard["Visible"].Visible = false
 
-					local newLine = RouteLine:Clone()
-					newLine.Parent = Content
-					newLine.Name = "Routing"
-					newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
-					newLine.Frame.BackgroundTransparency = 0
-					local nextPoint = routePoints[i+1]
-
-					local endPos = Vector2.new(Wavepoints[nextPoint].Position.X.Scale, -1* Wavepoints[nextPoint].Position.Y.Scale)
-					local Delta = endPos - Vector2.new(wavepoint.Position.X.Scale, -1* wavepoint.Position.Y.Scale)
-
-					newLine.Rotation = findRotaton(Delta)
-					newLine.Size = UDim2.new(.002, 0, 2*Delta.Magnitude)
-				end
+			for i, v in pairs(NewRoute[RouteCard.Name]:GetChildren()) do
+				v.Visible = true
 			end
-		else
-			return
+		end)
+
+		Route.TextColor3 = Color3.new(1,1,1)
+
+		for i, point in pairs(routePoints) do
+			if Wavepoints[point] and i < #routePoints then
+				local wavepoint = Wavepoints[point]
+
+				local newLine = RouteLine:Clone()
+				newLine.Parent = newRoute
+				newLine.Name = "Routing"
+				newLine.Position = wavepoint.Position - UDim2.new(.01,0,0,0)
+				newLine.Frame.BackgroundTransparency = 0
+				local nextPoint = routePoints[i+1]
+
+				local endPos = Vector2.new(Wavepoints[nextPoint].Position.X.Scale, -1* Wavepoints[nextPoint].Position.Y.Scale)
+				local Delta = endPos - Vector2.new(wavepoint.Position.X.Scale, -1* wavepoint.Position.Y.Scale)
+
+				newLine.Rotation = findRotaton(Delta)
+				newLine.Size = UDim2.new(.002, 0, 2*Delta.Magnitude)
+			
+			end
+		end
+	end)
+	autoDisconnect(SubmitRouteConnect)
+
+	RouteLosConnect = Route.FocusLost:Connect(function(enterPressed, _i)
+		local input
+		local routePoints = {}
+		local valid = true
+
+		input =  string.upper(Route.Text)
+		routePoints = string.split(input, " ")	
+
+		for i, point in pairs(routePoints) do
+			if not Wavepoints:FindFirstChild(point)  then
+				valid = false
+			end
 		end
 
-
+		if valid then
+			Route.TextColor3 = Color3.new(0,1,0)
+		else
+			Route.TextColor3 = Color3.new(1,0,0)
+		end
 	end)
 	autoDisconnect(RouteLosConnect)
-]]
 
 	--Settings
 	local function settingToggle()

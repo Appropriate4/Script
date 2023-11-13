@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6053"
+Version.Text = "B6054"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16852,7 +16852,10 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 	local previousText
 	Custom.Focused:Connect(function()
-		Custom.Text = previousText
+		Custom.TextColor3 = Color3.new(1,1,1)
+		if previousText then
+			Custom.Text = previousText
+		end
 	end)
 
 	SubmitRouteConnect = RouteFrame.Routes.add.MouseButton1Down:Connect(function()
@@ -16870,6 +16873,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		RouteCard.Parent = RouteFrame.Routes.CustomList
 		RouteCard.Name = newRoute.Name
 		RouteCard.RouteList.Text = routePoints[1] .. " > ".. routePoints[#routePoints]
+		RouteCard.Visible = true
 
 		RouteCard.delete.MouseButton1Down:Connect(function()
 			NewRoute[RouteCard.Name]:Destroy()
@@ -16894,7 +16898,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			end
 		end)
 
-		Route.TextColor3 = Color3.new(1,1,1)
+		Custom.TextColor3 = Color3.new(1,1,1)
 
 		for i, point in pairs(routePoints) do
 			if Wavepoints[point] and i < #routePoints then

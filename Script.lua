@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6055"
+Version.Text = "B6056"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16869,7 +16869,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		newRoute.Parent = Routes
 		newRoute.Name = "Route".. #Routes:GetChildren()
 
-		local RouteCard = RouteFrame.Routes.CusRoute:Clone()
+		local RouteCard = RouteFrame.CusRoute:Clone()
 		RouteCard.Parent = RouteFrame.Routes.CustomList
 		RouteCard.Name = newRoute.Name
 		RouteCard.RouteList.Text = routePoints[1] .. " > ".. routePoints[#routePoints]
@@ -16889,7 +16889,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			end
 		end)
 
-		RouteCard["Visible"].MouseButton1Down:Connect(function()
+		RouteCard:WaitForChild("Visible").MouseButton1Down:Connect(function()
 			RouteCard.Invisible.Visible = true
 			RouteCard["Visible"].Visible = false
 

@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6057"
+Version.Text = "B6058"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -12579,7 +12579,7 @@ delete.ImageRectSize = Vector2.new(36, 36)
 
 UIAspectRatioConstraint_11.Parent = delete
 
-Visible.Name = "Visible"
+Visible.Name = "VisibleButton"
 Visible.Parent = CusRoute
 Visible.AnchorPoint = Vector2.new(1, 0.5)
 Visible.BackgroundTransparency = 1.000
@@ -16884,22 +16884,22 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		RouteCard.Visible = true
 
 		RouteCard.delete.MouseButton1Down:Connect(function()
-			NewRoute[RouteCard.Name]:Destroy()
+			NewRoute:Destroy()
 			RouteCard:Destroy()
 		end)
 
 		RouteCard.Invisible.MouseButton1Down:Connect(function()
 			RouteCard.Invisible.Visible = false
-			RouteCard["Visible"].Visible = true
+			RouteCard.VisibleButton.Visible = true
 
 			for i, v in pairs(NewRoute[RouteCard.Name]:GetChildren()) do
 				v.Visible = false
 			end
 		end)
 
-		RouteCard:WaitForChild("Visible").MouseButton1Down:Connect(function()
+		RouteCard.VisibleButton.MouseButton1Down:Connect(function()
 			RouteCard.Invisible.Visible = true
-			RouteCard["Visible"].Visible = false
+			RouteCard.VisibleButton.Visible = false
 
 			for i, v in pairs(NewRoute[RouteCard.Name]:GetChildren()) do
 				v.Visible = true

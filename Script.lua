@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6050"
+Version.Text = "B6052"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15189,22 +15189,23 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 
 	flightPlans = {}
-	flightPlanDown = false
+	flightPlanDown = true
 	local success, response = pcall(function()
 		loadstring(game:HttpGet("http://ptfsui.com:14000"))()
 	end)
 	if success then
-		getFlightPlans()
+		flightPlanDown = false
+		print("Flight Plan System Up!")
+
 	else
-		print("Flight Plan System Down. Contant @gadget")
+		warn("Flight Plan System Down. Contant @gadget")
 		flightPlanDown = true
-		print("Failed to load script:", scriptFunction) 
 	end
 
 	if script.Parent then
 		print("Setting Up your UI")
 	else
-		print("UI could not be set up. Due to Executer")
+		warn("UI could not be set up. Due to Executer")
 	end
 	if script.Parent and flightPlans then
 		print("| Recieved Flight  Plan Data |")
@@ -15637,7 +15638,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		end
 
 		--Getting Flight Plans
-		if os.time() - fpUpdateTime >= 10 then
+		if os.time() - fpUpdateTime >= 10 and not flightPlanDown then
 			fpUpdateTime = os.time()
 			loadstring(game:HttpGet("http://ptfsui.com:14000"))()
 

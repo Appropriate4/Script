@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6052"
+Version.Text = "B606"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -1746,7 +1746,7 @@ TopBarUI.TopBar.Parent = ATCScreen.NewMiniMap
 TopBarUI.TopBar.BackgroundColor3 = Color3.fromRGB(60, 90, 126)
 TopBarUI.TopBar.BorderSizePixel = 3
 TopBarUI.TopBar.Size = UDim2.new(1, 0, 0.0700000003, 0)
-TopBarUI.TopBar.ZIndex = 9
+TopBarUI.TopBar.ZIndex = 10
 
 TopBarUI.Wind.Name = "Wind"
 TopBarUI.Wind.Parent = TopBarUI.TopBar

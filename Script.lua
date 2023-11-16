@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6055"
+Version.Text = "B6056"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15471,8 +15471,9 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		end
 
 		if newTrail[screen] then
+			local trailFolder = NewMiniMap["Screen"..screen].Content.Dots[player.Name.."_Trail"]
 			local tailDot = playerDot.Trail:Clone()
-			tailDot.Parent = NewMiniMap["Screen"..screen].Content.Dots[player.Name.."_Trail"]
+			tailDot.Parent = trailFolder
 			tailDot.Name = Step
 
 			tailDot.Position = Position
@@ -15480,7 +15481,6 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 			if NewMiniMap["Screen"..screen].Content.Image.VStar.Visible then
 				tailDot.Visible = true
-				print("Dot Visible "..screen)
 			end
 
 			for i, frame in pairs(trailFolder:GetChildren()) do
@@ -15679,27 +15679,19 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 
 		local diffTime = os.time() - TO			--Trail timing
-		if waitTime >= 1  then
 
-			newTrail[1] = true
-			newTrail[2] = true
-			newTrail[3] = true
-
-			task.wait()
-			Step+=1
-			TO = os.time()
+		if refreshTime >= .5 then 
+			SecsPerStep = .5
 		else
-			newTrail[1] = false
-			newTrail[2] = false
-			newTrail[3] = false
+			SecsPerStep = 1.5
 		end
-		
-		if diffTime >= SecsPerStep and refreshTime <= .5 then
+
+		local SecsPerStep = refreshTime
+		if diffTime >= SecsPerStep  then
 			
 			newTrail[1] = true
 			newTrail[2] = true
 			newTrail[3] = true
-			task.wait()
 			TO = os.time()
 			Step+=1	
 		else

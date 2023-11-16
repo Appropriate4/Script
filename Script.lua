@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6056"
+Version.Text = "B6057"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15680,13 +15680,12 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 		local diffTime = os.time() - TO			--Trail timing
 
-		if refreshTime >= .5 then 
-			SecsPerStep = .5
+		if tonumber(refreshTime.Text) and tonumber(refreshTime.Text) >= 1  then 
+			SecsPerStep = tonumber(refreshTime.Text)
 		else
 			SecsPerStep = 1.5
 		end
 
-		local SecsPerStep = refreshTime
 		if diffTime >= SecsPerStep  then
 			
 			newTrail[1] = true

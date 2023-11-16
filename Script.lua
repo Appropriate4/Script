@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6058"
+Version.Text = "B6059"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15984,12 +15984,6 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 			end
 		end
 
-		--Removing trail
-
-		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(0,0,0)
-		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(0,0,0)
-		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(0,0,0)
-
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
 			if v:IsA("TextLabel") then
 				v.TextColor3 = Color3.new(0,0,0)
@@ -16050,10 +16044,6 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 				Dot:Destroy()
 			end		
 		end
-
-		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
-		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
-		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
 
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
 			if v:IsA("TextLabel") then
@@ -16123,10 +16113,6 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 			end
 		end
 
-		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
-		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
-		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
-
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
 			if v:IsA("TextLabel") then
 				v.TextColor3 = Color3.new(1,1,1)
@@ -16192,10 +16178,6 @@ local function XIUMDBU_fake_script() -- SettingFrame.settingsScript
 				end
 			end
 		end
-
-		ATCScreen.HeadingTool.TextLabel.TextColor3 = Color3.new(1,1,1)
-		ATCScreen.HeadingTool.WDistance.TextColor3 = Color3.new(1,1,1)
-		ATCScreen.HeadingTool.EDistance.TextColor3 = Color3.new(1,1,1)
 
 		for i,v in pairs(Content.Image.Wavepoints:GetDescendants()) do
 			if v:IsA("TextLabel") then
@@ -16632,6 +16614,15 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	end)
 
 
+	local function getAssetColor(screen)
+		if ATCScreen["Screen"..screen].Content.VStar.Visible then
+			return Color3.new(1,1,1)
+		elseif ATCScreen["Screen"..screen].Content.Ground.Visible then
+			return Color3.new(1,1,1)
+		else
+			return Color3.new(0,0,0)
+		end
+	end
 
 	local function headingInputBegan(input, _b)
 		if (input.UserInputType.Name == "MouseButton2"  or input.UserInputType.Name == "MouseButton3") and hovering then
@@ -16648,19 +16639,35 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			if mapHovering[1] then
 				local wave1 = NewMiniMap.Screen1.Content.Image.Wavepoints.PARTS
 				local wave2 = NewMiniMap.Screen1.Content.Image.Wavepoints.WAREZ
-				distance = (wave2.AbsolutePosition - wave1.AbsolutePosition).Magnitude /3
+				distance = (wave2.AbsolutePosition - wave1.AbsolutePosition).Magnitude /3			
+
+				HeadingTool.TextLabel.TextColor3 = getAssetColor(1)
+				HeadingTool.WDistance.TextColor3 = getAssetColor(1)
+				HeadingTool.EDistance.TextColor3 = getAssetColor(1)
 			elseif mapHovering[2] then
 				local wave1 = NewMiniMap.Screen2.Content.Image.Wavepoints.PARTS
 				local wave2 = NewMiniMap.Screen2.Content.Image.Wavepoints.WAREZ
 				distance = (wave2.AbsolutePosition - wave1.AbsolutePosition).Magnitude /3
+
+				HeadingTool.TextLabel.TextColor3 = getAssetColor(2)
+				HeadingTool.WDistance.TextColor3 = getAssetColor(2)
+				HeadingTool.EDistance.TextColor3 = getAssetColor(2)
 			elseif mapHovering[3] then
 				local wave1 = NewMiniMap.Screen3.Content.Image.Wavepoints.PARTS
 				local wave2 = NewMiniMap.Screen3.Content.Image.Wavepoints.WAREZ
 				distance = (wave2.AbsolutePosition - wave1.AbsolutePosition).Magnitude /3
+
+				HeadingTool.TextLabel.TextColor3 = getAssetColor(3)
+				HeadingTool.WDistance.TextColor3 = getAssetColor(3)
+				HeadingTool.EDistance.TextColor3 = getAssetColor(3)
 			else
 				local wave1 = NewMiniMap.Screen1.Content.Image.Wavepoints.PARTS
 				local wave2 = NewMiniMap.Screen1.Content.Image.Wavepoints.WAREZ
 				distance = (wave2.AbsolutePosition - wave1.AbsolutePosition).Magnitude /3
+
+				HeadingTool.TextLabel.TextColor3 = getAssetColor(1)
+				HeadingTool.WDistance.TextColor3 = getAssetColor(1)
+				HeadingTool.EDistance.TextColor3 = getAssetColor(1)
 			end
 
 
@@ -16892,7 +16899,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			RouteCard.Invisible.Visible = false
 			RouteCard.VisibleButton.Visible = true
 
-			for i, v in pairs(NewRoute[RouteCard.Name]:GetChildren()) do
+			for i, v in pairs(NewRoute:GetChildren()) do
 				v.Visible = false
 			end
 		end)
@@ -16901,7 +16908,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			RouteCard.Invisible.Visible = true
 			RouteCard.VisibleButton.Visible = false
 
-			for i, v in pairs(NewRoute[RouteCard.Name]:GetChildren()) do
+			for i, v in pairs(NewRoute:GetChildren()) do
 				v.Visible = true
 			end
 		end)

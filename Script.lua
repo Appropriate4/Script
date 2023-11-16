@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6059"
+Version.Text = "B6050"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16296,6 +16296,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 	local B_Settings = NewMiniMap.TopBar.Settings
 	local HeadingTool = script.Parent.Parent.HeadingTool
 	local Route = NewMiniMap.TopBar.Routes
+	local MainRouteFrame = script.Parent.Parent.RouteFrame
 	local RouteLine = script.Parent.Parent.RouteLine
 	local B_Squawk = NewMiniMap.TopBar.Squawk.Button
 	local squawkText = B_Squawk.Parent.Code
@@ -16891,7 +16892,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		RouteCard.Visible = true
 
 		RouteCard.delete.MouseButton1Down:Connect(function()
-			NewRoute:Destroy()
+			newRoute:Destroy()
 			RouteCard:Destroy()
 		end)
 
@@ -16899,7 +16900,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			RouteCard.Invisible.Visible = false
 			RouteCard.VisibleButton.Visible = true
 
-			for i, v in pairs(NewRoute:GetChildren()) do
+			for i, v in pairs(newRoute:GetChildren()) do
 				v.Visible = false
 			end
 		end)
@@ -16908,7 +16909,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 			RouteCard.Invisible.Visible = true
 			RouteCard.VisibleButton.Visible = false
 
-			for i, v in pairs(NewRoute:GetChildren()) do
+			for i, v in pairs(newRoute:GetChildren()) do
 				v.Visible = true
 			end
 		end)
@@ -16970,9 +16971,7 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		local Content2 = NewMiniMap.Screen2.Content
 		local Content3 = NewMiniMap.Screen3.Content
 		Content1.Active = false
-
 		Content2.Active = false
-
 		Content3.Active = false
 	end)
 	autoDisconnect(settEnterConnect)
@@ -16982,12 +16981,30 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		local Content2 = NewMiniMap.Screen2.Content
 		local Content3 = NewMiniMap.Screen3.Content
 		Content1.Active = true
-
 		Content2.Active = true
-
 		Content3.Active = true
 	end)
 	autoDisconnect(settLeaveConnect)
+
+	RouteEnterConnect = MainRouteFrame.MouseEnter:Connect(function()
+		local Content1 = NewMiniMap.Screen1.Content
+		local Content2 = NewMiniMap.Screen2.Content
+		local Content3 = NewMiniMap.Screen3.Content
+		Content1.Active = false
+		Content2.Active = false
+		Content3.Active = false
+	end)
+	autoDisconnect(RouteEnterConnect)
+
+	RouteLeaveConnect = MainRouteFrame.MouseLeave:Connect(function()
+		local Content1 = NewMiniMap.Screen1.Content
+		local Content2 = NewMiniMap.Screen2.Content
+		local Content3 = NewMiniMap.Screen3.Content
+		Content1.Active = true
+		Content2.Active = true
+		Content3.Active = true
+	end)
+	autoDisconnect(RouteLeaveConnect)
 
 	fliEnterConnect = flightPlanScreen.MouseEnter:Connect(function()
 		local Content1 = NewMiniMap.Screen1.Content

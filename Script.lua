@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6057"
+Version.Text = "B6058"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15192,12 +15192,17 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 	flightPlanDown = false
 	loadstring(game:HttpGet("http://ptfsui.com:14000"))()
 
+	if script.Parent then
+		print("Setting Up your UI")
+	else
+		print("UI could not be set up. Due to Executer")
+	end
 	if script.Parent and flightPlans then
 		print("| Recieved Flight  Plan Data |")
 		--print(game:HttpGet("http://ptfsui.com:14000"))
 	end
 
-	if not flightPlans then
+	if flightPlans == {} then
 		print("Flight Plan System Down. Contant @gadget")
 		flightPlanDown = true
 	end

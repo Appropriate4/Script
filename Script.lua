@@ -105,7 +105,7 @@ TopCover.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TopCover.BorderSizePixel = 0
 TopCover.Size = UDim2.new(1, 0, 0.100000001, 0)
 TopCover.Visible = false
-TopCover.ZIndex = 9
+TopCover.ZIndex = 10
 
 -------------------------------------------------------------------Player Dot
 -- Gui to Lua
@@ -463,10 +463,12 @@ Line.ZIndex = 6
 
 
 Player_2.Name = "Player"
+Player_2.Position = UDim2.new(.5,0,0,0)
+Player_2.AspectRatio = UDim2.new(.5,0)
 Player_2.Parent = Template
 Player_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Player_2.BackgroundTransparency = 1.000
-Player_2.Size = UDim2.new(1, 0, 0.330000013, 0)
+Player_2.Size = UDim2.new(.95, 0, 0.330000013, 0)
 Player_2.Font = Enum.Font.SourceSansBold
 Player_2.Text = "zbossgamer007"
 Player_2.TextColor3 = Color3.fromRGB(0, 0, 0)

@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6052"
+Version.Text = "B6053"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15302,13 +15302,11 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			local startPos
 
 			local function update(input)
-				print("Drag Update")
 				local delta = input.Position - dragStart
 				frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 			end
 
 			frameInputConnect = frame.InputBegan:Connect(function(input)
-				print("Frame Input Began")
 				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch and script.Parent.Active then
 					dragging = true
 					dragStart = input.Position
@@ -15466,7 +15464,6 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 		playerDot.TextLine.Rotation = rotation
 		playerDot.TextLine.Size = UDim2.new(.3,0,0,scale*1.27)
 
-		local trailFolder = selectedContent.Dots[player.Name.."_Trail"]
 		local maxRouteLength = settingFrame.Settings.Theme.Values.MaxRoute.TextBox
 		local maxLength = 50
 		if tonumber(maxRouteLength.Text) then
@@ -15475,7 +15472,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 		if newTrail[screen] then
 			local tailDot = playerDot.Trail:Clone()
-			tailDot.Parent = trailFolder
+			tailDot.Parent = NewMiniMap["Screen"..screen].Content.Dots[player.Name.."_Trail"]
 			tailDot.Name = Step
 
 			tailDot.Position = Position
@@ -15483,6 +15480,7 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 			if NewMiniMap["Screen"..screen].Content.Image.VStar.Visible then
 				tailDot.Visible = true
+				print("Dot Visible "..screen)
 			end
 
 			for i, frame in pairs(trailFolder:GetChildren()) do
@@ -15686,12 +15684,16 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 			newTrail[1] = true
 			newTrail[2] = true
 			newTrail[3] = true
+
+		else
+			newTrail[1] = false
+			newTrail[2] = false
+			newTrail[3] = false
 		end
 
 		Step+=1
 		TO = os.time()
 		
-	
 		if diffTime >= SecsPerStep then
 			if NewMiniMap.Screen1.Content.Image.VStar.Visible then
 				newTrail[1] = true

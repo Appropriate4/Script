@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6058"
+Version.Text = "B6059"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -15190,7 +15190,15 @@ local function QVFIYB_fake_script() -- ATCScreen.Core
 
 	flightPlans = {}
 	flightPlanDown = false
-	loadstring(game:HttpGet("http://ptfsui.com:14000"))()
+	local flightPlanHttp = game:HttpGet("http://ptfsui.com:14000")
+	local success, getFlightPlans = pcall(loadstring, flightPlanHttp)
+	if success then
+		getFlightPlans()
+	else
+		print("Flight Plan System Down. Contant @gadget")
+		flightPlanDown = true
+		print("Failed to load script:", scriptFunction) -- scriptFunction contains the error message
+	end
 
 	if script.Parent then
 		print("Setting Up your UI")

@@ -629,7 +629,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
 Version.Size = UDim2.new(0.200000003, 0, 0.100000001, 0)
 Version.Font = Enum.Font.SourceSans
-Version.Text = "B6050"
+Version.Text = "B6051"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 14.000
 Version.TextYAlignment = Enum.TextYAlignment.Top
@@ -16616,9 +16616,9 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 
 
 	local function getAssetColor(screen)
-		if ATCScreen["Screen"..screen].Content.VStar.Visible then
+		if ATCScreen.NewMiniMap["Screen"..screen].Content.VStar.Visible then
 			return Color3.new(1,1,1)
-		elseif ATCScreen["Screen"..screen].Content.Ground.Visible then
+		elseif ATCScreen.NewMiniMap["Screen"..screen].Content.Ground.Visible then
 			return Color3.new(1,1,1)
 		else
 			return Color3.new(0,0,0)
@@ -16897,8 +16897,8 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		end)
 
 		RouteCard.Invisible.MouseButton1Down:Connect(function()
-			RouteCard.Invisible.Visible = false
-			RouteCard.VisibleButton.Visible = true
+			RouteCard.Invisible.Visible = true
+			RouteCard.VisibleButton.Visible = false
 
 			for i, v in pairs(newRoute:GetChildren()) do
 				v.Visible = false
@@ -16906,8 +16906,8 @@ local function SVSQEHB_fake_script() -- NewMiniMap.UIButtons
 		end)
 
 		RouteCard.VisibleButton.MouseButton1Down:Connect(function()
-			RouteCard.Invisible.Visible = true
-			RouteCard.VisibleButton.Visible = false
+			RouteCard.Invisible.Visible = false
+			RouteCard.VisibleButton.Visible = true
 
 			for i, v in pairs(newRoute:GetChildren()) do
 				v.Visible = true
